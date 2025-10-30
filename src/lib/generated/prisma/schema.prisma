@@ -1,0 +1,513 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/lib/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model cbt {
+  CbtId    Int      @id @default(autoincrement())
+  CbtNme   String   @db.VarChar(50)
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+  stt      stt      @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_Cbt_Stt_SttId")
+  usr      usr      @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_Cbt_Usr_UsrId")
+
+  @@index([SttId], map: "FK_Cbt_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_Cbt_Usr_UsrId")
+  @@index([CbtNme], map: "Idx_EqpFbr")
+}
+
+model emp {
+  EmpId     Int       @id @default(autoincrement())
+  EmpNme    String    @db.VarChar(150)
+  EmpRaz    String?   @db.VarChar(150)
+  EmpRdz    String?   @db.VarChar(15)
+  EmpAtv    String?   @db.VarChar(150)
+  EmpCnpj   String?   @db.VarChar(15)
+  Enduf     String?   @db.VarChar(2)
+  EndCdd    String?   @db.VarChar(50)
+  EndLtt    String?   @db.VarChar(20)
+  EndLgt    String?   @db.VarChar(20)
+  EndCep    String?   @db.VarChar(20)
+  EndEmp    String?   @db.VarChar(150)
+  EndCpl    String?   @db.VarChar(100)
+  EmpLgo    String?   @db.VarChar(150)
+  EmpUrl    String?   @db.VarChar(150)
+  EmlCtt    String?   @db.VarChar(50)
+  EmlFrm    String?   @db.VarChar(50)
+  EmlFrmPwd String?   @db.VarChar(50)
+  FneCtt    String?   @db.VarChar(20)
+  FneWha    String?   @db.VarChar(20)
+  RssIns    String?   @db.VarChar(50)
+  RssFac    String?   @db.VarChar(50)
+  RssTwi    String?   @db.VarChar(50)
+  RssYou    String?   @db.VarChar(50)
+  TpoPix    String?   @db.Char(1)
+  ChvPix    String?   @db.VarChar(150)
+  QRPixImg  String?   @db.VarChar(150)
+  QRPixCpy  String?   @db.VarChar(150)
+  SttId     Int       @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel    String?   @db.VarChar(250)
+  stt       stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_Emp_Stt_SttId")
+  emp_und   emp_und[]
+  rcg       rcg[]
+  usr       usr[]
+
+  @@index([SttId], map: "FK_Emp_Stt_SttId")
+}
+
+model emp_und {
+  EmpId    Int
+  UndId    Int       @id @default(autoincrement())
+  UndNme   String    @db.VarChar(150)
+  UndRdz   String?   @db.VarChar(15)
+  UndReg   String?   @db.VarChar(50)
+  GpsLtd   String?   @db.VarChar(50)
+  GpsLgt   String?   @db.VarChar(50)
+  PstRcg   Int?
+  SttId    Int       @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel   String?   @db.VarChar(250)
+  emp      emp       @relation(fields: [EmpId], references: [EmpId], onUpdate: Restrict, map: "FK_EmpUnd_Emp_EmpId")
+  stt      stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_EmpUnd_Stt_SttId")
+  eqp_itm  eqp_itm[]
+  eqp_loc  eqp_loc[]
+  rcg      rcg[]
+
+  @@index([UndId], map: "idx_emp_und")
+  @@index([EmpId], map: "FK_EmpUnd_Emp_EmpId")
+  @@index([SttId], map: "FK_EmpUnd_Stt_SttId")
+}
+
+model eqp_fbr {
+  EqpFbrId  Int       @id @default(autoincrement())
+  EqpFbrNme String    @db.VarChar(50)
+  SttId     Int       @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel    String?   @db.VarChar(250)
+  stt       stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_EqpFbr_Stt_SttId")
+  usr       usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_EqpFbr_Usr_UsrId")
+  eqp_itm   eqp_itm[]
+  eqp_mdl   eqp_mdl[]
+
+  @@index([SttId], map: "FK_EqpFbr_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_EqpFbr_Usr_UsrId")
+  @@index([EqpFbrNme], map: "Idx_EqpFbr")
+}
+
+model eqp_itm {
+  UndId                  Int
+  FrnId                  Int
+  EqpTpoId               Int
+  EqpFbrId               Int
+  EqpMdlId               Int
+  EqpItmId               Int       @id @default(autoincrement())
+  EqpItmCdg              String    @db.VarChar(20)
+  EqpItmPlc              String?   @db.VarChar(20)
+  EqpItmAnoMdl           String?   @db.VarChar(20)
+  EqpItmTmh              String    @db.VarChar(20)
+  SttId                  Int       @default(1)
+  UsrIdAlt               Int
+  DtaAlt                 DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel                 String?   @db.VarChar(250)
+  emp_und                emp_und   @relation(fields: [UndId], references: [UndId], onUpdate: Restrict, map: "FK_EqpItm_EmpUnd_UndId")
+  eqp_fbr                eqp_fbr   @relation(fields: [EqpFbrId], references: [EqpFbrId], onUpdate: Restrict, map: "FK_EqpItm_EqpFbr_EqpFbrId")
+  eqp_mdl                eqp_mdl   @relation(fields: [EqpMdlId], references: [EqpMdlId], onUpdate: Restrict, map: "FK_EqpItm_EqpMdl_EqpMdlId")
+  eqp_tpo                eqp_tpo   @relation(fields: [EqpTpoId], references: [EqpTpoId], onUpdate: Restrict, map: "FK_EqpItm_EqpTpo_EqpTpoId")
+  frn                    frn       @relation(fields: [FrnId], references: [FrnId], onUpdate: Restrict, map: "FK_EqpItm_Fnd_FrnId")
+  stt                    stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_EqpItm_Stt_SttId")
+  usr                    usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_EqpItm_Usr_UsrId")
+  eqp_loc                eqp_loc[]
+  rcg_rcg_CrrIdToeqp_itm rcg[]     @relation("rcg_CrrIdToeqp_itm")
+  rcg_rcg_VclIdToeqp_itm rcg[]     @relation("rcg_VclIdToeqp_itm")
+
+  @@index([SttId, EqpTpoId], map: "idx_eqp_itm_stt_tpo")
+  @@index([UndId], map: "FK_EqpItm_EmpUnd_UndId")
+  @@index([EqpFbrId], map: "FK_EqpItm_EqpFbr_EqpFbrId")
+  @@index([EqpMdlId], map: "FK_EqpItm_EqpMdl_EqpMdlId")
+  @@index([FrnId], map: "FK_EqpItm_Fnd_FrnId")
+  @@index([UsrIdAlt], map: "FK_EqpItm_Usr_UsrId")
+  @@index([EqpItmCdg], map: "Idx_EqpItmCdg")
+  @@index([EqpItmPlc], map: "Idx_EqpItm_EqpItmPlc")
+  @@index([EqpTpoId], map: "Idx_EqpItm_EqpTpoId")
+  @@index([SttId], map: "Idx_EqpItm_SttId")
+  @@index([EqpItmTmh], map: "Idx_EqpItm_Tmh")
+}
+
+model eqp_loc {
+  EqpTpoId Int
+  EqpItmId Int
+  UndId    Int
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+  emp_und  emp_und  @relation(fields: [UndId], references: [UndId], onUpdate: Restrict, map: "FK_EqpLoc_EmpUnd_UndId")
+  eqp_itm  eqp_itm  @relation(fields: [EqpItmId], references: [EqpItmId], onUpdate: Restrict, map: "FK_EqpLoc_EqpItm_EqpItmId")
+  eqp_tpo  eqp_tpo  @relation(fields: [EqpTpoId], references: [EqpTpoId], onUpdate: Restrict, map: "FK_EqpLoc_EqpTpo_EqpTpoId")
+  stt      stt      @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_EqpLoc_Stt_SttId")
+  usr      usr      @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_EqpLoc_Usr_UsrId")
+
+  @@id([EqpItmId, UndId])
+  @@index([UndId], map: "FK_EqpLoc_EmpUnd_UndId")
+  @@index([EqpTpoId], map: "FK_EqpLoc_EqpTpo_EqpTpoId")
+  @@index([SttId], map: "FK_EqpLoc_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_EqpLoc_Usr_UsrId")
+}
+
+model eqp_mdl {
+  EqpTpoId  Int
+  EqpFbrId  Int
+  EqpMdlId  Int       @id @default(autoincrement())
+  EqpMdlNme String    @db.VarChar(50)
+  CbtId     Int
+  CpcCrg    Decimal?  @db.Decimal(10, 3)
+  SttId     Int       @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel    String?   @db.VarChar(250)
+  eqp_itm   eqp_itm[]
+  eqp_fbr   eqp_fbr   @relation(fields: [EqpFbrId], references: [EqpFbrId], onUpdate: Restrict, map: "FK_EqpMdl_EqpFbr_EqpFbrId")
+  eqp_tpo   eqp_tpo   @relation(fields: [EqpTpoId], references: [EqpTpoId], onUpdate: Restrict, map: "FK_EqpMdl_EqpTpo_EqpTpoId")
+  stt       stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_EqpMdl_SttId")
+  usr       usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_EqpMdl_Usr_UsrId")
+
+  @@index([EqpFbrId], map: "FK_EqpMdl_EqpFbr_EqpFbrId")
+  @@index([EqpTpoId], map: "FK_EqpMdl_EqpTpo_EqpTpoId")
+  @@index([SttId], map: "FK_EqpMdl_SttId")
+  @@index([UsrIdAlt], map: "FK_EqpMdl_Usr_UsrId")
+  @@index([EqpMdlNme], map: "Idx_EqpMdl")
+}
+
+model eqp_tpo {
+  EqpTpoId  Int       @id @default(autoincrement())
+  EqpTpoNme String    @db.VarChar(50)
+  SttId     Int       @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel    String?   @db.VarChar(250)
+  eqp_itm   eqp_itm[]
+  eqp_loc   eqp_loc[]
+  eqp_mdl   eqp_mdl[]
+  stt       stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_EqpTpo_Stt_SttId")
+  usr       usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_EqpTpo_Usr_UsrId")
+
+  @@index([SttId], map: "FK_EqpTpo_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_EqpTpo_Usr_UsrId")
+  @@index([EqpTpoNme], map: "Idx_EqpTpo")
+}
+
+model frn {
+  FrnId    Int       @id @default(autoincrement())
+  FrnNme   String    @db.VarChar(50)
+  FrnRdz   String    @db.VarChar(50)
+  SttId    Int       @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel   String?   @db.VarChar(250)
+  eqp_itm  eqp_itm[]
+  stt      stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_Frn_Stt_SttId")
+  usr      usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_Frn_Usr_UsrId")
+
+  @@index([SttId], map: "FK_Frn_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_Frn_Usr_UsrId")
+  @@index([FrnNme], map: "Idx_Frn")
+}
+
+model psq {
+  PsqId    Int       @id @default(autoincrement())
+  Psq      String    @db.VarChar(100)
+  SttId    Int       @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel   String?   @db.VarChar(250)
+  stt      stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_Psq_Stt_SttId")
+  usr      usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_Psq_Usr_UsrId")
+  psq_rsp  psq_rsp[]
+
+  @@index([SttId], map: "FK_Psq_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_Psq_Usr_UsrId")
+}
+
+model psq_prg {
+  PsqTpoId Int
+  PsqPrgId Int       @id @default(autoincrement())
+  PsqPrg   String    @db.VarChar(100)
+  PsqSqc   Int
+  SttId    Int       @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel   String?   @db.VarChar(250)
+  psq_tpo  psq_tpo   @relation(fields: [PsqTpoId], references: [PsqTpoId], onUpdate: Restrict, map: "FK_psq_prg_EqpItm_CrrId")
+  stt      stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_psq_prg_Stt_SttId")
+  usr      usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_psq_prg_Usr_UsrId")
+  psq_rsp  psq_rsp[]
+
+  @@index([PsqTpoId], map: "FK_psq_prg_EqpItm_CrrId")
+  @@index([SttId], map: "FK_psq_prg_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_psq_prg_Usr_UsrId")
+}
+
+model psq_rsp {
+  UndId    Int // Identificado da Unidade
+  DtaOpe   DateTime @db.Date // Data da Operação
+  TrnId    Int? // Identificador do Turno (1 para Diurno e 2 para Noturno)
+  PsqId    Int // Identificador da pesquisa
+  PsqTpoId Int // Identificador Tipo de pesquisa
+  PsqPrgId Int // Identificador pergunta da pesquisa
+  PsqRspId Int      @id @default(autoincrement()) // Identificador resposta da pesquisa
+  PsqRsp   Int // Pergunta da pesquisa
+  PsqDth   String?  @db.VarChar(250) // Detalhe da pesquisa
+  SttId    Int      @default(1) // Status Registro
+  UsrIdAlt Int // Id Usuário que cadastrou
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0) // Data Cadastro
+  MtvDel   String?  @db.VarChar(250) // Motivo da delecao
+  psq_tpo  psq_tpo  @relation(fields: [PsqTpoId], references: [PsqTpoId], onUpdate: Restrict, map: "FK_psq_rsp_EqpItm_CrrId")
+  psq      psq      @relation(fields: [PsqId], references: [PsqId], onUpdate: Restrict, map: "FK_psq_rsp_Psq_PsqId")
+  stt      stt      @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_psq_rsp_Stt_SttId")
+  usr      usr      @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_psq_rsp_Usr_UsrId")
+  psq_prg  psq_prg  @relation(fields: [PsqPrgId], references: [PsqPrgId], onUpdate: Restrict, map: "FK_psq_rsp_psq_prg_PsqPrgId")
+
+  @@index([PsqTpoId], map: "FK_psq_rsp_EqpItm_CrrId")
+  @@index([PsqId], map: "FK_psq_rsp_Psq_PsqId")
+  @@index([SttId], map: "FK_psq_rsp_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_psq_rsp_Usr_UsrId")
+  @@index([PsqPrgId], map: "FK_psq_rsp_psq_prg_PsqPrgId")
+}
+
+model psq_tpo {
+  PsqTpoId Int       @id @default(autoincrement())
+  PsqTpo   String    @db.VarChar(100)
+  SttId    Int       @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel   String?   @db.VarChar(250)
+  psq_prg  psq_prg[]
+  psq_rsp  psq_rsp[]
+  stt      stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_PsqTpo_Stt_SttId")
+  usr      usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_PsqTpo_Usr_UsrId")
+
+  @@index([SttId], map: "FK_PsqTpo_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_PsqTpo_Usr_UsrId")
+}
+
+model rcg {
+  RcgId                      Int       @id @default(autoincrement())
+  RcgIdOrg                   Int?
+  EmpId                      Int
+  DtaOpe                     DateTime  @db.Date
+  UndId                      Int
+  VclId                      Int
+  CrrId                      Int
+  CrrCnc                     Int
+  DtaIni                     DateTime  @db.DateTime(0)
+  DtaFin                     DateTime? @db.DateTime(0)
+  SocIni                     Int?
+  SocFin                     Int?
+  RcgKwh                     Decimal?  @db.Decimal(10, 3)
+  OdoIni                     Decimal?  @db.Decimal(10, 1)
+  OdoFin                     Decimal?  @db.Decimal(10, 1)
+  SttRcgId                   Int       @default(6)
+  FlhId                      Int       @default(0)
+  FlhDsc                     String?   @db.VarChar(250)
+  SttId                      Int       @default(1)
+  SttIdChk                   Int?
+  UsrIdAlt                   Int
+  DtaAlt                     DateTime  @default(now()) @updatedAt @db.Timestamp(0)
+  MtvDel                     String?   @db.VarChar(250)
+  emp_und                    emp_und   @relation(fields: [UndId], references: [UndId], onUpdate: Restrict, map: "FK_Rcg_EmpUnd_UndId")
+  emp                        emp       @relation(fields: [EmpId], references: [EmpId], onUpdate: Restrict, map: "FK_Rcg_Emp_EmpId")
+  eqp_itm_rcg_CrrIdToeqp_itm eqp_itm   @relation("rcg_CrrIdToeqp_itm", fields: [CrrId], references: [EqpItmId], onUpdate: Restrict, map: "FK_Rcg_EqpItm_CrrId")
+  eqp_itm_rcg_VclIdToeqp_itm eqp_itm   @relation("rcg_VclIdToeqp_itm", fields: [VclId], references: [EqpItmId], onUpdate: Restrict, map: "FK_Rcg_EqpItm_VclId")
+  rcg                        rcg?      @relation("rcgTorcg", fields: [RcgIdOrg], references: [RcgId], onDelete: Restrict, onUpdate: Restrict, map: "FK_Rcg_Rcg_RcgId")
+  other_rcg                  rcg[]     @relation("rcgTorcg")
+  stt_rcg_SttIdTostt         stt       @relation("rcg_SttIdTostt", fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_Rcg_Stt_SttId")
+  stt_rcg_SttRcgIdTostt      stt       @relation("rcg_SttRcgIdTostt", fields: [SttRcgId], references: [SttId], onUpdate: Restrict, map: "FK_Rcg_Stt_SttRcgId")
+  usr                        usr       @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_Rcg_Usr_UsrId")
+
+  @@index([SttRcgId, VclId], map: "idx_rcg_stt5_vcl")
+  @@index([SttRcgId, VclId, UndId, DtaOpe], map: "idx_rcg_stt_vcl_und_dta")
+  @@index([UndId], map: "FK_Rcg_EmpUnd_UndId")
+  @@index([EmpId], map: "FK_Rcg_Emp_EmpId")
+  @@index([CrrId], map: "FK_Rcg_EqpItm_CrrId")
+  @@index([VclId], map: "FK_Rcg_EqpItm_VclId")
+  @@index([RcgIdOrg], map: "FK_Rcg_Rcg_RcgId")
+  @@index([SttId], map: "FK_Rcg_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_Rcg_Usr_UsrId")
+}
+
+model stt {
+  SttId                 Int       @id @default(autoincrement())
+  SttNme                String    @db.VarChar(50)
+  SttIdAtu              Int       @default(1)
+  UsrIdAlt              Int
+  DtaAlt                DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel                String?   @db.VarChar(250)
+  cbt                   cbt[]
+  emp                   emp[]
+  emp_und               emp_und[]
+  eqp_fbr               eqp_fbr[]
+  eqp_itm               eqp_itm[]
+  eqp_loc               eqp_loc[]
+  eqp_mdl               eqp_mdl[]
+  eqp_tpo               eqp_tpo[]
+  frn                   frn[]
+  psq                   psq[]
+  psq_prg               psq_prg[]
+  psq_rsp               psq_rsp[]
+  psq_tpo               psq_tpo[]
+  rcg_rcg_SttIdTostt    rcg[]     @relation("rcg_SttIdTostt")
+  rcg_rcg_SttRcgIdTostt rcg[]     @relation("rcg_SttRcgIdTostt")
+  usr                   usr[]
+  usr_tpo               usr_tpo[]
+  trn                   trn[]     @relation(map: "FK_trn_Stt_SttId")
+
+  @@index([SttNme], map: "Idx_Stt")
+}
+
+model trn {
+  TrnId    Int      @id @default(autoincrement()) // Identificador turno
+  Trn      String   @db.VarChar(50) // Descrição do turno
+  TrnIni   DateTime @db.Time // Início do turno
+  TrnFin   DateTime @db.Time // Final do turno
+  SttId    Int      @default(1) // Status Registro
+  UsrIdAlt Int // Id Usuário que cadastrou
+  DtaAlt   DateTime @default(now()) @updatedAt @db.Timestamp(0) // Data Cadastro
+  MtvDel   String?  @db.VarChar(250) // Motivo da deleção
+
+  stt stt @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_trn_Stt_SttId")
+  usr usr @relation(fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_trn_Usr_UsrId")
+
+  @@index([SttId], map: "FK_trn_Stt_SttId")
+  @@index([UsrIdAlt], map: "FK_trn_Usr_UsrId")
+}
+
+model usr {
+  EmpId     Int
+  UsrTpoId  Int
+  UsrId     Int       @id @default(autoincrement())
+  UsrNme    String    @db.VarChar(150)
+  UsrLgn    String?   @unique(map: "IdxU_UsrLgn") @db.VarChar(20)
+  UsrCpf    String?   @unique(map: "IdxU_UsrCpf") @db.VarChar(15)
+  UsrEml    String    @unique(map: "IdxU_UsrEml") @db.VarChar(150)
+  UsrPwd    String    @db.VarChar(250)
+  UsrFto    String?   @default("avatar.png") @db.VarChar(250)
+  SttId     Int       @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel    String?   @db.VarChar(250)
+  cbt       cbt[]
+  eqp_fbr   eqp_fbr[]
+  eqp_itm   eqp_itm[]
+  eqp_loc   eqp_loc[]
+  eqp_mdl   eqp_mdl[]
+  eqp_tpo   eqp_tpo[]
+  frn       frn[]
+  psq       psq[]
+  psq_prg   psq_prg[]
+  psq_rsp   psq_rsp[]
+  psq_tpo   psq_tpo[]
+  rcg       rcg[]
+  emp       emp       @relation(fields: [EmpId], references: [EmpId], onUpdate: Restrict, map: "FK_Usr_Emp_EmpId")
+  stt       stt       @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_Usr_Stt_SttId")
+  usr_tpo   usr_tpo   @relation(fields: [UsrTpoId], references: [UsrTpoId], onUpdate: Restrict, map: "FK_Usr_UsrTpo_UsrTpoId")
+  usr       usr       @relation("usrTousr", fields: [UsrIdAlt], references: [UsrId], onUpdate: Restrict, map: "FK_Usr_Usr_UsrId")
+  other_usr usr[]     @relation("usrTousr")
+  trn       trn[]     @relation(map: "FK_trn_Usr_UsrId")
+
+  @@index([EmpId], map: "FK_Usr_Emp_EmpId")
+  @@index([UsrTpoId], map: "FK_Usr_UsrTpo_UsrTpoId")
+  @@index([UsrIdAlt], map: "FK_Usr_Usr_UsrId")
+  @@index([SttId], map: "Idx_Usr_SttId")
+}
+
+model usr_tpo {
+  UsrTpoId  Int      @id @default(autoincrement())
+  UsrTpoNme String   @unique(map: "IdxU_UsrTpo") @db.VarChar(50)
+  SttId     Int      @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime @default(now()) @db.Timestamp(0)
+  MtvDel    String?  @db.VarChar(250)
+  usr       usr[]
+  stt       stt      @relation(fields: [SttId], references: [SttId], onUpdate: Restrict, map: "FK_UsrTpo_Stt_SttId")
+
+  @@index([SttId], map: "Idx_UsrTpo_SttId")
+}
+
+/// View: vw_onibus
+model VwOnibus {
+  RcgIdOrg           Int?      @map("RcgIdOrg")
+  EqpItmId           Int       @id @map("EqpItmId") // ID único
+  Onibus             String    @map("Onibus")
+  Situacao           String    @map("Situacao")
+  Data_Operacao      DateTime? @map("Data_Operacao") @db.DateTime
+  UndId              Int?      @map("UndId")
+  PostoRecarga       String?   @map("PostoRecarga")
+  CrrId              Int?      @map("CrrId")
+  Carregador         String?   @map("Carregador")
+  DataInicio         DateTime? @map("DataInicio") @db.DateTime
+  DataFinal          DateTime? @map("DataFinal") @db.DateTime
+  BateriaInicio      Int?      @map("BateriaInicio")
+  Bateria            Int?      @map("Bateria")
+  BateriaEntregue    Int?      @map("BateriaEntregue")
+  Carga_kWh          Decimal?  @map("Carga_kWh") @db.Decimal(10, 3)
+  OdometroInicio     Float?    @map("OdometroInicio")
+  Odometro           Float?    @map("Odometro")
+  KmRodado           Float?    @map("KmRodado")
+  Checklist          String?   @map("Checklist")
+  Capacidade_Tecnica Decimal   @map("Capacidade_Tecnica") @db.Decimal(10, 3)
+
+  @@map("vw_onibus")
+}
+
+/// View: vw_carregador
+model VwCarregador {
+  UndId      Int     @map("UndId")
+  EqpItmId   Int     @map("EqpItmId")
+  Carregador String? @map("Carregador")
+
+  @@id([UndId, EqpItmId]) // chave composta, pois não há campo único
+  @@map("vw_carregador")
+}
+
+// View de Checklist
+model VwPesquisaPergunta {
+  PsqPrgId      Int     @id @map("PsqPrgId")
+  PsqTpoId      Int     @map("PsqTpoId")
+  Tipo_Pesquisa String? @map("Tipo_Pesquisa")
+  Pergunta      String? @map("Pergunta")
+  Sequencia     Int?    @map("Sequencia")
+
+  @@map("vw_pesquisa_pergunta")
+}
+
+/// View: vw_posto_recarga
+model VwPostoRecarga {
+  UndId        Int     @id @map("UndId")
+  PostoRecarga String  @map("PostoRecarga")
+  Latitude     String? @map("Latitude")
+  Longitude    String? @map("Longitude")
+
+  @@map("vw_posto_recarga")
+}
+
+// View de vw_turno_atual
+model VwTurnoAtual {
+  DtaAtu      DateTime @map("DtaAtu") @db.Timestamp(6)
+  DtaOpe      DateTime @map("DtaOpe") @db.Date
+  TrnId       String   @id @map("TrnId") @db.VarChar(1)
+  InicioTurno DateTime @map("InicioTurno") @db.Timestamp(6)
+  FimTurno    DateTime @map("FimTurno") @db.Timestamp(6)
+
+  @@map("vw_turno_atual")
+}

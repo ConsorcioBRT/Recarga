@@ -1,0 +1,223 @@
+generator client {
+  provider = "prisma-client-js"
+  output   = "../lib/generated/prisma"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model cbt {
+  CbtId    Int      @id @default(autoincrement())
+  CbtNme   String   @db.VarChar(50)
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+
+  @@index([CbtNme], map: "IdxU_EqpFbr")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model emp {
+  EmpId     Int      @id @default(autoincrement())
+  EmpNme    String   @db.VarChar(150)
+  EmpRaz    String?  @db.VarChar(150)
+  EmpRdz    String?  @db.VarChar(15)
+  EmpAtv    String?  @db.VarChar(150)
+  EmpCnpj   String?  @db.VarChar(15)
+  Enduf     String?  @db.VarChar(2)
+  EndCdd    String?  @db.VarChar(50)
+  EndLtt    String?  @db.VarChar(20)
+  EndLgt    String?  @db.VarChar(20)
+  EndCep    String?  @db.VarChar(20)
+  EndEmp    String?  @db.VarChar(150)
+  EndCpl    String?  @db.VarChar(100)
+  EmpLgo    String?  @db.VarChar(150)
+  EmpUrl    String?  @db.VarChar(150)
+  EmlCtt    String?  @db.VarChar(50)
+  EmlFrm    String?  @db.VarChar(50)
+  EmlFrmPwd String?  @db.VarChar(50)
+  FneCtt    String?  @db.VarChar(20)
+  FneWha    String?  @db.VarChar(20)
+  RssIns    String?  @db.VarChar(50)
+  RssFac    String?  @db.VarChar(50)
+  RssTwi    String?  @db.VarChar(50)
+  RssYou    String?  @db.VarChar(50)
+  TpoPix    String?  @db.Char(1)
+  ChvPix    String?  @db.VarChar(150)
+  QRPixImg  String?  @db.VarChar(150)
+  QRPixCpy  String?  @db.VarChar(150)
+  SttId     Int      @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime @default(now()) @db.Timestamp(0)
+  MtvDel    String?  @db.VarChar(250)
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model emp_und {
+  EmpId    Int
+  UndId    Int      @id @default(autoincrement())
+  UndNme   String   @db.VarChar(150)
+  UndRdz   String?  @db.VarChar(15)
+  UndReg   String?  @db.VarChar(50)
+  GpsLtd   String?  @db.VarChar(50)
+  GpsLgt   String?  @db.VarChar(50)
+  PstRcg   Int?
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model eqp_fbr {
+  EqpFbrId  Int      @id @default(autoincrement())
+  EqpFbrNme String   @db.VarChar(50)
+  SttId     Int      @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime @default(now()) @db.Timestamp(0)
+  MtvDel    String?  @db.VarChar(250)
+
+  @@index([EqpFbrNme], map: "IdxU_EqpFbr")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model eqp_itm {
+  FrnId        Int
+  EqpTpoId     Int
+  EqpFbrId     Int
+  EqpMdlId     Int
+  EqpItmId     Int      @id @default(autoincrement())
+  EqpItmCdg    String   @db.VarChar(20)
+  EqpItmPlc    String?  @db.VarChar(20)
+  EqpItmAnoMdl String?  @db.VarChar(20)
+  CbtId        Int
+  EqpItmTmh    String   @db.VarChar(20)
+  SttId        Int      @default(1)
+  UsrIdAlt     Int
+  DtaAlt       DateTime @default(now()) @db.Timestamp(0)
+  MtvDel       String?  @db.VarChar(250)
+
+  @@index([CbtId], map: "IdxU_CbtId")
+  @@index([EqpItmCdg], map: "IdxU_EqpItmCdg")
+  @@index([EqpItmPlc], map: "IdxU_EqpItmPlc")
+  @@index([EqpItmTmh], map: "IdxU_EqpItmTmh")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model eqp_loc {
+  EqpTpoId Int
+  EqpItmId Int
+  UndId    Int
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+
+  @@id([EqpItmId, UndId])
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model eqp_mdl {
+  EqpTpoId  Int
+  EqpFbrId  Int
+  EqpMdlId  Int      @id @default(autoincrement())
+  EqpMdlNme String   @db.VarChar(50)
+  SttId     Int      @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime @default(now()) @db.Timestamp(0)
+  MtvDel    String?  @db.VarChar(250)
+
+  @@index([EqpMdlNme], map: "IdxU_EqpMdl")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model eqp_tpo {
+  EqpTpoId  Int      @id @default(autoincrement())
+  EqpTpoNme String   @db.VarChar(50)
+  SttId     Int      @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime @default(now()) @db.Timestamp(0)
+  MtvDel    String?  @db.VarChar(250)
+
+  @@index([EqpTpoNme], map: "IdxU_EqpTpo")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model frn {
+  FrnId    Int      @id @default(autoincrement())
+  FrnNme   String   @db.VarChar(50)
+  FrnRdz   String   @db.VarChar(50)
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+
+  @@index([FrnNme], map: "IdxU_Frn")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model stt {
+  SttId    Int      @id @default(autoincrement())
+  SttNme   String   @db.VarChar(50)
+  SttIdAtu Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+
+  @@index([SttNme], map: "IdxU_Stt")
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model usr {
+  EmpId    Int
+  UsrTpoId Int
+  UsrId    Int      @id @default(autoincrement())
+  UsrNme   String   @db.VarChar(150)
+  UsrLgn   String?  @unique(map: "IdxU_UsrLgn") @db.VarChar(20)
+  UsrCpf   String?  @unique(map: "IdxU_UsrCpf") @db.VarChar(15)
+  UsrEml   String   @unique(map: "IdxU_UsrEml") @db.VarChar(150)
+  UsrPwd   String   @db.VarChar(250)
+  UsrFto   String?  @default("avatar.png") @db.VarChar(250)
+  SttId    Int      @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime @default(now()) @db.Timestamp(0)
+  MtvDel   String?  @db.VarChar(250)
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model usr_tpo {
+  UsrTpoId  Int      @id @default(autoincrement())
+  UsrTpoNme String   @unique(map: "IdxU_UsrTpo") @db.VarChar(50)
+  SttId     Int      @default(1)
+  UsrIdAlt  Int
+  DtaAlt    DateTime @default(now()) @db.Timestamp(0)
+  MtvDel    String?  @db.VarChar(250)
+}
+
+/// This model or at least one of its fields has comments in the database, and requires an additional setup for migrations: Read more: https://pris.ly/d/database-comments
+model rcg {
+  RcgId    Int       @id @default(autoincrement())
+  RcgIdOrg Int
+  EmpId    Int
+  DtaOpe   DateTime  @db.Date
+  UndId    Int
+  VclId    Int
+  CrrId    Int
+  CrrCnc   Int
+  DtaIni   DateTime  @db.DateTime(0)
+  DtaFin   DateTime? @db.DateTime(0)
+  SocIni   Int?
+  SocFin   Int?
+  RcgKwh   Float?    @db.Float
+  OdoIni   Float?    @db.Float
+  OdoFin   Float?    @db.Float
+  SttRcgId Int       @default(5)
+  SttId    Int       @default(1)
+  UsrIdAlt Int
+  DtaAlt   DateTime  @default(now()) @db.Timestamp(0)
+  MtvDel   String?   @db.VarChar(250)
+}
