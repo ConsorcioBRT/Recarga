@@ -1000,6 +1000,10 @@ export namespace Prisma {
             args: Prisma.cbtCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.cbtCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$cbtPayload>[]
+          }
           delete: {
             args: Prisma.cbtDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$cbtPayload>
@@ -1015,6 +1019,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.cbtUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.cbtUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$cbtPayload>[]
           }
           upsert: {
             args: Prisma.cbtUpsertArgs<ExtArgs>
@@ -1066,6 +1074,10 @@ export namespace Prisma {
             args: Prisma.empCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.empCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$empPayload>[]
+          }
           delete: {
             args: Prisma.empDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$empPayload>
@@ -1081,6 +1093,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.empUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.empUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$empPayload>[]
           }
           upsert: {
             args: Prisma.empUpsertArgs<ExtArgs>
@@ -1132,6 +1148,10 @@ export namespace Prisma {
             args: Prisma.emp_undCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.emp_undCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$emp_undPayload>[]
+          }
           delete: {
             args: Prisma.emp_undDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$emp_undPayload>
@@ -1147,6 +1167,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.emp_undUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.emp_undUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$emp_undPayload>[]
           }
           upsert: {
             args: Prisma.emp_undUpsertArgs<ExtArgs>
@@ -1198,6 +1222,10 @@ export namespace Prisma {
             args: Prisma.eqp_fbrCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.eqp_fbrCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_fbrPayload>[]
+          }
           delete: {
             args: Prisma.eqp_fbrDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$eqp_fbrPayload>
@@ -1213,6 +1241,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.eqp_fbrUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.eqp_fbrUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_fbrPayload>[]
           }
           upsert: {
             args: Prisma.eqp_fbrUpsertArgs<ExtArgs>
@@ -1264,6 +1296,10 @@ export namespace Prisma {
             args: Prisma.eqp_itmCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.eqp_itmCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_itmPayload>[]
+          }
           delete: {
             args: Prisma.eqp_itmDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$eqp_itmPayload>
@@ -1279,6 +1315,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.eqp_itmUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.eqp_itmUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_itmPayload>[]
           }
           upsert: {
             args: Prisma.eqp_itmUpsertArgs<ExtArgs>
@@ -1330,6 +1370,10 @@ export namespace Prisma {
             args: Prisma.eqp_locCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.eqp_locCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_locPayload>[]
+          }
           delete: {
             args: Prisma.eqp_locDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$eqp_locPayload>
@@ -1345,6 +1389,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.eqp_locUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.eqp_locUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_locPayload>[]
           }
           upsert: {
             args: Prisma.eqp_locUpsertArgs<ExtArgs>
@@ -1396,6 +1444,10 @@ export namespace Prisma {
             args: Prisma.eqp_mdlCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.eqp_mdlCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_mdlPayload>[]
+          }
           delete: {
             args: Prisma.eqp_mdlDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$eqp_mdlPayload>
@@ -1411,6 +1463,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.eqp_mdlUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.eqp_mdlUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_mdlPayload>[]
           }
           upsert: {
             args: Prisma.eqp_mdlUpsertArgs<ExtArgs>
@@ -1462,6 +1518,10 @@ export namespace Prisma {
             args: Prisma.eqp_tpoCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.eqp_tpoCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_tpoPayload>[]
+          }
           delete: {
             args: Prisma.eqp_tpoDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$eqp_tpoPayload>
@@ -1477,6 +1537,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.eqp_tpoUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.eqp_tpoUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$eqp_tpoPayload>[]
           }
           upsert: {
             args: Prisma.eqp_tpoUpsertArgs<ExtArgs>
@@ -1528,6 +1592,10 @@ export namespace Prisma {
             args: Prisma.frnCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.frnCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$frnPayload>[]
+          }
           delete: {
             args: Prisma.frnDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$frnPayload>
@@ -1543,6 +1611,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.frnUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.frnUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$frnPayload>[]
           }
           upsert: {
             args: Prisma.frnUpsertArgs<ExtArgs>
@@ -1594,6 +1666,10 @@ export namespace Prisma {
             args: Prisma.psqCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.psqCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psqPayload>[]
+          }
           delete: {
             args: Prisma.psqDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$psqPayload>
@@ -1609,6 +1685,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.psqUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.psqUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psqPayload>[]
           }
           upsert: {
             args: Prisma.psqUpsertArgs<ExtArgs>
@@ -1660,6 +1740,10 @@ export namespace Prisma {
             args: Prisma.psq_prgCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.psq_prgCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psq_prgPayload>[]
+          }
           delete: {
             args: Prisma.psq_prgDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$psq_prgPayload>
@@ -1675,6 +1759,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.psq_prgUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.psq_prgUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psq_prgPayload>[]
           }
           upsert: {
             args: Prisma.psq_prgUpsertArgs<ExtArgs>
@@ -1726,6 +1814,10 @@ export namespace Prisma {
             args: Prisma.psq_rspCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.psq_rspCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psq_rspPayload>[]
+          }
           delete: {
             args: Prisma.psq_rspDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$psq_rspPayload>
@@ -1741,6 +1833,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.psq_rspUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.psq_rspUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psq_rspPayload>[]
           }
           upsert: {
             args: Prisma.psq_rspUpsertArgs<ExtArgs>
@@ -1792,6 +1888,10 @@ export namespace Prisma {
             args: Prisma.psq_tpoCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.psq_tpoCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psq_tpoPayload>[]
+          }
           delete: {
             args: Prisma.psq_tpoDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$psq_tpoPayload>
@@ -1807,6 +1907,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.psq_tpoUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.psq_tpoUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$psq_tpoPayload>[]
           }
           upsert: {
             args: Prisma.psq_tpoUpsertArgs<ExtArgs>
@@ -1858,6 +1962,10 @@ export namespace Prisma {
             args: Prisma.rcgCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.rcgCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$rcgPayload>[]
+          }
           delete: {
             args: Prisma.rcgDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$rcgPayload>
@@ -1873,6 +1981,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.rcgUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.rcgUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$rcgPayload>[]
           }
           upsert: {
             args: Prisma.rcgUpsertArgs<ExtArgs>
@@ -1924,6 +2036,10 @@ export namespace Prisma {
             args: Prisma.sttCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.sttCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$sttPayload>[]
+          }
           delete: {
             args: Prisma.sttDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$sttPayload>
@@ -1939,6 +2055,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.sttUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.sttUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$sttPayload>[]
           }
           upsert: {
             args: Prisma.sttUpsertArgs<ExtArgs>
@@ -1990,6 +2110,10 @@ export namespace Prisma {
             args: Prisma.trnCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.trnCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$trnPayload>[]
+          }
           delete: {
             args: Prisma.trnDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$trnPayload>
@@ -2005,6 +2129,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.trnUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.trnUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$trnPayload>[]
           }
           upsert: {
             args: Prisma.trnUpsertArgs<ExtArgs>
@@ -2056,6 +2184,10 @@ export namespace Prisma {
             args: Prisma.usrCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.usrCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$usrPayload>[]
+          }
           delete: {
             args: Prisma.usrDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$usrPayload>
@@ -2071,6 +2203,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.usrUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.usrUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$usrPayload>[]
           }
           upsert: {
             args: Prisma.usrUpsertArgs<ExtArgs>
@@ -2122,6 +2258,10 @@ export namespace Prisma {
             args: Prisma.usr_tpoCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.usr_tpoCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$usr_tpoPayload>[]
+          }
           delete: {
             args: Prisma.usr_tpoDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$usr_tpoPayload>
@@ -2137,6 +2277,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.usr_tpoUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.usr_tpoUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$usr_tpoPayload>[]
           }
           upsert: {
             args: Prisma.usr_tpoUpsertArgs<ExtArgs>
@@ -2188,6 +2332,10 @@ export namespace Prisma {
             args: Prisma.VwOnibusCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.VwOnibusCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwOnibusPayload>[]
+          }
           delete: {
             args: Prisma.VwOnibusDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$VwOnibusPayload>
@@ -2203,6 +2351,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.VwOnibusUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.VwOnibusUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwOnibusPayload>[]
           }
           upsert: {
             args: Prisma.VwOnibusUpsertArgs<ExtArgs>
@@ -2254,6 +2406,10 @@ export namespace Prisma {
             args: Prisma.VwCarregadorCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.VwCarregadorCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwCarregadorPayload>[]
+          }
           delete: {
             args: Prisma.VwCarregadorDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$VwCarregadorPayload>
@@ -2269,6 +2425,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.VwCarregadorUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.VwCarregadorUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwCarregadorPayload>[]
           }
           upsert: {
             args: Prisma.VwCarregadorUpsertArgs<ExtArgs>
@@ -2320,6 +2480,10 @@ export namespace Prisma {
             args: Prisma.VwPesquisaPerguntaCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.VwPesquisaPerguntaCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwPesquisaPerguntaPayload>[]
+          }
           delete: {
             args: Prisma.VwPesquisaPerguntaDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$VwPesquisaPerguntaPayload>
@@ -2335,6 +2499,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.VwPesquisaPerguntaUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.VwPesquisaPerguntaUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwPesquisaPerguntaPayload>[]
           }
           upsert: {
             args: Prisma.VwPesquisaPerguntaUpsertArgs<ExtArgs>
@@ -2386,6 +2554,10 @@ export namespace Prisma {
             args: Prisma.VwPostoRecargaCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.VwPostoRecargaCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwPostoRecargaPayload>[]
+          }
           delete: {
             args: Prisma.VwPostoRecargaDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$VwPostoRecargaPayload>
@@ -2401,6 +2573,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.VwPostoRecargaUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.VwPostoRecargaUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwPostoRecargaPayload>[]
           }
           upsert: {
             args: Prisma.VwPostoRecargaUpsertArgs<ExtArgs>
@@ -2452,6 +2628,10 @@ export namespace Prisma {
             args: Prisma.VwTurnoAtualCreateManyArgs<ExtArgs>
             result: BatchPayload
           }
+          createManyAndReturn: {
+            args: Prisma.VwTurnoAtualCreateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwTurnoAtualPayload>[]
+          }
           delete: {
             args: Prisma.VwTurnoAtualDeleteArgs<ExtArgs>
             result: $Utils.PayloadToResult<Prisma.$VwTurnoAtualPayload>
@@ -2467,6 +2647,10 @@ export namespace Prisma {
           updateMany: {
             args: Prisma.VwTurnoAtualUpdateManyArgs<ExtArgs>
             result: BatchPayload
+          }
+          updateManyAndReturn: {
+            args: Prisma.VwTurnoAtualUpdateManyAndReturnArgs<ExtArgs>
+            result: $Utils.PayloadToResult<Prisma.$VwTurnoAtualPayload>[]
           }
           upsert: {
             args: Prisma.VwTurnoAtualUpsertArgs<ExtArgs>
@@ -3711,7 +3895,27 @@ export namespace Prisma {
     usr?: boolean | usrDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["cbt"]>
 
+  export type cbtSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    CbtId?: boolean
+    CbtNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["cbt"]>
 
+  export type cbtSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    CbtId?: boolean
+    CbtNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["cbt"]>
 
   export type cbtSelectScalar = {
     CbtId?: boolean
@@ -3724,6 +3928,14 @@ export namespace Prisma {
 
   export type cbtOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"CbtId" | "CbtNme" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["cbt"]>
   export type cbtInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type cbtIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type cbtIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     stt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
   }
@@ -3859,6 +4071,30 @@ export namespace Prisma {
     createMany<T extends cbtCreateManyArgs>(args?: SelectSubset<T, cbtCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Cbts and returns the data saved in the database.
+     * @param {cbtCreateManyAndReturnArgs} args - Arguments to create many Cbts.
+     * @example
+     * // Create many Cbts
+     * const cbt = await prisma.cbt.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Cbts and only return the `CbtId`
+     * const cbtWithCbtIdOnly = await prisma.cbt.createManyAndReturn({
+     *   select: { CbtId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends cbtCreateManyAndReturnArgs>(args?: SelectSubset<T, cbtCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$cbtPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Cbt.
      * @param {cbtDeleteArgs} args - Arguments to delete one Cbt.
      * @example
@@ -3921,6 +4157,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends cbtUpdateManyArgs>(args: SelectSubset<T, cbtUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Cbts and returns the data updated in the database.
+     * @param {cbtUpdateManyAndReturnArgs} args - Arguments to update many Cbts.
+     * @example
+     * // Update many Cbts
+     * const cbt = await prisma.cbt.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Cbts and only return the `CbtId`
+     * const cbtWithCbtIdOnly = await prisma.cbt.updateManyAndReturn({
+     *   select: { CbtId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends cbtUpdateManyAndReturnArgs>(args: SelectSubset<T, cbtUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$cbtPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Cbt.
@@ -4351,6 +4617,29 @@ export namespace Prisma {
   }
 
   /**
+   * cbt createManyAndReturn
+   */
+  export type cbtCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the cbt
+     */
+    select?: cbtSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the cbt
+     */
+    omit?: cbtOmit<ExtArgs> | null
+    /**
+     * The data used to create many cbts.
+     */
+    data: cbtCreateManyInput | cbtCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: cbtIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * cbt update
    */
   export type cbtUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -4392,6 +4681,36 @@ export namespace Prisma {
      * Limit how many cbts to update.
      */
     limit?: number
+  }
+
+  /**
+   * cbt updateManyAndReturn
+   */
+  export type cbtUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the cbt
+     */
+    select?: cbtSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the cbt
+     */
+    omit?: cbtOmit<ExtArgs> | null
+    /**
+     * The data used to update cbts.
+     */
+    data: XOR<cbtUpdateManyMutationInput, cbtUncheckedUpdateManyInput>
+    /**
+     * Filter which cbts to update
+     */
+    where?: cbtWhereInput
+    /**
+     * Limit how many cbts to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: cbtIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -4908,7 +5227,77 @@ export namespace Prisma {
     _count?: boolean | EmpCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["emp"]>
 
+  export type empSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EmpId?: boolean
+    EmpNme?: boolean
+    EmpRaz?: boolean
+    EmpRdz?: boolean
+    EmpAtv?: boolean
+    EmpCnpj?: boolean
+    Enduf?: boolean
+    EndCdd?: boolean
+    EndLtt?: boolean
+    EndLgt?: boolean
+    EndCep?: boolean
+    EndEmp?: boolean
+    EndCpl?: boolean
+    EmpLgo?: boolean
+    EmpUrl?: boolean
+    EmlCtt?: boolean
+    EmlFrm?: boolean
+    EmlFrmPwd?: boolean
+    FneCtt?: boolean
+    FneWha?: boolean
+    RssIns?: boolean
+    RssFac?: boolean
+    RssTwi?: boolean
+    RssYou?: boolean
+    TpoPix?: boolean
+    ChvPix?: boolean
+    QRPixImg?: boolean
+    QRPixCpy?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["emp"]>
 
+  export type empSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EmpId?: boolean
+    EmpNme?: boolean
+    EmpRaz?: boolean
+    EmpRdz?: boolean
+    EmpAtv?: boolean
+    EmpCnpj?: boolean
+    Enduf?: boolean
+    EndCdd?: boolean
+    EndLtt?: boolean
+    EndLgt?: boolean
+    EndCep?: boolean
+    EndEmp?: boolean
+    EndCpl?: boolean
+    EmpLgo?: boolean
+    EmpUrl?: boolean
+    EmlCtt?: boolean
+    EmlFrm?: boolean
+    EmlFrmPwd?: boolean
+    FneCtt?: boolean
+    FneWha?: boolean
+    RssIns?: boolean
+    RssFac?: boolean
+    RssTwi?: boolean
+    RssYou?: boolean
+    TpoPix?: boolean
+    ChvPix?: boolean
+    QRPixImg?: boolean
+    QRPixCpy?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["emp"]>
 
   export type empSelectScalar = {
     EmpId?: boolean
@@ -4952,6 +5341,12 @@ export namespace Prisma {
     rcg?: boolean | emp$rcgArgs<ExtArgs>
     usr?: boolean | emp$usrArgs<ExtArgs>
     _count?: boolean | EmpCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type empIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }
+  export type empIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
   }
 
   export type $empPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -5113,6 +5508,30 @@ export namespace Prisma {
     createMany<T extends empCreateManyArgs>(args?: SelectSubset<T, empCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Emps and returns the data saved in the database.
+     * @param {empCreateManyAndReturnArgs} args - Arguments to create many Emps.
+     * @example
+     * // Create many Emps
+     * const emp = await prisma.emp.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Emps and only return the `EmpId`
+     * const empWithEmpIdOnly = await prisma.emp.createManyAndReturn({
+     *   select: { EmpId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends empCreateManyAndReturnArgs>(args?: SelectSubset<T, empCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$empPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Emp.
      * @param {empDeleteArgs} args - Arguments to delete one Emp.
      * @example
@@ -5175,6 +5594,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends empUpdateManyArgs>(args: SelectSubset<T, empUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Emps and returns the data updated in the database.
+     * @param {empUpdateManyAndReturnArgs} args - Arguments to update many Emps.
+     * @example
+     * // Update many Emps
+     * const emp = await prisma.emp.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Emps and only return the `EmpId`
+     * const empWithEmpIdOnly = await prisma.emp.updateManyAndReturn({
+     *   select: { EmpId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends empUpdateManyAndReturnArgs>(args: SelectSubset<T, empUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$empPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Emp.
@@ -5633,6 +6082,29 @@ export namespace Prisma {
   }
 
   /**
+   * emp createManyAndReturn
+   */
+  export type empCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the emp
+     */
+    select?: empSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the emp
+     */
+    omit?: empOmit<ExtArgs> | null
+    /**
+     * The data used to create many emps.
+     */
+    data: empCreateManyInput | empCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: empIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * emp update
    */
   export type empUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -5674,6 +6146,36 @@ export namespace Prisma {
      * Limit how many emps to update.
      */
     limit?: number
+  }
+
+  /**
+   * emp updateManyAndReturn
+   */
+  export type empUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the emp
+     */
+    select?: empSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the emp
+     */
+    omit?: empOmit<ExtArgs> | null
+    /**
+     * The data used to update emps.
+     */
+    data: XOR<empUpdateManyMutationInput, empUncheckedUpdateManyInput>
+    /**
+     * Filter which emps to update
+     */
+    where?: empWhereInput
+    /**
+     * Limit how many emps to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: empIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -5846,24 +6348,24 @@ export namespace Prisma {
   }
 
   export type Emp_undAvgAggregateOutputType = {
-    EmpId: number | null
     UndId: number | null
+    EmpId: number | null
     PstRcg: number | null
     SttId: number | null
     UsrIdAlt: number | null
   }
 
   export type Emp_undSumAggregateOutputType = {
-    EmpId: number | null
     UndId: number | null
+    EmpId: number | null
     PstRcg: number | null
     SttId: number | null
     UsrIdAlt: number | null
   }
 
   export type Emp_undMinAggregateOutputType = {
-    EmpId: number | null
     UndId: number | null
+    EmpId: number | null
     UndNme: string | null
     UndRdz: string | null
     UndReg: string | null
@@ -5877,8 +6379,8 @@ export namespace Prisma {
   }
 
   export type Emp_undMaxAggregateOutputType = {
-    EmpId: number | null
     UndId: number | null
+    EmpId: number | null
     UndNme: string | null
     UndRdz: string | null
     UndReg: string | null
@@ -5892,8 +6394,8 @@ export namespace Prisma {
   }
 
   export type Emp_undCountAggregateOutputType = {
-    EmpId: number
     UndId: number
+    EmpId: number
     UndNme: number
     UndRdz: number
     UndReg: number
@@ -5909,24 +6411,24 @@ export namespace Prisma {
 
 
   export type Emp_undAvgAggregateInputType = {
-    EmpId?: true
     UndId?: true
+    EmpId?: true
     PstRcg?: true
     SttId?: true
     UsrIdAlt?: true
   }
 
   export type Emp_undSumAggregateInputType = {
-    EmpId?: true
     UndId?: true
+    EmpId?: true
     PstRcg?: true
     SttId?: true
     UsrIdAlt?: true
   }
 
   export type Emp_undMinAggregateInputType = {
-    EmpId?: true
     UndId?: true
+    EmpId?: true
     UndNme?: true
     UndRdz?: true
     UndReg?: true
@@ -5940,8 +6442,8 @@ export namespace Prisma {
   }
 
   export type Emp_undMaxAggregateInputType = {
-    EmpId?: true
     UndId?: true
+    EmpId?: true
     UndNme?: true
     UndRdz?: true
     UndReg?: true
@@ -5955,8 +6457,8 @@ export namespace Prisma {
   }
 
   export type Emp_undCountAggregateInputType = {
-    EmpId?: true
     UndId?: true
+    EmpId?: true
     UndNme?: true
     UndRdz?: true
     UndReg?: true
@@ -6057,8 +6559,8 @@ export namespace Prisma {
   }
 
   export type Emp_undGroupByOutputType = {
-    EmpId: number
     UndId: number
+    EmpId: number
     UndNme: string
     UndRdz: string | null
     UndReg: string | null
@@ -6091,8 +6593,8 @@ export namespace Prisma {
 
 
   export type emp_undSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
-    EmpId?: boolean
     UndId?: boolean
+    EmpId?: boolean
     UndNme?: boolean
     UndRdz?: boolean
     UndReg?: boolean
@@ -6111,11 +6613,43 @@ export namespace Prisma {
     _count?: boolean | Emp_undCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["emp_und"]>
 
+  export type emp_undSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    EmpId?: boolean
+    UndNme?: boolean
+    UndRdz?: boolean
+    UndReg?: boolean
+    GpsLtd?: boolean
+    GpsLgt?: boolean
+    PstRcg?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["emp_und"]>
 
+  export type emp_undSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    EmpId?: boolean
+    UndNme?: boolean
+    UndRdz?: boolean
+    UndReg?: boolean
+    GpsLtd?: boolean
+    GpsLgt?: boolean
+    PstRcg?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["emp_und"]>
 
   export type emp_undSelectScalar = {
-    EmpId?: boolean
     UndId?: boolean
+    EmpId?: boolean
     UndNme?: boolean
     UndRdz?: boolean
     UndReg?: boolean
@@ -6128,7 +6662,7 @@ export namespace Prisma {
     MtvDel?: boolean
   }
 
-  export type emp_undOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"EmpId" | "UndId" | "UndNme" | "UndRdz" | "UndReg" | "GpsLtd" | "GpsLgt" | "PstRcg" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["emp_und"]>
+  export type emp_undOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"UndId" | "EmpId" | "UndNme" | "UndRdz" | "UndReg" | "GpsLtd" | "GpsLgt" | "PstRcg" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["emp_und"]>
   export type emp_undInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     emp?: boolean | empDefaultArgs<ExtArgs>
     stt?: boolean | sttDefaultArgs<ExtArgs>
@@ -6136,6 +6670,14 @@ export namespace Prisma {
     eqp_loc?: boolean | emp_und$eqp_locArgs<ExtArgs>
     rcg?: boolean | emp_und$rcgArgs<ExtArgs>
     _count?: boolean | Emp_undCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type emp_undIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }
+  export type emp_undIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
   }
 
   export type $emp_undPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -6148,8 +6690,8 @@ export namespace Prisma {
       rcg: Prisma.$rcgPayload<ExtArgs>[]
     }
     scalars: $Extensions.GetPayloadResult<{
-      EmpId: number
       UndId: number
+      EmpId: number
       UndNme: string
       UndRdz: string | null
       UndReg: string | null
@@ -6243,8 +6785,8 @@ export namespace Prisma {
      * // Get first 10 Emp_unds
      * const emp_unds = await prisma.emp_und.findMany({ take: 10 })
      * 
-     * // Only select the `EmpId`
-     * const emp_undWithEmpIdOnly = await prisma.emp_und.findMany({ select: { EmpId: true } })
+     * // Only select the `UndId`
+     * const emp_undWithUndIdOnly = await prisma.emp_und.findMany({ select: { UndId: true } })
      * 
      */
     findMany<T extends emp_undFindManyArgs>(args?: SelectSubset<T, emp_undFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$emp_undPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
@@ -6276,6 +6818,30 @@ export namespace Prisma {
      *     
      */
     createMany<T extends emp_undCreateManyArgs>(args?: SelectSubset<T, emp_undCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Create many Emp_unds and returns the data saved in the database.
+     * @param {emp_undCreateManyAndReturnArgs} args - Arguments to create many Emp_unds.
+     * @example
+     * // Create many Emp_unds
+     * const emp_und = await prisma.emp_und.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Emp_unds and only return the `UndId`
+     * const emp_undWithUndIdOnly = await prisma.emp_und.createManyAndReturn({
+     *   select: { UndId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends emp_undCreateManyAndReturnArgs>(args?: SelectSubset<T, emp_undCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$emp_undPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Delete a Emp_und.
@@ -6340,6 +6906,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends emp_undUpdateManyArgs>(args: SelectSubset<T, emp_undUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Emp_unds and returns the data updated in the database.
+     * @param {emp_undUpdateManyAndReturnArgs} args - Arguments to update many Emp_unds.
+     * @example
+     * // Update many Emp_unds
+     * const emp_und = await prisma.emp_und.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Emp_unds and only return the `UndId`
+     * const emp_undWithUndIdOnly = await prisma.emp_und.updateManyAndReturn({
+     *   select: { UndId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends emp_undUpdateManyAndReturnArgs>(args: SelectSubset<T, emp_undUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$emp_undPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Emp_und.
@@ -6534,8 +7130,8 @@ export namespace Prisma {
    * Fields of the emp_und model
    */
   interface emp_undFieldRefs {
-    readonly EmpId: FieldRef<"emp_und", 'Int'>
     readonly UndId: FieldRef<"emp_und", 'Int'>
+    readonly EmpId: FieldRef<"emp_und", 'Int'>
     readonly UndNme: FieldRef<"emp_und", 'String'>
     readonly UndRdz: FieldRef<"emp_und", 'String'>
     readonly UndReg: FieldRef<"emp_und", 'String'>
@@ -6779,6 +7375,29 @@ export namespace Prisma {
   }
 
   /**
+   * emp_und createManyAndReturn
+   */
+  export type emp_undCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the emp_und
+     */
+    select?: emp_undSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the emp_und
+     */
+    omit?: emp_undOmit<ExtArgs> | null
+    /**
+     * The data used to create many emp_unds.
+     */
+    data: emp_undCreateManyInput | emp_undCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: emp_undIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * emp_und update
    */
   export type emp_undUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -6820,6 +7439,36 @@ export namespace Prisma {
      * Limit how many emp_unds to update.
      */
     limit?: number
+  }
+
+  /**
+   * emp_und updateManyAndReturn
+   */
+  export type emp_undUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the emp_und
+     */
+    select?: emp_undSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the emp_und
+     */
+    omit?: emp_undOmit<ExtArgs> | null
+    /**
+     * The data used to update emp_unds.
+     */
+    data: XOR<emp_undUpdateManyMutationInput, emp_undUncheckedUpdateManyInput>
+    /**
+     * Filter which emp_unds to update
+     */
+    where?: emp_undWhereInput
+    /**
+     * Limit how many emp_unds to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: emp_undIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -7200,7 +7849,27 @@ export namespace Prisma {
     _count?: boolean | Eqp_fbrCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["eqp_fbr"]>
 
+  export type eqp_fbrSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpFbrId?: boolean
+    EqpFbrNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_fbr"]>
 
+  export type eqp_fbrSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpFbrId?: boolean
+    EqpFbrNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_fbr"]>
 
   export type eqp_fbrSelectScalar = {
     EqpFbrId?: boolean
@@ -7218,6 +7887,14 @@ export namespace Prisma {
     eqp_itm?: boolean | eqp_fbr$eqp_itmArgs<ExtArgs>
     eqp_mdl?: boolean | eqp_fbr$eqp_mdlArgs<ExtArgs>
     _count?: boolean | Eqp_fbrCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type eqp_fbrIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type eqp_fbrIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $eqp_fbrPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -7353,6 +8030,30 @@ export namespace Prisma {
     createMany<T extends eqp_fbrCreateManyArgs>(args?: SelectSubset<T, eqp_fbrCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Eqp_fbrs and returns the data saved in the database.
+     * @param {eqp_fbrCreateManyAndReturnArgs} args - Arguments to create many Eqp_fbrs.
+     * @example
+     * // Create many Eqp_fbrs
+     * const eqp_fbr = await prisma.eqp_fbr.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Eqp_fbrs and only return the `EqpFbrId`
+     * const eqp_fbrWithEqpFbrIdOnly = await prisma.eqp_fbr.createManyAndReturn({
+     *   select: { EqpFbrId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends eqp_fbrCreateManyAndReturnArgs>(args?: SelectSubset<T, eqp_fbrCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_fbrPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Eqp_fbr.
      * @param {eqp_fbrDeleteArgs} args - Arguments to delete one Eqp_fbr.
      * @example
@@ -7415,6 +8116,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends eqp_fbrUpdateManyArgs>(args: SelectSubset<T, eqp_fbrUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Eqp_fbrs and returns the data updated in the database.
+     * @param {eqp_fbrUpdateManyAndReturnArgs} args - Arguments to update many Eqp_fbrs.
+     * @example
+     * // Update many Eqp_fbrs
+     * const eqp_fbr = await prisma.eqp_fbr.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Eqp_fbrs and only return the `EqpFbrId`
+     * const eqp_fbrWithEqpFbrIdOnly = await prisma.eqp_fbr.updateManyAndReturn({
+     *   select: { EqpFbrId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends eqp_fbrUpdateManyAndReturnArgs>(args: SelectSubset<T, eqp_fbrUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_fbrPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Eqp_fbr.
@@ -7847,6 +8578,29 @@ export namespace Prisma {
   }
 
   /**
+   * eqp_fbr createManyAndReturn
+   */
+  export type eqp_fbrCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_fbr
+     */
+    select?: eqp_fbrSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_fbr
+     */
+    omit?: eqp_fbrOmit<ExtArgs> | null
+    /**
+     * The data used to create many eqp_fbrs.
+     */
+    data: eqp_fbrCreateManyInput | eqp_fbrCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_fbrIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * eqp_fbr update
    */
   export type eqp_fbrUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -7888,6 +8642,36 @@ export namespace Prisma {
      * Limit how many eqp_fbrs to update.
      */
     limit?: number
+  }
+
+  /**
+   * eqp_fbr updateManyAndReturn
+   */
+  export type eqp_fbrUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_fbr
+     */
+    select?: eqp_fbrSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_fbr
+     */
+    omit?: eqp_fbrOmit<ExtArgs> | null
+    /**
+     * The data used to update eqp_fbrs.
+     */
+    data: XOR<eqp_fbrUpdateManyMutationInput, eqp_fbrUncheckedUpdateManyInput>
+    /**
+     * Filter which eqp_fbrs to update
+     */
+    where?: eqp_fbrWhereInput
+    /**
+     * Limit how many eqp_fbrs to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_fbrIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -8036,34 +8820,34 @@ export namespace Prisma {
   }
 
   export type Eqp_itmAvgAggregateOutputType = {
+    EqpItmId: number | null
     UndId: number | null
     FrnId: number | null
     EqpTpoId: number | null
     EqpFbrId: number | null
     EqpMdlId: number | null
-    EqpItmId: number | null
     SttId: number | null
     UsrIdAlt: number | null
   }
 
   export type Eqp_itmSumAggregateOutputType = {
+    EqpItmId: number | null
     UndId: number | null
     FrnId: number | null
     EqpTpoId: number | null
     EqpFbrId: number | null
     EqpMdlId: number | null
-    EqpItmId: number | null
     SttId: number | null
     UsrIdAlt: number | null
   }
 
   export type Eqp_itmMinAggregateOutputType = {
+    EqpItmId: number | null
     UndId: number | null
     FrnId: number | null
     EqpTpoId: number | null
     EqpFbrId: number | null
     EqpMdlId: number | null
-    EqpItmId: number | null
     EqpItmCdg: string | null
     EqpItmPlc: string | null
     EqpItmAnoMdl: string | null
@@ -8075,12 +8859,12 @@ export namespace Prisma {
   }
 
   export type Eqp_itmMaxAggregateOutputType = {
+    EqpItmId: number | null
     UndId: number | null
     FrnId: number | null
     EqpTpoId: number | null
     EqpFbrId: number | null
     EqpMdlId: number | null
-    EqpItmId: number | null
     EqpItmCdg: string | null
     EqpItmPlc: string | null
     EqpItmAnoMdl: string | null
@@ -8092,12 +8876,12 @@ export namespace Prisma {
   }
 
   export type Eqp_itmCountAggregateOutputType = {
+    EqpItmId: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId: number
     EqpItmCdg: number
     EqpItmPlc: number
     EqpItmAnoMdl: number
@@ -8111,34 +8895,34 @@ export namespace Prisma {
 
 
   export type Eqp_itmAvgAggregateInputType = {
+    EqpItmId?: true
     UndId?: true
     FrnId?: true
     EqpTpoId?: true
     EqpFbrId?: true
     EqpMdlId?: true
-    EqpItmId?: true
     SttId?: true
     UsrIdAlt?: true
   }
 
   export type Eqp_itmSumAggregateInputType = {
+    EqpItmId?: true
     UndId?: true
     FrnId?: true
     EqpTpoId?: true
     EqpFbrId?: true
     EqpMdlId?: true
-    EqpItmId?: true
     SttId?: true
     UsrIdAlt?: true
   }
 
   export type Eqp_itmMinAggregateInputType = {
+    EqpItmId?: true
     UndId?: true
     FrnId?: true
     EqpTpoId?: true
     EqpFbrId?: true
     EqpMdlId?: true
-    EqpItmId?: true
     EqpItmCdg?: true
     EqpItmPlc?: true
     EqpItmAnoMdl?: true
@@ -8150,12 +8934,12 @@ export namespace Prisma {
   }
 
   export type Eqp_itmMaxAggregateInputType = {
+    EqpItmId?: true
     UndId?: true
     FrnId?: true
     EqpTpoId?: true
     EqpFbrId?: true
     EqpMdlId?: true
-    EqpItmId?: true
     EqpItmCdg?: true
     EqpItmPlc?: true
     EqpItmAnoMdl?: true
@@ -8167,12 +8951,12 @@ export namespace Prisma {
   }
 
   export type Eqp_itmCountAggregateInputType = {
+    EqpItmId?: true
     UndId?: true
     FrnId?: true
     EqpTpoId?: true
     EqpFbrId?: true
     EqpMdlId?: true
-    EqpItmId?: true
     EqpItmCdg?: true
     EqpItmPlc?: true
     EqpItmAnoMdl?: true
@@ -8271,12 +9055,12 @@ export namespace Prisma {
   }
 
   export type Eqp_itmGroupByOutputType = {
+    EqpItmId: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId: number
     EqpItmCdg: string
     EqpItmPlc: string | null
     EqpItmAnoMdl: string | null
@@ -8307,12 +9091,12 @@ export namespace Prisma {
 
 
   export type eqp_itmSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpItmId?: boolean
     UndId?: boolean
     FrnId?: boolean
     EqpTpoId?: boolean
     EqpFbrId?: boolean
     EqpMdlId?: boolean
-    EqpItmId?: boolean
     EqpItmCdg?: boolean
     EqpItmPlc?: boolean
     EqpItmAnoMdl?: boolean
@@ -8334,15 +9118,61 @@ export namespace Prisma {
     _count?: boolean | Eqp_itmCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["eqp_itm"]>
 
-
-
-  export type eqp_itmSelectScalar = {
+  export type eqp_itmSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpItmId?: boolean
     UndId?: boolean
     FrnId?: boolean
     EqpTpoId?: boolean
     EqpFbrId?: boolean
     EqpMdlId?: boolean
+    EqpItmCdg?: boolean
+    EqpItmPlc?: boolean
+    EqpItmAnoMdl?: boolean
+    EqpItmTmh?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_mdl?: boolean | eqp_mdlDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    frn?: boolean | frnDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_itm"]>
+
+  export type eqp_itmSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     EqpItmId?: boolean
+    UndId?: boolean
+    FrnId?: boolean
+    EqpTpoId?: boolean
+    EqpFbrId?: boolean
+    EqpMdlId?: boolean
+    EqpItmCdg?: boolean
+    EqpItmPlc?: boolean
+    EqpItmAnoMdl?: boolean
+    EqpItmTmh?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_mdl?: boolean | eqp_mdlDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    frn?: boolean | frnDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_itm"]>
+
+  export type eqp_itmSelectScalar = {
+    EqpItmId?: boolean
+    UndId?: boolean
+    FrnId?: boolean
+    EqpTpoId?: boolean
+    EqpFbrId?: boolean
+    EqpMdlId?: boolean
     EqpItmCdg?: boolean
     EqpItmPlc?: boolean
     EqpItmAnoMdl?: boolean
@@ -8353,7 +9183,7 @@ export namespace Prisma {
     MtvDel?: boolean
   }
 
-  export type eqp_itmOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"UndId" | "FrnId" | "EqpTpoId" | "EqpFbrId" | "EqpMdlId" | "EqpItmId" | "EqpItmCdg" | "EqpItmPlc" | "EqpItmAnoMdl" | "EqpItmTmh" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["eqp_itm"]>
+  export type eqp_itmOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"EqpItmId" | "UndId" | "FrnId" | "EqpTpoId" | "EqpFbrId" | "EqpMdlId" | "EqpItmCdg" | "EqpItmPlc" | "EqpItmAnoMdl" | "EqpItmTmh" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["eqp_itm"]>
   export type eqp_itmInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
     eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
@@ -8366,6 +9196,24 @@ export namespace Prisma {
     rcg_rcg_CrrIdToeqp_itm?: boolean | eqp_itm$rcg_rcg_CrrIdToeqp_itmArgs<ExtArgs>
     rcg_rcg_VclIdToeqp_itm?: boolean | eqp_itm$rcg_rcg_VclIdToeqp_itmArgs<ExtArgs>
     _count?: boolean | Eqp_itmCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type eqp_itmIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_mdl?: boolean | eqp_mdlDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    frn?: boolean | frnDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type eqp_itmIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_mdl?: boolean | eqp_mdlDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    frn?: boolean | frnDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $eqp_itmPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -8383,12 +9231,12 @@ export namespace Prisma {
       rcg_rcg_VclIdToeqp_itm: Prisma.$rcgPayload<ExtArgs>[]
     }
     scalars: $Extensions.GetPayloadResult<{
+      EqpItmId: number
       UndId: number
       FrnId: number
       EqpTpoId: number
       EqpFbrId: number
       EqpMdlId: number
-      EqpItmId: number
       EqpItmCdg: string
       EqpItmPlc: string | null
       EqpItmAnoMdl: string | null
@@ -8480,8 +9328,8 @@ export namespace Prisma {
      * // Get first 10 Eqp_itms
      * const eqp_itms = await prisma.eqp_itm.findMany({ take: 10 })
      * 
-     * // Only select the `UndId`
-     * const eqp_itmWithUndIdOnly = await prisma.eqp_itm.findMany({ select: { UndId: true } })
+     * // Only select the `EqpItmId`
+     * const eqp_itmWithEqpItmIdOnly = await prisma.eqp_itm.findMany({ select: { EqpItmId: true } })
      * 
      */
     findMany<T extends eqp_itmFindManyArgs>(args?: SelectSubset<T, eqp_itmFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_itmPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
@@ -8513,6 +9361,30 @@ export namespace Prisma {
      *     
      */
     createMany<T extends eqp_itmCreateManyArgs>(args?: SelectSubset<T, eqp_itmCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Create many Eqp_itms and returns the data saved in the database.
+     * @param {eqp_itmCreateManyAndReturnArgs} args - Arguments to create many Eqp_itms.
+     * @example
+     * // Create many Eqp_itms
+     * const eqp_itm = await prisma.eqp_itm.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Eqp_itms and only return the `EqpItmId`
+     * const eqp_itmWithEqpItmIdOnly = await prisma.eqp_itm.createManyAndReturn({
+     *   select: { EqpItmId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends eqp_itmCreateManyAndReturnArgs>(args?: SelectSubset<T, eqp_itmCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_itmPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Delete a Eqp_itm.
@@ -8577,6 +9449,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends eqp_itmUpdateManyArgs>(args: SelectSubset<T, eqp_itmUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Eqp_itms and returns the data updated in the database.
+     * @param {eqp_itmUpdateManyAndReturnArgs} args - Arguments to update many Eqp_itms.
+     * @example
+     * // Update many Eqp_itms
+     * const eqp_itm = await prisma.eqp_itm.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Eqp_itms and only return the `EqpItmId`
+     * const eqp_itmWithEqpItmIdOnly = await prisma.eqp_itm.updateManyAndReturn({
+     *   select: { EqpItmId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends eqp_itmUpdateManyAndReturnArgs>(args: SelectSubset<T, eqp_itmUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_itmPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Eqp_itm.
@@ -8776,12 +9678,12 @@ export namespace Prisma {
    * Fields of the eqp_itm model
    */
   interface eqp_itmFieldRefs {
+    readonly EqpItmId: FieldRef<"eqp_itm", 'Int'>
     readonly UndId: FieldRef<"eqp_itm", 'Int'>
     readonly FrnId: FieldRef<"eqp_itm", 'Int'>
     readonly EqpTpoId: FieldRef<"eqp_itm", 'Int'>
     readonly EqpFbrId: FieldRef<"eqp_itm", 'Int'>
     readonly EqpMdlId: FieldRef<"eqp_itm", 'Int'>
-    readonly EqpItmId: FieldRef<"eqp_itm", 'Int'>
     readonly EqpItmCdg: FieldRef<"eqp_itm", 'String'>
     readonly EqpItmPlc: FieldRef<"eqp_itm", 'String'>
     readonly EqpItmAnoMdl: FieldRef<"eqp_itm", 'String'>
@@ -9023,6 +9925,29 @@ export namespace Prisma {
   }
 
   /**
+   * eqp_itm createManyAndReturn
+   */
+  export type eqp_itmCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_itm
+     */
+    select?: eqp_itmSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_itm
+     */
+    omit?: eqp_itmOmit<ExtArgs> | null
+    /**
+     * The data used to create many eqp_itms.
+     */
+    data: eqp_itmCreateManyInput | eqp_itmCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_itmIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * eqp_itm update
    */
   export type eqp_itmUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -9064,6 +9989,36 @@ export namespace Prisma {
      * Limit how many eqp_itms to update.
      */
     limit?: number
+  }
+
+  /**
+   * eqp_itm updateManyAndReturn
+   */
+  export type eqp_itmUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_itm
+     */
+    select?: eqp_itmSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_itm
+     */
+    omit?: eqp_itmOmit<ExtArgs> | null
+    /**
+     * The data used to update eqp_itms.
+     */
+    data: XOR<eqp_itmUpdateManyMutationInput, eqp_itmUncheckedUpdateManyInput>
+    /**
+     * Filter which eqp_itms to update
+     */
+    where?: eqp_itmWhereInput
+    /**
+     * Limit how many eqp_itms to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_itmIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -9236,25 +10191,25 @@ export namespace Prisma {
   }
 
   export type Eqp_locAvgAggregateOutputType = {
-    EqpTpoId: number | null
     EqpItmId: number | null
     UndId: number | null
+    EqpTpoId: number | null
     SttId: number | null
     UsrIdAlt: number | null
   }
 
   export type Eqp_locSumAggregateOutputType = {
-    EqpTpoId: number | null
     EqpItmId: number | null
     UndId: number | null
+    EqpTpoId: number | null
     SttId: number | null
     UsrIdAlt: number | null
   }
 
   export type Eqp_locMinAggregateOutputType = {
-    EqpTpoId: number | null
     EqpItmId: number | null
     UndId: number | null
+    EqpTpoId: number | null
     SttId: number | null
     UsrIdAlt: number | null
     DtaAlt: Date | null
@@ -9262,9 +10217,9 @@ export namespace Prisma {
   }
 
   export type Eqp_locMaxAggregateOutputType = {
-    EqpTpoId: number | null
     EqpItmId: number | null
     UndId: number | null
+    EqpTpoId: number | null
     SttId: number | null
     UsrIdAlt: number | null
     DtaAlt: Date | null
@@ -9272,9 +10227,9 @@ export namespace Prisma {
   }
 
   export type Eqp_locCountAggregateOutputType = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     SttId: number
     UsrIdAlt: number
     DtaAlt: number
@@ -9284,25 +10239,25 @@ export namespace Prisma {
 
 
   export type Eqp_locAvgAggregateInputType = {
-    EqpTpoId?: true
     EqpItmId?: true
     UndId?: true
+    EqpTpoId?: true
     SttId?: true
     UsrIdAlt?: true
   }
 
   export type Eqp_locSumAggregateInputType = {
-    EqpTpoId?: true
     EqpItmId?: true
     UndId?: true
+    EqpTpoId?: true
     SttId?: true
     UsrIdAlt?: true
   }
 
   export type Eqp_locMinAggregateInputType = {
-    EqpTpoId?: true
     EqpItmId?: true
     UndId?: true
+    EqpTpoId?: true
     SttId?: true
     UsrIdAlt?: true
     DtaAlt?: true
@@ -9310,9 +10265,9 @@ export namespace Prisma {
   }
 
   export type Eqp_locMaxAggregateInputType = {
-    EqpTpoId?: true
     EqpItmId?: true
     UndId?: true
+    EqpTpoId?: true
     SttId?: true
     UsrIdAlt?: true
     DtaAlt?: true
@@ -9320,9 +10275,9 @@ export namespace Prisma {
   }
 
   export type Eqp_locCountAggregateInputType = {
-    EqpTpoId?: true
     EqpItmId?: true
     UndId?: true
+    EqpTpoId?: true
     SttId?: true
     UsrIdAlt?: true
     DtaAlt?: true
@@ -9417,9 +10372,9 @@ export namespace Prisma {
   }
 
   export type Eqp_locGroupByOutputType = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     SttId: number
     UsrIdAlt: number
     DtaAlt: Date
@@ -9446,9 +10401,9 @@ export namespace Prisma {
 
 
   export type eqp_locSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
-    EqpTpoId?: boolean
     EqpItmId?: boolean
     UndId?: boolean
+    EqpTpoId?: boolean
     SttId?: boolean
     UsrIdAlt?: boolean
     DtaAlt?: boolean
@@ -9460,20 +10415,62 @@ export namespace Prisma {
     usr?: boolean | usrDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["eqp_loc"]>
 
-
-
-  export type eqp_locSelectScalar = {
-    EqpTpoId?: boolean
+  export type eqp_locSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     EqpItmId?: boolean
     UndId?: boolean
+    EqpTpoId?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_loc"]>
+
+  export type eqp_locSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpItmId?: boolean
+    UndId?: boolean
+    EqpTpoId?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_loc"]>
+
+  export type eqp_locSelectScalar = {
+    EqpItmId?: boolean
+    UndId?: boolean
+    EqpTpoId?: boolean
     SttId?: boolean
     UsrIdAlt?: boolean
     DtaAlt?: boolean
     MtvDel?: boolean
   }
 
-  export type eqp_locOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"EqpTpoId" | "EqpItmId" | "UndId" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["eqp_loc"]>
+  export type eqp_locOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"EqpItmId" | "UndId" | "EqpTpoId" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["eqp_loc"]>
   export type eqp_locInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type eqp_locIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    eqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type eqp_locIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
     eqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
     eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
@@ -9491,9 +10488,9 @@ export namespace Prisma {
       usr: Prisma.$usrPayload<ExtArgs>
     }
     scalars: $Extensions.GetPayloadResult<{
-      EqpTpoId: number
       EqpItmId: number
       UndId: number
+      EqpTpoId: number
       SttId: number
       UsrIdAlt: number
       DtaAlt: Date
@@ -9581,8 +10578,8 @@ export namespace Prisma {
      * // Get first 10 Eqp_locs
      * const eqp_locs = await prisma.eqp_loc.findMany({ take: 10 })
      * 
-     * // Only select the `EqpTpoId`
-     * const eqp_locWithEqpTpoIdOnly = await prisma.eqp_loc.findMany({ select: { EqpTpoId: true } })
+     * // Only select the `EqpItmId`
+     * const eqp_locWithEqpItmIdOnly = await prisma.eqp_loc.findMany({ select: { EqpItmId: true } })
      * 
      */
     findMany<T extends eqp_locFindManyArgs>(args?: SelectSubset<T, eqp_locFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_locPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
@@ -9614,6 +10611,30 @@ export namespace Prisma {
      *     
      */
     createMany<T extends eqp_locCreateManyArgs>(args?: SelectSubset<T, eqp_locCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Create many Eqp_locs and returns the data saved in the database.
+     * @param {eqp_locCreateManyAndReturnArgs} args - Arguments to create many Eqp_locs.
+     * @example
+     * // Create many Eqp_locs
+     * const eqp_loc = await prisma.eqp_loc.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Eqp_locs and only return the `EqpItmId`
+     * const eqp_locWithEqpItmIdOnly = await prisma.eqp_loc.createManyAndReturn({
+     *   select: { EqpItmId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends eqp_locCreateManyAndReturnArgs>(args?: SelectSubset<T, eqp_locCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_locPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Delete a Eqp_loc.
@@ -9678,6 +10699,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends eqp_locUpdateManyArgs>(args: SelectSubset<T, eqp_locUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Eqp_locs and returns the data updated in the database.
+     * @param {eqp_locUpdateManyAndReturnArgs} args - Arguments to update many Eqp_locs.
+     * @example
+     * // Update many Eqp_locs
+     * const eqp_loc = await prisma.eqp_loc.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Eqp_locs and only return the `EqpItmId`
+     * const eqp_locWithEqpItmIdOnly = await prisma.eqp_loc.updateManyAndReturn({
+     *   select: { EqpItmId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends eqp_locUpdateManyAndReturnArgs>(args: SelectSubset<T, eqp_locUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_locPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Eqp_loc.
@@ -9872,9 +10923,9 @@ export namespace Prisma {
    * Fields of the eqp_loc model
    */
   interface eqp_locFieldRefs {
-    readonly EqpTpoId: FieldRef<"eqp_loc", 'Int'>
     readonly EqpItmId: FieldRef<"eqp_loc", 'Int'>
     readonly UndId: FieldRef<"eqp_loc", 'Int'>
+    readonly EqpTpoId: FieldRef<"eqp_loc", 'Int'>
     readonly SttId: FieldRef<"eqp_loc", 'Int'>
     readonly UsrIdAlt: FieldRef<"eqp_loc", 'Int'>
     readonly DtaAlt: FieldRef<"eqp_loc", 'DateTime'>
@@ -10112,6 +11163,29 @@ export namespace Prisma {
   }
 
   /**
+   * eqp_loc createManyAndReturn
+   */
+  export type eqp_locCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_loc
+     */
+    select?: eqp_locSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_loc
+     */
+    omit?: eqp_locOmit<ExtArgs> | null
+    /**
+     * The data used to create many eqp_locs.
+     */
+    data: eqp_locCreateManyInput | eqp_locCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_locIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * eqp_loc update
    */
   export type eqp_locUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -10153,6 +11227,36 @@ export namespace Prisma {
      * Limit how many eqp_locs to update.
      */
     limit?: number
+  }
+
+  /**
+   * eqp_loc updateManyAndReturn
+   */
+  export type eqp_locUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_loc
+     */
+    select?: eqp_locSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_loc
+     */
+    omit?: eqp_locOmit<ExtArgs> | null
+    /**
+     * The data used to update eqp_locs.
+     */
+    data: XOR<eqp_locUpdateManyMutationInput, eqp_locUncheckedUpdateManyInput>
+    /**
+     * Filter which eqp_locs to update
+     */
+    where?: eqp_locWhereInput
+    /**
+     * Limit how many eqp_locs to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_locIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -10253,9 +11357,9 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlAvgAggregateOutputType = {
+    EqpMdlId: number | null
     EqpTpoId: number | null
     EqpFbrId: number | null
-    EqpMdlId: number | null
     CbtId: number | null
     CpcCrg: Decimal | null
     SttId: number | null
@@ -10263,9 +11367,9 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlSumAggregateOutputType = {
+    EqpMdlId: number | null
     EqpTpoId: number | null
     EqpFbrId: number | null
-    EqpMdlId: number | null
     CbtId: number | null
     CpcCrg: Decimal | null
     SttId: number | null
@@ -10273,10 +11377,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlMinAggregateOutputType = {
-    EqpTpoId: number | null
-    EqpFbrId: number | null
     EqpMdlId: number | null
     EqpMdlNme: string | null
+    EqpTpoId: number | null
+    EqpFbrId: number | null
     CbtId: number | null
     CpcCrg: Decimal | null
     SttId: number | null
@@ -10286,10 +11390,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlMaxAggregateOutputType = {
-    EqpTpoId: number | null
-    EqpFbrId: number | null
     EqpMdlId: number | null
     EqpMdlNme: string | null
+    EqpTpoId: number | null
+    EqpFbrId: number | null
     CbtId: number | null
     CpcCrg: Decimal | null
     SttId: number | null
@@ -10299,10 +11403,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlCountAggregateOutputType = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId: number
     EqpMdlNme: number
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg: number
     SttId: number
@@ -10314,9 +11418,9 @@ export namespace Prisma {
 
 
   export type Eqp_mdlAvgAggregateInputType = {
+    EqpMdlId?: true
     EqpTpoId?: true
     EqpFbrId?: true
-    EqpMdlId?: true
     CbtId?: true
     CpcCrg?: true
     SttId?: true
@@ -10324,9 +11428,9 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlSumAggregateInputType = {
+    EqpMdlId?: true
     EqpTpoId?: true
     EqpFbrId?: true
-    EqpMdlId?: true
     CbtId?: true
     CpcCrg?: true
     SttId?: true
@@ -10334,10 +11438,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlMinAggregateInputType = {
-    EqpTpoId?: true
-    EqpFbrId?: true
     EqpMdlId?: true
     EqpMdlNme?: true
+    EqpTpoId?: true
+    EqpFbrId?: true
     CbtId?: true
     CpcCrg?: true
     SttId?: true
@@ -10347,10 +11451,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlMaxAggregateInputType = {
-    EqpTpoId?: true
-    EqpFbrId?: true
     EqpMdlId?: true
     EqpMdlNme?: true
+    EqpTpoId?: true
+    EqpFbrId?: true
     CbtId?: true
     CpcCrg?: true
     SttId?: true
@@ -10360,10 +11464,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlCountAggregateInputType = {
-    EqpTpoId?: true
-    EqpFbrId?: true
     EqpMdlId?: true
     EqpMdlNme?: true
+    EqpTpoId?: true
+    EqpFbrId?: true
     CbtId?: true
     CpcCrg?: true
     SttId?: true
@@ -10460,10 +11564,10 @@ export namespace Prisma {
   }
 
   export type Eqp_mdlGroupByOutputType = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg: Decimal | null
     SttId: number
@@ -10492,10 +11596,10 @@ export namespace Prisma {
 
 
   export type eqp_mdlSelect<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
-    EqpTpoId?: boolean
-    EqpFbrId?: boolean
     EqpMdlId?: boolean
     EqpMdlNme?: boolean
+    EqpTpoId?: boolean
+    EqpFbrId?: boolean
     CbtId?: boolean
     CpcCrg?: boolean
     SttId?: boolean
@@ -10510,13 +11614,45 @@ export namespace Prisma {
     _count?: boolean | Eqp_mdlCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["eqp_mdl"]>
 
-
-
-  export type eqp_mdlSelectScalar = {
-    EqpTpoId?: boolean
-    EqpFbrId?: boolean
+  export type eqp_mdlSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
     EqpMdlId?: boolean
     EqpMdlNme?: boolean
+    EqpTpoId?: boolean
+    EqpFbrId?: boolean
+    CbtId?: boolean
+    CpcCrg?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_mdl"]>
+
+  export type eqp_mdlSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpMdlId?: boolean
+    EqpMdlNme?: boolean
+    EqpTpoId?: boolean
+    EqpFbrId?: boolean
+    CbtId?: boolean
+    CpcCrg?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_mdl"]>
+
+  export type eqp_mdlSelectScalar = {
+    EqpMdlId?: boolean
+    EqpMdlNme?: boolean
+    EqpTpoId?: boolean
+    EqpFbrId?: boolean
     CbtId?: boolean
     CpcCrg?: boolean
     SttId?: boolean
@@ -10525,7 +11661,7 @@ export namespace Prisma {
     MtvDel?: boolean
   }
 
-  export type eqp_mdlOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"EqpTpoId" | "EqpFbrId" | "EqpMdlId" | "EqpMdlNme" | "CbtId" | "CpcCrg" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["eqp_mdl"]>
+  export type eqp_mdlOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"EqpMdlId" | "EqpMdlNme" | "EqpTpoId" | "EqpFbrId" | "CbtId" | "CpcCrg" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["eqp_mdl"]>
   export type eqp_mdlInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     eqp_itm?: boolean | eqp_mdl$eqp_itmArgs<ExtArgs>
     eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
@@ -10533,6 +11669,18 @@ export namespace Prisma {
     stt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
     _count?: boolean | Eqp_mdlCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type eqp_mdlIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type eqp_mdlIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    eqp_fbr?: boolean | eqp_fbrDefaultArgs<ExtArgs>
+    eqp_tpo?: boolean | eqp_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $eqp_mdlPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -10545,10 +11693,10 @@ export namespace Prisma {
       usr: Prisma.$usrPayload<ExtArgs>
     }
     scalars: $Extensions.GetPayloadResult<{
-      EqpTpoId: number
-      EqpFbrId: number
       EqpMdlId: number
       EqpMdlNme: string
+      EqpTpoId: number
+      EqpFbrId: number
       CbtId: number
       CpcCrg: Prisma.Decimal | null
       SttId: number
@@ -10638,8 +11786,8 @@ export namespace Prisma {
      * // Get first 10 Eqp_mdls
      * const eqp_mdls = await prisma.eqp_mdl.findMany({ take: 10 })
      * 
-     * // Only select the `EqpTpoId`
-     * const eqp_mdlWithEqpTpoIdOnly = await prisma.eqp_mdl.findMany({ select: { EqpTpoId: true } })
+     * // Only select the `EqpMdlId`
+     * const eqp_mdlWithEqpMdlIdOnly = await prisma.eqp_mdl.findMany({ select: { EqpMdlId: true } })
      * 
      */
     findMany<T extends eqp_mdlFindManyArgs>(args?: SelectSubset<T, eqp_mdlFindManyArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_mdlPayload<ExtArgs>, T, "findMany", GlobalOmitOptions>>
@@ -10671,6 +11819,30 @@ export namespace Prisma {
      *     
      */
     createMany<T extends eqp_mdlCreateManyArgs>(args?: SelectSubset<T, eqp_mdlCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Create many Eqp_mdls and returns the data saved in the database.
+     * @param {eqp_mdlCreateManyAndReturnArgs} args - Arguments to create many Eqp_mdls.
+     * @example
+     * // Create many Eqp_mdls
+     * const eqp_mdl = await prisma.eqp_mdl.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Eqp_mdls and only return the `EqpMdlId`
+     * const eqp_mdlWithEqpMdlIdOnly = await prisma.eqp_mdl.createManyAndReturn({
+     *   select: { EqpMdlId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends eqp_mdlCreateManyAndReturnArgs>(args?: SelectSubset<T, eqp_mdlCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_mdlPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Delete a Eqp_mdl.
@@ -10735,6 +11907,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends eqp_mdlUpdateManyArgs>(args: SelectSubset<T, eqp_mdlUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Eqp_mdls and returns the data updated in the database.
+     * @param {eqp_mdlUpdateManyAndReturnArgs} args - Arguments to update many Eqp_mdls.
+     * @example
+     * // Update many Eqp_mdls
+     * const eqp_mdl = await prisma.eqp_mdl.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Eqp_mdls and only return the `EqpMdlId`
+     * const eqp_mdlWithEqpMdlIdOnly = await prisma.eqp_mdl.updateManyAndReturn({
+     *   select: { EqpMdlId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends eqp_mdlUpdateManyAndReturnArgs>(args: SelectSubset<T, eqp_mdlUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_mdlPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Eqp_mdl.
@@ -10929,10 +12131,10 @@ export namespace Prisma {
    * Fields of the eqp_mdl model
    */
   interface eqp_mdlFieldRefs {
-    readonly EqpTpoId: FieldRef<"eqp_mdl", 'Int'>
-    readonly EqpFbrId: FieldRef<"eqp_mdl", 'Int'>
     readonly EqpMdlId: FieldRef<"eqp_mdl", 'Int'>
     readonly EqpMdlNme: FieldRef<"eqp_mdl", 'String'>
+    readonly EqpTpoId: FieldRef<"eqp_mdl", 'Int'>
+    readonly EqpFbrId: FieldRef<"eqp_mdl", 'Int'>
     readonly CbtId: FieldRef<"eqp_mdl", 'Int'>
     readonly CpcCrg: FieldRef<"eqp_mdl", 'Decimal'>
     readonly SttId: FieldRef<"eqp_mdl", 'Int'>
@@ -11172,6 +12374,29 @@ export namespace Prisma {
   }
 
   /**
+   * eqp_mdl createManyAndReturn
+   */
+  export type eqp_mdlCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_mdl
+     */
+    select?: eqp_mdlSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_mdl
+     */
+    omit?: eqp_mdlOmit<ExtArgs> | null
+    /**
+     * The data used to create many eqp_mdls.
+     */
+    data: eqp_mdlCreateManyInput | eqp_mdlCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_mdlIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * eqp_mdl update
    */
   export type eqp_mdlUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -11213,6 +12438,36 @@ export namespace Prisma {
      * Limit how many eqp_mdls to update.
      */
     limit?: number
+  }
+
+  /**
+   * eqp_mdl updateManyAndReturn
+   */
+  export type eqp_mdlUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_mdl
+     */
+    select?: eqp_mdlSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_mdl
+     */
+    omit?: eqp_mdlOmit<ExtArgs> | null
+    /**
+     * The data used to update eqp_mdls.
+     */
+    data: XOR<eqp_mdlUpdateManyMutationInput, eqp_mdlUncheckedUpdateManyInput>
+    /**
+     * Filter which eqp_mdls to update
+     */
+    where?: eqp_mdlWhereInput
+    /**
+     * Limit how many eqp_mdls to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_mdlIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -11546,7 +12801,27 @@ export namespace Prisma {
     _count?: boolean | Eqp_tpoCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["eqp_tpo"]>
 
+  export type eqp_tpoSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpTpoId?: boolean
+    EqpTpoNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_tpo"]>
 
+  export type eqp_tpoSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EqpTpoId?: boolean
+    EqpTpoNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["eqp_tpo"]>
 
   export type eqp_tpoSelectScalar = {
     EqpTpoId?: boolean
@@ -11565,6 +12840,14 @@ export namespace Prisma {
     stt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
     _count?: boolean | Eqp_tpoCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type eqp_tpoIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type eqp_tpoIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $eqp_tpoPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -11701,6 +12984,30 @@ export namespace Prisma {
     createMany<T extends eqp_tpoCreateManyArgs>(args?: SelectSubset<T, eqp_tpoCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Eqp_tpos and returns the data saved in the database.
+     * @param {eqp_tpoCreateManyAndReturnArgs} args - Arguments to create many Eqp_tpos.
+     * @example
+     * // Create many Eqp_tpos
+     * const eqp_tpo = await prisma.eqp_tpo.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Eqp_tpos and only return the `EqpTpoId`
+     * const eqp_tpoWithEqpTpoIdOnly = await prisma.eqp_tpo.createManyAndReturn({
+     *   select: { EqpTpoId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends eqp_tpoCreateManyAndReturnArgs>(args?: SelectSubset<T, eqp_tpoCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_tpoPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Eqp_tpo.
      * @param {eqp_tpoDeleteArgs} args - Arguments to delete one Eqp_tpo.
      * @example
@@ -11763,6 +13070,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends eqp_tpoUpdateManyArgs>(args: SelectSubset<T, eqp_tpoUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Eqp_tpos and returns the data updated in the database.
+     * @param {eqp_tpoUpdateManyAndReturnArgs} args - Arguments to update many Eqp_tpos.
+     * @example
+     * // Update many Eqp_tpos
+     * const eqp_tpo = await prisma.eqp_tpo.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Eqp_tpos and only return the `EqpTpoId`
+     * const eqp_tpoWithEqpTpoIdOnly = await prisma.eqp_tpo.updateManyAndReturn({
+     *   select: { EqpTpoId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends eqp_tpoUpdateManyAndReturnArgs>(args: SelectSubset<T, eqp_tpoUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$eqp_tpoPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Eqp_tpo.
@@ -12196,6 +13533,29 @@ export namespace Prisma {
   }
 
   /**
+   * eqp_tpo createManyAndReturn
+   */
+  export type eqp_tpoCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_tpo
+     */
+    select?: eqp_tpoSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_tpo
+     */
+    omit?: eqp_tpoOmit<ExtArgs> | null
+    /**
+     * The data used to create many eqp_tpos.
+     */
+    data: eqp_tpoCreateManyInput | eqp_tpoCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_tpoIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * eqp_tpo update
    */
   export type eqp_tpoUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -12237,6 +13597,36 @@ export namespace Prisma {
      * Limit how many eqp_tpos to update.
      */
     limit?: number
+  }
+
+  /**
+   * eqp_tpo updateManyAndReturn
+   */
+  export type eqp_tpoUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the eqp_tpo
+     */
+    select?: eqp_tpoSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the eqp_tpo
+     */
+    omit?: eqp_tpoOmit<ExtArgs> | null
+    /**
+     * The data used to update eqp_tpos.
+     */
+    data: XOR<eqp_tpoUpdateManyMutationInput, eqp_tpoUncheckedUpdateManyInput>
+    /**
+     * Filter which eqp_tpos to update
+     */
+    where?: eqp_tpoWhereInput
+    /**
+     * Limit how many eqp_tpos to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: eqp_tpoIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -12624,7 +14014,29 @@ export namespace Prisma {
     _count?: boolean | FrnCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["frn"]>
 
+  export type frnSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    FrnId?: boolean
+    FrnNme?: boolean
+    FrnRdz?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["frn"]>
 
+  export type frnSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    FrnId?: boolean
+    FrnNme?: boolean
+    FrnRdz?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["frn"]>
 
   export type frnSelectScalar = {
     FrnId?: boolean
@@ -12642,6 +14054,14 @@ export namespace Prisma {
     stt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
     _count?: boolean | FrnCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type frnIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type frnIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $frnPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -12777,6 +14197,30 @@ export namespace Prisma {
     createMany<T extends frnCreateManyArgs>(args?: SelectSubset<T, frnCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Frns and returns the data saved in the database.
+     * @param {frnCreateManyAndReturnArgs} args - Arguments to create many Frns.
+     * @example
+     * // Create many Frns
+     * const frn = await prisma.frn.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Frns and only return the `FrnId`
+     * const frnWithFrnIdOnly = await prisma.frn.createManyAndReturn({
+     *   select: { FrnId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends frnCreateManyAndReturnArgs>(args?: SelectSubset<T, frnCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$frnPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Frn.
      * @param {frnDeleteArgs} args - Arguments to delete one Frn.
      * @example
@@ -12839,6 +14283,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends frnUpdateManyArgs>(args: SelectSubset<T, frnUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Frns and returns the data updated in the database.
+     * @param {frnUpdateManyAndReturnArgs} args - Arguments to update many Frns.
+     * @example
+     * // Update many Frns
+     * const frn = await prisma.frn.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Frns and only return the `FrnId`
+     * const frnWithFrnIdOnly = await prisma.frn.updateManyAndReturn({
+     *   select: { FrnId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends frnUpdateManyAndReturnArgs>(args: SelectSubset<T, frnUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$frnPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Frn.
@@ -13271,6 +14745,29 @@ export namespace Prisma {
   }
 
   /**
+   * frn createManyAndReturn
+   */
+  export type frnCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the frn
+     */
+    select?: frnSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the frn
+     */
+    omit?: frnOmit<ExtArgs> | null
+    /**
+     * The data used to create many frns.
+     */
+    data: frnCreateManyInput | frnCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: frnIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * frn update
    */
   export type frnUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -13312,6 +14809,36 @@ export namespace Prisma {
      * Limit how many frns to update.
      */
     limit?: number
+  }
+
+  /**
+   * frn updateManyAndReturn
+   */
+  export type frnUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the frn
+     */
+    select?: frnSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the frn
+     */
+    omit?: frnOmit<ExtArgs> | null
+    /**
+     * The data used to update frns.
+     */
+    data: XOR<frnUpdateManyMutationInput, frnUncheckedUpdateManyInput>
+    /**
+     * Filter which frns to update
+     */
+    where?: frnWhereInput
+    /**
+     * Limit how many frns to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: frnIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -13643,7 +15170,27 @@ export namespace Prisma {
     _count?: boolean | PsqCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["psq"]>
 
+  export type psqSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqId?: boolean
+    Psq?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq"]>
 
+  export type psqSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqId?: boolean
+    Psq?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq"]>
 
   export type psqSelectScalar = {
     PsqId?: boolean
@@ -13660,6 +15207,14 @@ export namespace Prisma {
     usr?: boolean | usrDefaultArgs<ExtArgs>
     psq_rsp?: boolean | psq$psq_rspArgs<ExtArgs>
     _count?: boolean | PsqCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type psqIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type psqIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $psqPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -13794,6 +15349,30 @@ export namespace Prisma {
     createMany<T extends psqCreateManyArgs>(args?: SelectSubset<T, psqCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Psqs and returns the data saved in the database.
+     * @param {psqCreateManyAndReturnArgs} args - Arguments to create many Psqs.
+     * @example
+     * // Create many Psqs
+     * const psq = await prisma.psq.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Psqs and only return the `PsqId`
+     * const psqWithPsqIdOnly = await prisma.psq.createManyAndReturn({
+     *   select: { PsqId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends psqCreateManyAndReturnArgs>(args?: SelectSubset<T, psqCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psqPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Psq.
      * @param {psqDeleteArgs} args - Arguments to delete one Psq.
      * @example
@@ -13856,6 +15435,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends psqUpdateManyArgs>(args: SelectSubset<T, psqUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Psqs and returns the data updated in the database.
+     * @param {psqUpdateManyAndReturnArgs} args - Arguments to update many Psqs.
+     * @example
+     * // Update many Psqs
+     * const psq = await prisma.psq.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Psqs and only return the `PsqId`
+     * const psqWithPsqIdOnly = await prisma.psq.updateManyAndReturn({
+     *   select: { PsqId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends psqUpdateManyAndReturnArgs>(args: SelectSubset<T, psqUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psqPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Psq.
@@ -14287,6 +15896,29 @@ export namespace Prisma {
   }
 
   /**
+   * psq createManyAndReturn
+   */
+  export type psqCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq
+     */
+    select?: psqSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq
+     */
+    omit?: psqOmit<ExtArgs> | null
+    /**
+     * The data used to create many psqs.
+     */
+    data: psqCreateManyInput | psqCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psqIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * psq update
    */
   export type psqUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -14328,6 +15960,36 @@ export namespace Prisma {
      * Limit how many psqs to update.
      */
     limit?: number
+  }
+
+  /**
+   * psq updateManyAndReturn
+   */
+  export type psqUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq
+     */
+    select?: psqSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq
+     */
+    omit?: psqOmit<ExtArgs> | null
+    /**
+     * The data used to update psqs.
+     */
+    data: XOR<psqUpdateManyMutationInput, psqUncheckedUpdateManyInput>
+    /**
+     * Filter which psqs to update
+     */
+    where?: psqWhereInput
+    /**
+     * Limit how many psqs to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psqIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -14684,7 +16346,33 @@ export namespace Prisma {
     _count?: boolean | Psq_prgCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["psq_prg"]>
 
+  export type psq_prgSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqTpoId?: boolean
+    PsqPrgId?: boolean
+    PsqPrg?: boolean
+    PsqSqc?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq_prg"]>
 
+  export type psq_prgSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqTpoId?: boolean
+    PsqPrgId?: boolean
+    PsqPrg?: boolean
+    PsqSqc?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq_prg"]>
 
   export type psq_prgSelectScalar = {
     PsqTpoId?: boolean
@@ -14704,6 +16392,16 @@ export namespace Prisma {
     usr?: boolean | usrDefaultArgs<ExtArgs>
     psq_rsp?: boolean | psq_prg$psq_rspArgs<ExtArgs>
     _count?: boolean | Psq_prgCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type psq_prgIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type psq_prgIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $psq_prgPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -14841,6 +16539,30 @@ export namespace Prisma {
     createMany<T extends psq_prgCreateManyArgs>(args?: SelectSubset<T, psq_prgCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Psq_prgs and returns the data saved in the database.
+     * @param {psq_prgCreateManyAndReturnArgs} args - Arguments to create many Psq_prgs.
+     * @example
+     * // Create many Psq_prgs
+     * const psq_prg = await prisma.psq_prg.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Psq_prgs and only return the `PsqTpoId`
+     * const psq_prgWithPsqTpoIdOnly = await prisma.psq_prg.createManyAndReturn({
+     *   select: { PsqTpoId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends psq_prgCreateManyAndReturnArgs>(args?: SelectSubset<T, psq_prgCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psq_prgPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Psq_prg.
      * @param {psq_prgDeleteArgs} args - Arguments to delete one Psq_prg.
      * @example
@@ -14903,6 +16625,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends psq_prgUpdateManyArgs>(args: SelectSubset<T, psq_prgUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Psq_prgs and returns the data updated in the database.
+     * @param {psq_prgUpdateManyAndReturnArgs} args - Arguments to update many Psq_prgs.
+     * @example
+     * // Update many Psq_prgs
+     * const psq_prg = await prisma.psq_prg.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Psq_prgs and only return the `PsqTpoId`
+     * const psq_prgWithPsqTpoIdOnly = await prisma.psq_prg.updateManyAndReturn({
+     *   select: { PsqTpoId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends psq_prgUpdateManyAndReturnArgs>(args: SelectSubset<T, psq_prgUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psq_prgPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Psq_prg.
@@ -15337,6 +17089,29 @@ export namespace Prisma {
   }
 
   /**
+   * psq_prg createManyAndReturn
+   */
+  export type psq_prgCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq_prg
+     */
+    select?: psq_prgSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq_prg
+     */
+    omit?: psq_prgOmit<ExtArgs> | null
+    /**
+     * The data used to create many psq_prgs.
+     */
+    data: psq_prgCreateManyInput | psq_prgCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psq_prgIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * psq_prg update
    */
   export type psq_prgUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -15378,6 +17153,36 @@ export namespace Prisma {
      * Limit how many psq_prgs to update.
      */
     limit?: number
+  }
+
+  /**
+   * psq_prg updateManyAndReturn
+   */
+  export type psq_prgUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq_prg
+     */
+    select?: psq_prgSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq_prg
+     */
+    omit?: psq_prgOmit<ExtArgs> | null
+    /**
+     * The data used to update psq_prgs.
+     */
+    data: XOR<psq_prgUpdateManyMutationInput, psq_prgUncheckedUpdateManyInput>
+    /**
+     * Filter which psq_prgs to update
+     */
+    where?: psq_prgWhereInput
+    /**
+     * Limit how many psq_prgs to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psq_prgIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -15790,7 +17595,47 @@ export namespace Prisma {
     psq_prg?: boolean | psq_prgDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["psq_rsp"]>
 
+  export type psq_rspSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    DtaOpe?: boolean
+    TrnId?: boolean
+    PsqId?: boolean
+    PsqTpoId?: boolean
+    PsqPrgId?: boolean
+    PsqRspId?: boolean
+    PsqRsp?: boolean
+    PsqDth?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    psq?: boolean | psqDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+    psq_prg?: boolean | psq_prgDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq_rsp"]>
 
+  export type psq_rspSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    DtaOpe?: boolean
+    TrnId?: boolean
+    PsqId?: boolean
+    PsqTpoId?: boolean
+    PsqPrgId?: boolean
+    PsqRspId?: boolean
+    PsqRsp?: boolean
+    PsqDth?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    psq?: boolean | psqDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+    psq_prg?: boolean | psq_prgDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq_rsp"]>
 
   export type psq_rspSelectScalar = {
     UndId?: boolean
@@ -15810,6 +17655,20 @@ export namespace Prisma {
 
   export type psq_rspOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"UndId" | "DtaOpe" | "TrnId" | "PsqId" | "PsqTpoId" | "PsqPrgId" | "PsqRspId" | "PsqRsp" | "PsqDth" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["psq_rsp"]>
   export type psq_rspInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    psq?: boolean | psqDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+    psq_prg?: boolean | psq_prgDefaultArgs<ExtArgs>
+  }
+  export type psq_rspIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
+    psq?: boolean | psqDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+    psq_prg?: boolean | psq_prgDefaultArgs<ExtArgs>
+  }
+  export type psq_rspIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     psq_tpo?: boolean | psq_tpoDefaultArgs<ExtArgs>
     psq?: boolean | psqDefaultArgs<ExtArgs>
     stt?: boolean | sttDefaultArgs<ExtArgs>
@@ -15958,6 +17817,30 @@ export namespace Prisma {
     createMany<T extends psq_rspCreateManyArgs>(args?: SelectSubset<T, psq_rspCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Psq_rsps and returns the data saved in the database.
+     * @param {psq_rspCreateManyAndReturnArgs} args - Arguments to create many Psq_rsps.
+     * @example
+     * // Create many Psq_rsps
+     * const psq_rsp = await prisma.psq_rsp.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Psq_rsps and only return the `UndId`
+     * const psq_rspWithUndIdOnly = await prisma.psq_rsp.createManyAndReturn({
+     *   select: { UndId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends psq_rspCreateManyAndReturnArgs>(args?: SelectSubset<T, psq_rspCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psq_rspPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Psq_rsp.
      * @param {psq_rspDeleteArgs} args - Arguments to delete one Psq_rsp.
      * @example
@@ -16020,6 +17903,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends psq_rspUpdateManyArgs>(args: SelectSubset<T, psq_rspUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Psq_rsps and returns the data updated in the database.
+     * @param {psq_rspUpdateManyAndReturnArgs} args - Arguments to update many Psq_rsps.
+     * @example
+     * // Update many Psq_rsps
+     * const psq_rsp = await prisma.psq_rsp.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Psq_rsps and only return the `UndId`
+     * const psq_rspWithUndIdOnly = await prisma.psq_rsp.updateManyAndReturn({
+     *   select: { UndId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends psq_rspUpdateManyAndReturnArgs>(args: SelectSubset<T, psq_rspUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psq_rspPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Psq_rsp.
@@ -16460,6 +18373,29 @@ export namespace Prisma {
   }
 
   /**
+   * psq_rsp createManyAndReturn
+   */
+  export type psq_rspCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq_rsp
+     */
+    select?: psq_rspSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq_rsp
+     */
+    omit?: psq_rspOmit<ExtArgs> | null
+    /**
+     * The data used to create many psq_rsps.
+     */
+    data: psq_rspCreateManyInput | psq_rspCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psq_rspIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * psq_rsp update
    */
   export type psq_rspUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -16501,6 +18437,36 @@ export namespace Prisma {
      * Limit how many psq_rsps to update.
      */
     limit?: number
+  }
+
+  /**
+   * psq_rsp updateManyAndReturn
+   */
+  export type psq_rspUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq_rsp
+     */
+    select?: psq_rspSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq_rsp
+     */
+    omit?: psq_rspOmit<ExtArgs> | null
+    /**
+     * The data used to update psq_rsps.
+     */
+    data: XOR<psq_rspUpdateManyMutationInput, psq_rspUncheckedUpdateManyInput>
+    /**
+     * Filter which psq_rsps to update
+     */
+    where?: psq_rspWhereInput
+    /**
+     * Limit how many psq_rsps to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psq_rspIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -16809,7 +18775,27 @@ export namespace Prisma {
     _count?: boolean | Psq_tpoCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["psq_tpo"]>
 
+  export type psq_tpoSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqTpoId?: boolean
+    PsqTpo?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq_tpo"]>
 
+  export type psq_tpoSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqTpoId?: boolean
+    PsqTpo?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["psq_tpo"]>
 
   export type psq_tpoSelectScalar = {
     PsqTpoId?: boolean
@@ -16827,6 +18813,14 @@ export namespace Prisma {
     stt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
     _count?: boolean | Psq_tpoCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type psq_tpoIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type psq_tpoIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $psq_tpoPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -16962,6 +18956,30 @@ export namespace Prisma {
     createMany<T extends psq_tpoCreateManyArgs>(args?: SelectSubset<T, psq_tpoCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Psq_tpos and returns the data saved in the database.
+     * @param {psq_tpoCreateManyAndReturnArgs} args - Arguments to create many Psq_tpos.
+     * @example
+     * // Create many Psq_tpos
+     * const psq_tpo = await prisma.psq_tpo.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Psq_tpos and only return the `PsqTpoId`
+     * const psq_tpoWithPsqTpoIdOnly = await prisma.psq_tpo.createManyAndReturn({
+     *   select: { PsqTpoId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends psq_tpoCreateManyAndReturnArgs>(args?: SelectSubset<T, psq_tpoCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psq_tpoPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Psq_tpo.
      * @param {psq_tpoDeleteArgs} args - Arguments to delete one Psq_tpo.
      * @example
@@ -17024,6 +19042,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends psq_tpoUpdateManyArgs>(args: SelectSubset<T, psq_tpoUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Psq_tpos and returns the data updated in the database.
+     * @param {psq_tpoUpdateManyAndReturnArgs} args - Arguments to update many Psq_tpos.
+     * @example
+     * // Update many Psq_tpos
+     * const psq_tpo = await prisma.psq_tpo.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Psq_tpos and only return the `PsqTpoId`
+     * const psq_tpoWithPsqTpoIdOnly = await prisma.psq_tpo.updateManyAndReturn({
+     *   select: { PsqTpoId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends psq_tpoUpdateManyAndReturnArgs>(args: SelectSubset<T, psq_tpoUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$psq_tpoPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Psq_tpo.
@@ -17456,6 +19504,29 @@ export namespace Prisma {
   }
 
   /**
+   * psq_tpo createManyAndReturn
+   */
+  export type psq_tpoCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq_tpo
+     */
+    select?: psq_tpoSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq_tpo
+     */
+    omit?: psq_tpoOmit<ExtArgs> | null
+    /**
+     * The data used to create many psq_tpos.
+     */
+    data: psq_tpoCreateManyInput | psq_tpoCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psq_tpoIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * psq_tpo update
    */
   export type psq_tpoUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -17497,6 +19568,36 @@ export namespace Prisma {
      * Limit how many psq_tpos to update.
      */
     limit?: number
+  }
+
+  /**
+   * psq_tpo updateManyAndReturn
+   */
+  export type psq_tpoUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the psq_tpo
+     */
+    select?: psq_tpoSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the psq_tpo
+     */
+    omit?: psq_tpoOmit<ExtArgs> | null
+    /**
+     * The data used to update psq_tpos.
+     */
+    data: XOR<psq_tpoUpdateManyMutationInput, psq_tpoUncheckedUpdateManyInput>
+    /**
+     * Filter which psq_tpos to update
+     */
+    where?: psq_tpoWhereInput
+    /**
+     * Limit how many psq_tpos to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: psq_tpoIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -18050,7 +20151,73 @@ export namespace Prisma {
     _count?: boolean | RcgCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["rcg"]>
 
+  export type rcgSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    RcgId?: boolean
+    RcgIdOrg?: boolean
+    EmpId?: boolean
+    DtaOpe?: boolean
+    UndId?: boolean
+    VclId?: boolean
+    CrrId?: boolean
+    CrrCnc?: boolean
+    DtaIni?: boolean
+    DtaFin?: boolean
+    SocIni?: boolean
+    SocFin?: boolean
+    RcgKwh?: boolean
+    OdoIni?: boolean
+    OdoFin?: boolean
+    SttRcgId?: boolean
+    FlhId?: boolean
+    FlhDsc?: boolean
+    SttId?: boolean
+    SttIdChk?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    eqp_itm_rcg_CrrIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_itm_rcg_VclIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    rcg?: boolean | rcg$rcgArgs<ExtArgs>
+    stt_rcg_SttIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    stt_rcg_SttRcgIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["rcg"]>
 
+  export type rcgSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    RcgId?: boolean
+    RcgIdOrg?: boolean
+    EmpId?: boolean
+    DtaOpe?: boolean
+    UndId?: boolean
+    VclId?: boolean
+    CrrId?: boolean
+    CrrCnc?: boolean
+    DtaIni?: boolean
+    DtaFin?: boolean
+    SocIni?: boolean
+    SocFin?: boolean
+    RcgKwh?: boolean
+    OdoIni?: boolean
+    OdoFin?: boolean
+    SttRcgId?: boolean
+    FlhId?: boolean
+    FlhDsc?: boolean
+    SttId?: boolean
+    SttIdChk?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    eqp_itm_rcg_CrrIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_itm_rcg_VclIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    rcg?: boolean | rcg$rcgArgs<ExtArgs>
+    stt_rcg_SttIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    stt_rcg_SttRcgIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["rcg"]>
 
   export type rcgSelectScalar = {
     RcgId?: boolean
@@ -18090,6 +20257,26 @@ export namespace Prisma {
     stt_rcg_SttRcgIdTostt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
     _count?: boolean | RcgCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type rcgIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    eqp_itm_rcg_CrrIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_itm_rcg_VclIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    rcg?: boolean | rcg$rcgArgs<ExtArgs>
+    stt_rcg_SttIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    stt_rcg_SttRcgIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type rcgIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp_und?: boolean | emp_undDefaultArgs<ExtArgs>
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    eqp_itm_rcg_CrrIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    eqp_itm_rcg_VclIdToeqp_itm?: boolean | eqp_itmDefaultArgs<ExtArgs>
+    rcg?: boolean | rcg$rcgArgs<ExtArgs>
+    stt_rcg_SttIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    stt_rcg_SttRcgIdTostt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $rcgPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -18247,6 +20434,30 @@ export namespace Prisma {
     createMany<T extends rcgCreateManyArgs>(args?: SelectSubset<T, rcgCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Rcgs and returns the data saved in the database.
+     * @param {rcgCreateManyAndReturnArgs} args - Arguments to create many Rcgs.
+     * @example
+     * // Create many Rcgs
+     * const rcg = await prisma.rcg.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Rcgs and only return the `RcgId`
+     * const rcgWithRcgIdOnly = await prisma.rcg.createManyAndReturn({
+     *   select: { RcgId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends rcgCreateManyAndReturnArgs>(args?: SelectSubset<T, rcgCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$rcgPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Rcg.
      * @param {rcgDeleteArgs} args - Arguments to delete one Rcg.
      * @example
@@ -18309,6 +20520,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends rcgUpdateManyArgs>(args: SelectSubset<T, rcgUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Rcgs and returns the data updated in the database.
+     * @param {rcgUpdateManyAndReturnArgs} args - Arguments to update many Rcgs.
+     * @example
+     * // Update many Rcgs
+     * const rcg = await prisma.rcg.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Rcgs and only return the `RcgId`
+     * const rcgWithRcgIdOnly = await prisma.rcg.updateManyAndReturn({
+     *   select: { RcgId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends rcgUpdateManyAndReturnArgs>(args: SelectSubset<T, rcgUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$rcgPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Rcg.
@@ -18763,6 +21004,29 @@ export namespace Prisma {
   }
 
   /**
+   * rcg createManyAndReturn
+   */
+  export type rcgCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rcg
+     */
+    select?: rcgSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the rcg
+     */
+    omit?: rcgOmit<ExtArgs> | null
+    /**
+     * The data used to create many rcgs.
+     */
+    data: rcgCreateManyInput | rcgCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: rcgIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * rcg update
    */
   export type rcgUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -18804,6 +21068,36 @@ export namespace Prisma {
      * Limit how many rcgs to update.
      */
     limit?: number
+  }
+
+  /**
+   * rcg updateManyAndReturn
+   */
+  export type rcgUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the rcg
+     */
+    select?: rcgSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the rcg
+     */
+    omit?: rcgOmit<ExtArgs> | null
+    /**
+     * The data used to update rcgs.
+     */
+    data: XOR<rcgUpdateManyMutationInput, rcgUncheckedUpdateManyInput>
+    /**
+     * Filter which rcgs to update
+     */
+    where?: rcgWhereInput
+    /**
+     * Limit how many rcgs to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: rcgIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -19169,7 +21463,23 @@ export namespace Prisma {
     _count?: boolean | SttCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["stt"]>
 
+  export type sttSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    SttId?: boolean
+    SttNme?: boolean
+    SttIdAtu?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+  }, ExtArgs["result"]["stt"]>
 
+  export type sttSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    SttId?: boolean
+    SttNme?: boolean
+    SttIdAtu?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+  }, ExtArgs["result"]["stt"]>
 
   export type sttSelectScalar = {
     SttId?: boolean
@@ -19202,6 +21512,8 @@ export namespace Prisma {
     trn?: boolean | stt$trnArgs<ExtArgs>
     _count?: boolean | SttCountOutputTypeDefaultArgs<ExtArgs>
   }
+  export type sttIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {}
+  export type sttIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {}
 
   export type $sttPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     name: "stt"
@@ -19350,6 +21662,30 @@ export namespace Prisma {
     createMany<T extends sttCreateManyArgs>(args?: SelectSubset<T, sttCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Stts and returns the data saved in the database.
+     * @param {sttCreateManyAndReturnArgs} args - Arguments to create many Stts.
+     * @example
+     * // Create many Stts
+     * const stt = await prisma.stt.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Stts and only return the `SttId`
+     * const sttWithSttIdOnly = await prisma.stt.createManyAndReturn({
+     *   select: { SttId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends sttCreateManyAndReturnArgs>(args?: SelectSubset<T, sttCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$sttPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Stt.
      * @param {sttDeleteArgs} args - Arguments to delete one Stt.
      * @example
@@ -19412,6 +21748,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends sttUpdateManyArgs>(args: SelectSubset<T, sttUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Stts and returns the data updated in the database.
+     * @param {sttUpdateManyAndReturnArgs} args - Arguments to update many Stts.
+     * @example
+     * // Update many Stts
+     * const stt = await prisma.stt.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Stts and only return the `SttId`
+     * const sttWithSttIdOnly = await prisma.stt.updateManyAndReturn({
+     *   select: { SttId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends sttUpdateManyAndReturnArgs>(args: SelectSubset<T, sttUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$sttPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Stt.
@@ -19858,6 +22224,25 @@ export namespace Prisma {
   }
 
   /**
+   * stt createManyAndReturn
+   */
+  export type sttCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the stt
+     */
+    select?: sttSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the stt
+     */
+    omit?: sttOmit<ExtArgs> | null
+    /**
+     * The data used to create many stts.
+     */
+    data: sttCreateManyInput | sttCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
    * stt update
    */
   export type sttUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -19887,6 +22272,32 @@ export namespace Prisma {
    * stt updateMany
    */
   export type sttUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update stts.
+     */
+    data: XOR<sttUpdateManyMutationInput, sttUncheckedUpdateManyInput>
+    /**
+     * Filter which stts to update
+     */
+    where?: sttWhereInput
+    /**
+     * Limit how many stts to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * stt updateManyAndReturn
+   */
+  export type sttUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the stt
+     */
+    select?: sttSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the stt
+     */
+    omit?: sttOmit<ExtArgs> | null
     /**
      * The data used to update stts.
      */
@@ -20652,7 +23063,31 @@ export namespace Prisma {
     usr?: boolean | usrDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["trn"]>
 
+  export type trnSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    TrnId?: boolean
+    Trn?: boolean
+    TrnIni?: boolean
+    TrnFin?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["trn"]>
 
+  export type trnSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    TrnId?: boolean
+    Trn?: boolean
+    TrnIni?: boolean
+    TrnFin?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["trn"]>
 
   export type trnSelectScalar = {
     TrnId?: boolean
@@ -20667,6 +23102,14 @@ export namespace Prisma {
 
   export type trnOmit<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetOmit<"TrnId" | "Trn" | "TrnIni" | "TrnFin" | "SttId" | "UsrIdAlt" | "DtaAlt" | "MtvDel", ExtArgs["result"]["trn"]>
   export type trnInclude<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type trnIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type trnIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
     stt?: boolean | sttDefaultArgs<ExtArgs>
     usr?: boolean | usrDefaultArgs<ExtArgs>
   }
@@ -20804,6 +23247,30 @@ export namespace Prisma {
     createMany<T extends trnCreateManyArgs>(args?: SelectSubset<T, trnCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Trns and returns the data saved in the database.
+     * @param {trnCreateManyAndReturnArgs} args - Arguments to create many Trns.
+     * @example
+     * // Create many Trns
+     * const trn = await prisma.trn.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Trns and only return the `TrnId`
+     * const trnWithTrnIdOnly = await prisma.trn.createManyAndReturn({
+     *   select: { TrnId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends trnCreateManyAndReturnArgs>(args?: SelectSubset<T, trnCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$trnPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Trn.
      * @param {trnDeleteArgs} args - Arguments to delete one Trn.
      * @example
@@ -20866,6 +23333,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends trnUpdateManyArgs>(args: SelectSubset<T, trnUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Trns and returns the data updated in the database.
+     * @param {trnUpdateManyAndReturnArgs} args - Arguments to update many Trns.
+     * @example
+     * // Update many Trns
+     * const trn = await prisma.trn.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Trns and only return the `TrnId`
+     * const trnWithTrnIdOnly = await prisma.trn.updateManyAndReturn({
+     *   select: { TrnId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends trnUpdateManyAndReturnArgs>(args: SelectSubset<T, trnUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$trnPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Trn.
@@ -21298,6 +23795,29 @@ export namespace Prisma {
   }
 
   /**
+   * trn createManyAndReturn
+   */
+  export type trnCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the trn
+     */
+    select?: trnSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the trn
+     */
+    omit?: trnOmit<ExtArgs> | null
+    /**
+     * The data used to create many trns.
+     */
+    data: trnCreateManyInput | trnCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: trnIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * trn update
    */
   export type trnUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -21339,6 +23859,36 @@ export namespace Prisma {
      * Limit how many trns to update.
      */
     limit?: number
+  }
+
+  /**
+   * trn updateManyAndReturn
+   */
+  export type trnUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the trn
+     */
+    select?: trnSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the trn
+     */
+    omit?: trnOmit<ExtArgs> | null
+    /**
+     * The data used to update trns.
+     */
+    data: XOR<trnUpdateManyMutationInput, trnUncheckedUpdateManyInput>
+    /**
+     * Filter which trns to update
+     */
+    where?: trnWhereInput
+    /**
+     * Limit how many trns to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: trnIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -21725,7 +24275,45 @@ export namespace Prisma {
     _count?: boolean | UsrCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["usr"]>
 
+  export type usrSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EmpId?: boolean
+    UsrTpoId?: boolean
+    UsrId?: boolean
+    UsrNme?: boolean
+    UsrLgn?: boolean
+    UsrCpf?: boolean
+    UsrEml?: boolean
+    UsrPwd?: boolean
+    UsrFto?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr_tpo?: boolean | usr_tpoDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["usr"]>
 
+  export type usrSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    EmpId?: boolean
+    UsrTpoId?: boolean
+    UsrId?: boolean
+    UsrNme?: boolean
+    UsrLgn?: boolean
+    UsrCpf?: boolean
+    UsrEml?: boolean
+    UsrPwd?: boolean
+    UsrFto?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr_tpo?: boolean | usr_tpoDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["usr"]>
 
   export type usrSelectScalar = {
     EmpId?: boolean
@@ -21764,6 +24352,18 @@ export namespace Prisma {
     other_usr?: boolean | usr$other_usrArgs<ExtArgs>
     trn?: boolean | usr$trnArgs<ExtArgs>
     _count?: boolean | UsrCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type usrIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr_tpo?: boolean | usr_tpoDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
+  }
+  export type usrIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    emp?: boolean | empDefaultArgs<ExtArgs>
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+    usr_tpo?: boolean | usr_tpoDefaultArgs<ExtArgs>
+    usr?: boolean | usrDefaultArgs<ExtArgs>
   }
 
   export type $usrPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -21920,6 +24520,30 @@ export namespace Prisma {
     createMany<T extends usrCreateManyArgs>(args?: SelectSubset<T, usrCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Usrs and returns the data saved in the database.
+     * @param {usrCreateManyAndReturnArgs} args - Arguments to create many Usrs.
+     * @example
+     * // Create many Usrs
+     * const usr = await prisma.usr.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Usrs and only return the `EmpId`
+     * const usrWithEmpIdOnly = await prisma.usr.createManyAndReturn({
+     *   select: { EmpId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends usrCreateManyAndReturnArgs>(args?: SelectSubset<T, usrCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$usrPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Usr.
      * @param {usrDeleteArgs} args - Arguments to delete one Usr.
      * @example
@@ -21982,6 +24606,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends usrUpdateManyArgs>(args: SelectSubset<T, usrUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Usrs and returns the data updated in the database.
+     * @param {usrUpdateManyAndReturnArgs} args - Arguments to update many Usrs.
+     * @example
+     * // Update many Usrs
+     * const usr = await prisma.usr.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Usrs and only return the `EmpId`
+     * const usrWithEmpIdOnly = await prisma.usr.updateManyAndReturn({
+     *   select: { EmpId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends usrUpdateManyAndReturnArgs>(args: SelectSubset<T, usrUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$usrPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Usr.
@@ -22435,6 +25089,29 @@ export namespace Prisma {
   }
 
   /**
+   * usr createManyAndReturn
+   */
+  export type usrCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the usr
+     */
+    select?: usrSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the usr
+     */
+    omit?: usrOmit<ExtArgs> | null
+    /**
+     * The data used to create many usrs.
+     */
+    data: usrCreateManyInput | usrCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: usrIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * usr update
    */
   export type usrUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -22476,6 +25153,36 @@ export namespace Prisma {
      * Limit how many usrs to update.
      */
     limit?: number
+  }
+
+  /**
+   * usr updateManyAndReturn
+   */
+  export type usrUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the usr
+     */
+    select?: usrSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the usr
+     */
+    omit?: usrOmit<ExtArgs> | null
+    /**
+     * The data used to update usrs.
+     */
+    data: XOR<usrUpdateManyMutationInput, usrUncheckedUpdateManyInput>
+    /**
+     * Filter which usrs to update
+     */
+    where?: usrWhereInput
+    /**
+     * Limit how many usrs to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: usrIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -23118,7 +25825,25 @@ export namespace Prisma {
     _count?: boolean | Usr_tpoCountOutputTypeDefaultArgs<ExtArgs>
   }, ExtArgs["result"]["usr_tpo"]>
 
+  export type usr_tpoSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UsrTpoId?: boolean
+    UsrTpoNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["usr_tpo"]>
 
+  export type usr_tpoSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UsrTpoId?: boolean
+    UsrTpoNme?: boolean
+    SttId?: boolean
+    UsrIdAlt?: boolean
+    DtaAlt?: boolean
+    MtvDel?: boolean
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }, ExtArgs["result"]["usr_tpo"]>
 
   export type usr_tpoSelectScalar = {
     UsrTpoId?: boolean
@@ -23134,6 +25859,12 @@ export namespace Prisma {
     usr?: boolean | usr_tpo$usrArgs<ExtArgs>
     stt?: boolean | sttDefaultArgs<ExtArgs>
     _count?: boolean | Usr_tpoCountOutputTypeDefaultArgs<ExtArgs>
+  }
+  export type usr_tpoIncludeCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
+  }
+  export type usr_tpoIncludeUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    stt?: boolean | sttDefaultArgs<ExtArgs>
   }
 
   export type $usr_tpoPayload<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -23267,6 +25998,30 @@ export namespace Prisma {
     createMany<T extends usr_tpoCreateManyArgs>(args?: SelectSubset<T, usr_tpoCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many Usr_tpos and returns the data saved in the database.
+     * @param {usr_tpoCreateManyAndReturnArgs} args - Arguments to create many Usr_tpos.
+     * @example
+     * // Create many Usr_tpos
+     * const usr_tpo = await prisma.usr_tpo.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many Usr_tpos and only return the `UsrTpoId`
+     * const usr_tpoWithUsrTpoIdOnly = await prisma.usr_tpo.createManyAndReturn({
+     *   select: { UsrTpoId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends usr_tpoCreateManyAndReturnArgs>(args?: SelectSubset<T, usr_tpoCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$usr_tpoPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a Usr_tpo.
      * @param {usr_tpoDeleteArgs} args - Arguments to delete one Usr_tpo.
      * @example
@@ -23329,6 +26084,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends usr_tpoUpdateManyArgs>(args: SelectSubset<T, usr_tpoUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more Usr_tpos and returns the data updated in the database.
+     * @param {usr_tpoUpdateManyAndReturnArgs} args - Arguments to update many Usr_tpos.
+     * @example
+     * // Update many Usr_tpos
+     * const usr_tpo = await prisma.usr_tpo.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more Usr_tpos and only return the `UsrTpoId`
+     * const usr_tpoWithUsrTpoIdOnly = await prisma.usr_tpo.updateManyAndReturn({
+     *   select: { UsrTpoId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends usr_tpoUpdateManyAndReturnArgs>(args: SelectSubset<T, usr_tpoUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$usr_tpoPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one Usr_tpo.
@@ -23759,6 +26544,29 @@ export namespace Prisma {
   }
 
   /**
+   * usr_tpo createManyAndReturn
+   */
+  export type usr_tpoCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the usr_tpo
+     */
+    select?: usr_tpoSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the usr_tpo
+     */
+    omit?: usr_tpoOmit<ExtArgs> | null
+    /**
+     * The data used to create many usr_tpos.
+     */
+    data: usr_tpoCreateManyInput | usr_tpoCreateManyInput[]
+    skipDuplicates?: boolean
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: usr_tpoIncludeCreateManyAndReturn<ExtArgs> | null
+  }
+
+  /**
    * usr_tpo update
    */
   export type usr_tpoUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -23800,6 +26608,36 @@ export namespace Prisma {
      * Limit how many usr_tpos to update.
      */
     limit?: number
+  }
+
+  /**
+   * usr_tpo updateManyAndReturn
+   */
+  export type usr_tpoUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the usr_tpo
+     */
+    select?: usr_tpoSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the usr_tpo
+     */
+    omit?: usr_tpoOmit<ExtArgs> | null
+    /**
+     * The data used to update usr_tpos.
+     */
+    data: XOR<usr_tpoUpdateManyMutationInput, usr_tpoUncheckedUpdateManyInput>
+    /**
+     * Filter which usr_tpos to update
+     */
+    where?: usr_tpoWhereInput
+    /**
+     * Limit how many usr_tpos to update.
+     */
+    limit?: number
+    /**
+     * Choose, which related nodes to fetch as well
+     */
+    include?: usr_tpoIncludeUpdateManyAndReturn<ExtArgs> | null
   }
 
   /**
@@ -24275,7 +27113,51 @@ export namespace Prisma {
     Capacidade_Tecnica?: boolean
   }, ExtArgs["result"]["vwOnibus"]>
 
+  export type VwOnibusSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    RcgIdOrg?: boolean
+    EqpItmId?: boolean
+    Onibus?: boolean
+    Situacao?: boolean
+    Data_Operacao?: boolean
+    UndId?: boolean
+    PostoRecarga?: boolean
+    CrrId?: boolean
+    Carregador?: boolean
+    DataInicio?: boolean
+    DataFinal?: boolean
+    BateriaInicio?: boolean
+    Bateria?: boolean
+    BateriaEntregue?: boolean
+    Carga_kWh?: boolean
+    OdometroInicio?: boolean
+    Odometro?: boolean
+    KmRodado?: boolean
+    Checklist?: boolean
+    Capacidade_Tecnica?: boolean
+  }, ExtArgs["result"]["vwOnibus"]>
 
+  export type VwOnibusSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    RcgIdOrg?: boolean
+    EqpItmId?: boolean
+    Onibus?: boolean
+    Situacao?: boolean
+    Data_Operacao?: boolean
+    UndId?: boolean
+    PostoRecarga?: boolean
+    CrrId?: boolean
+    Carregador?: boolean
+    DataInicio?: boolean
+    DataFinal?: boolean
+    BateriaInicio?: boolean
+    Bateria?: boolean
+    BateriaEntregue?: boolean
+    Carga_kWh?: boolean
+    OdometroInicio?: boolean
+    Odometro?: boolean
+    KmRodado?: boolean
+    Checklist?: boolean
+    Capacidade_Tecnica?: boolean
+  }, ExtArgs["result"]["vwOnibus"]>
 
   export type VwOnibusSelectScalar = {
     RcgIdOrg?: boolean
@@ -24444,6 +27326,30 @@ export namespace Prisma {
     createMany<T extends VwOnibusCreateManyArgs>(args?: SelectSubset<T, VwOnibusCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many VwOnibuses and returns the data saved in the database.
+     * @param {VwOnibusCreateManyAndReturnArgs} args - Arguments to create many VwOnibuses.
+     * @example
+     * // Create many VwOnibuses
+     * const vwOnibus = await prisma.vwOnibus.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many VwOnibuses and only return the `RcgIdOrg`
+     * const vwOnibusWithRcgIdOrgOnly = await prisma.vwOnibus.createManyAndReturn({
+     *   select: { RcgIdOrg: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends VwOnibusCreateManyAndReturnArgs>(args?: SelectSubset<T, VwOnibusCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwOnibusPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a VwOnibus.
      * @param {VwOnibusDeleteArgs} args - Arguments to delete one VwOnibus.
      * @example
@@ -24506,6 +27412,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends VwOnibusUpdateManyArgs>(args: SelectSubset<T, VwOnibusUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more VwOnibuses and returns the data updated in the database.
+     * @param {VwOnibusUpdateManyAndReturnArgs} args - Arguments to update many VwOnibuses.
+     * @example
+     * // Update many VwOnibuses
+     * const vwOnibus = await prisma.vwOnibus.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more VwOnibuses and only return the `RcgIdOrg`
+     * const vwOnibusWithRcgIdOrgOnly = await prisma.vwOnibus.updateManyAndReturn({
+     *   select: { RcgIdOrg: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends VwOnibusUpdateManyAndReturnArgs>(args: SelectSubset<T, VwOnibusUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwOnibusPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one VwOnibus.
@@ -24924,6 +27860,25 @@ export namespace Prisma {
   }
 
   /**
+   * VwOnibus createManyAndReturn
+   */
+  export type VwOnibusCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwOnibus
+     */
+    select?: VwOnibusSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwOnibus
+     */
+    omit?: VwOnibusOmit<ExtArgs> | null
+    /**
+     * The data used to create many VwOnibuses.
+     */
+    data: VwOnibusCreateManyInput | VwOnibusCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
    * VwOnibus update
    */
   export type VwOnibusUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -24949,6 +27904,32 @@ export namespace Prisma {
    * VwOnibus updateMany
    */
   export type VwOnibusUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update VwOnibuses.
+     */
+    data: XOR<VwOnibusUpdateManyMutationInput, VwOnibusUncheckedUpdateManyInput>
+    /**
+     * Filter which VwOnibuses to update
+     */
+    where?: VwOnibusWhereInput
+    /**
+     * Limit how many VwOnibuses to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * VwOnibus updateManyAndReturn
+   */
+  export type VwOnibusUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwOnibus
+     */
+    select?: VwOnibusSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwOnibus
+     */
+    omit?: VwOnibusOmit<ExtArgs> | null
     /**
      * The data used to update VwOnibuses.
      */
@@ -25224,7 +28205,17 @@ export namespace Prisma {
     Carregador?: boolean
   }, ExtArgs["result"]["vwCarregador"]>
 
+  export type VwCarregadorSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    EqpItmId?: boolean
+    Carregador?: boolean
+  }, ExtArgs["result"]["vwCarregador"]>
 
+  export type VwCarregadorSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    EqpItmId?: boolean
+    Carregador?: boolean
+  }, ExtArgs["result"]["vwCarregador"]>
 
   export type VwCarregadorSelectScalar = {
     UndId?: boolean
@@ -25359,6 +28350,30 @@ export namespace Prisma {
     createMany<T extends VwCarregadorCreateManyArgs>(args?: SelectSubset<T, VwCarregadorCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many VwCarregadors and returns the data saved in the database.
+     * @param {VwCarregadorCreateManyAndReturnArgs} args - Arguments to create many VwCarregadors.
+     * @example
+     * // Create many VwCarregadors
+     * const vwCarregador = await prisma.vwCarregador.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many VwCarregadors and only return the `UndId`
+     * const vwCarregadorWithUndIdOnly = await prisma.vwCarregador.createManyAndReturn({
+     *   select: { UndId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends VwCarregadorCreateManyAndReturnArgs>(args?: SelectSubset<T, VwCarregadorCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwCarregadorPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a VwCarregador.
      * @param {VwCarregadorDeleteArgs} args - Arguments to delete one VwCarregador.
      * @example
@@ -25421,6 +28436,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends VwCarregadorUpdateManyArgs>(args: SelectSubset<T, VwCarregadorUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more VwCarregadors and returns the data updated in the database.
+     * @param {VwCarregadorUpdateManyAndReturnArgs} args - Arguments to update many VwCarregadors.
+     * @example
+     * // Update many VwCarregadors
+     * const vwCarregador = await prisma.vwCarregador.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more VwCarregadors and only return the `UndId`
+     * const vwCarregadorWithUndIdOnly = await prisma.vwCarregador.updateManyAndReturn({
+     *   select: { UndId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends VwCarregadorUpdateManyAndReturnArgs>(args: SelectSubset<T, VwCarregadorUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwCarregadorPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one VwCarregador.
@@ -25822,6 +28867,25 @@ export namespace Prisma {
   }
 
   /**
+   * VwCarregador createManyAndReturn
+   */
+  export type VwCarregadorCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwCarregador
+     */
+    select?: VwCarregadorSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwCarregador
+     */
+    omit?: VwCarregadorOmit<ExtArgs> | null
+    /**
+     * The data used to create many VwCarregadors.
+     */
+    data: VwCarregadorCreateManyInput | VwCarregadorCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
    * VwCarregador update
    */
   export type VwCarregadorUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -25847,6 +28911,32 @@ export namespace Prisma {
    * VwCarregador updateMany
    */
   export type VwCarregadorUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update VwCarregadors.
+     */
+    data: XOR<VwCarregadorUpdateManyMutationInput, VwCarregadorUncheckedUpdateManyInput>
+    /**
+     * Filter which VwCarregadors to update
+     */
+    where?: VwCarregadorWhereInput
+    /**
+     * Limit how many VwCarregadors to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * VwCarregador updateManyAndReturn
+   */
+  export type VwCarregadorUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwCarregador
+     */
+    select?: VwCarregadorSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwCarregador
+     */
+    omit?: VwCarregadorOmit<ExtArgs> | null
     /**
      * The data used to update VwCarregadors.
      */
@@ -26142,7 +29232,21 @@ export namespace Prisma {
     Sequencia?: boolean
   }, ExtArgs["result"]["vwPesquisaPergunta"]>
 
+  export type VwPesquisaPerguntaSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqPrgId?: boolean
+    PsqTpoId?: boolean
+    Tipo_Pesquisa?: boolean
+    Pergunta?: boolean
+    Sequencia?: boolean
+  }, ExtArgs["result"]["vwPesquisaPergunta"]>
 
+  export type VwPesquisaPerguntaSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    PsqPrgId?: boolean
+    PsqTpoId?: boolean
+    Tipo_Pesquisa?: boolean
+    Pergunta?: boolean
+    Sequencia?: boolean
+  }, ExtArgs["result"]["vwPesquisaPergunta"]>
 
   export type VwPesquisaPerguntaSelectScalar = {
     PsqPrgId?: boolean
@@ -26281,6 +29385,30 @@ export namespace Prisma {
     createMany<T extends VwPesquisaPerguntaCreateManyArgs>(args?: SelectSubset<T, VwPesquisaPerguntaCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many VwPesquisaPerguntas and returns the data saved in the database.
+     * @param {VwPesquisaPerguntaCreateManyAndReturnArgs} args - Arguments to create many VwPesquisaPerguntas.
+     * @example
+     * // Create many VwPesquisaPerguntas
+     * const vwPesquisaPergunta = await prisma.vwPesquisaPergunta.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many VwPesquisaPerguntas and only return the `PsqPrgId`
+     * const vwPesquisaPerguntaWithPsqPrgIdOnly = await prisma.vwPesquisaPergunta.createManyAndReturn({
+     *   select: { PsqPrgId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends VwPesquisaPerguntaCreateManyAndReturnArgs>(args?: SelectSubset<T, VwPesquisaPerguntaCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwPesquisaPerguntaPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a VwPesquisaPergunta.
      * @param {VwPesquisaPerguntaDeleteArgs} args - Arguments to delete one VwPesquisaPergunta.
      * @example
@@ -26343,6 +29471,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends VwPesquisaPerguntaUpdateManyArgs>(args: SelectSubset<T, VwPesquisaPerguntaUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more VwPesquisaPerguntas and returns the data updated in the database.
+     * @param {VwPesquisaPerguntaUpdateManyAndReturnArgs} args - Arguments to update many VwPesquisaPerguntas.
+     * @example
+     * // Update many VwPesquisaPerguntas
+     * const vwPesquisaPergunta = await prisma.vwPesquisaPergunta.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more VwPesquisaPerguntas and only return the `PsqPrgId`
+     * const vwPesquisaPerguntaWithPsqPrgIdOnly = await prisma.vwPesquisaPergunta.updateManyAndReturn({
+     *   select: { PsqPrgId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends VwPesquisaPerguntaUpdateManyAndReturnArgs>(args: SelectSubset<T, VwPesquisaPerguntaUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwPesquisaPerguntaPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one VwPesquisaPergunta.
@@ -26746,6 +29904,25 @@ export namespace Prisma {
   }
 
   /**
+   * VwPesquisaPergunta createManyAndReturn
+   */
+  export type VwPesquisaPerguntaCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwPesquisaPergunta
+     */
+    select?: VwPesquisaPerguntaSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwPesquisaPergunta
+     */
+    omit?: VwPesquisaPerguntaOmit<ExtArgs> | null
+    /**
+     * The data used to create many VwPesquisaPerguntas.
+     */
+    data: VwPesquisaPerguntaCreateManyInput | VwPesquisaPerguntaCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
    * VwPesquisaPergunta update
    */
   export type VwPesquisaPerguntaUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -26771,6 +29948,32 @@ export namespace Prisma {
    * VwPesquisaPergunta updateMany
    */
   export type VwPesquisaPerguntaUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update VwPesquisaPerguntas.
+     */
+    data: XOR<VwPesquisaPerguntaUpdateManyMutationInput, VwPesquisaPerguntaUncheckedUpdateManyInput>
+    /**
+     * Filter which VwPesquisaPerguntas to update
+     */
+    where?: VwPesquisaPerguntaWhereInput
+    /**
+     * Limit how many VwPesquisaPerguntas to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * VwPesquisaPergunta updateManyAndReturn
+   */
+  export type VwPesquisaPerguntaUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwPesquisaPergunta
+     */
+    select?: VwPesquisaPerguntaSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwPesquisaPergunta
+     */
+    omit?: VwPesquisaPerguntaOmit<ExtArgs> | null
     /**
      * The data used to update VwPesquisaPerguntas.
      */
@@ -27050,7 +30253,19 @@ export namespace Prisma {
     Longitude?: boolean
   }, ExtArgs["result"]["vwPostoRecarga"]>
 
+  export type VwPostoRecargaSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    PostoRecarga?: boolean
+    Latitude?: boolean
+    Longitude?: boolean
+  }, ExtArgs["result"]["vwPostoRecarga"]>
 
+  export type VwPostoRecargaSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    UndId?: boolean
+    PostoRecarga?: boolean
+    Latitude?: boolean
+    Longitude?: boolean
+  }, ExtArgs["result"]["vwPostoRecarga"]>
 
   export type VwPostoRecargaSelectScalar = {
     UndId?: boolean
@@ -27187,6 +30402,30 @@ export namespace Prisma {
     createMany<T extends VwPostoRecargaCreateManyArgs>(args?: SelectSubset<T, VwPostoRecargaCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many VwPostoRecargas and returns the data saved in the database.
+     * @param {VwPostoRecargaCreateManyAndReturnArgs} args - Arguments to create many VwPostoRecargas.
+     * @example
+     * // Create many VwPostoRecargas
+     * const vwPostoRecarga = await prisma.vwPostoRecarga.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many VwPostoRecargas and only return the `UndId`
+     * const vwPostoRecargaWithUndIdOnly = await prisma.vwPostoRecarga.createManyAndReturn({
+     *   select: { UndId: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends VwPostoRecargaCreateManyAndReturnArgs>(args?: SelectSubset<T, VwPostoRecargaCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwPostoRecargaPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a VwPostoRecarga.
      * @param {VwPostoRecargaDeleteArgs} args - Arguments to delete one VwPostoRecarga.
      * @example
@@ -27249,6 +30488,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends VwPostoRecargaUpdateManyArgs>(args: SelectSubset<T, VwPostoRecargaUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more VwPostoRecargas and returns the data updated in the database.
+     * @param {VwPostoRecargaUpdateManyAndReturnArgs} args - Arguments to update many VwPostoRecargas.
+     * @example
+     * // Update many VwPostoRecargas
+     * const vwPostoRecarga = await prisma.vwPostoRecarga.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more VwPostoRecargas and only return the `UndId`
+     * const vwPostoRecargaWithUndIdOnly = await prisma.vwPostoRecarga.updateManyAndReturn({
+     *   select: { UndId: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends VwPostoRecargaUpdateManyAndReturnArgs>(args: SelectSubset<T, VwPostoRecargaUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwPostoRecargaPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one VwPostoRecarga.
@@ -27651,6 +30920,25 @@ export namespace Prisma {
   }
 
   /**
+   * VwPostoRecarga createManyAndReturn
+   */
+  export type VwPostoRecargaCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwPostoRecarga
+     */
+    select?: VwPostoRecargaSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwPostoRecarga
+     */
+    omit?: VwPostoRecargaOmit<ExtArgs> | null
+    /**
+     * The data used to create many VwPostoRecargas.
+     */
+    data: VwPostoRecargaCreateManyInput | VwPostoRecargaCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
    * VwPostoRecarga update
    */
   export type VwPostoRecargaUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -27676,6 +30964,32 @@ export namespace Prisma {
    * VwPostoRecarga updateMany
    */
   export type VwPostoRecargaUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update VwPostoRecargas.
+     */
+    data: XOR<VwPostoRecargaUpdateManyMutationInput, VwPostoRecargaUncheckedUpdateManyInput>
+    /**
+     * Filter which VwPostoRecargas to update
+     */
+    where?: VwPostoRecargaWhereInput
+    /**
+     * Limit how many VwPostoRecargas to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * VwPostoRecarga updateManyAndReturn
+   */
+  export type VwPostoRecargaUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwPostoRecarga
+     */
+    select?: VwPostoRecargaSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwPostoRecarga
+     */
+    omit?: VwPostoRecargaOmit<ExtArgs> | null
     /**
      * The data used to update VwPostoRecargas.
      */
@@ -27929,7 +31243,21 @@ export namespace Prisma {
     FimTurno?: boolean
   }, ExtArgs["result"]["vwTurnoAtual"]>
 
+  export type VwTurnoAtualSelectCreateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    DtaAtu?: boolean
+    DtaOpe?: boolean
+    TrnId?: boolean
+    InicioTurno?: boolean
+    FimTurno?: boolean
+  }, ExtArgs["result"]["vwTurnoAtual"]>
 
+  export type VwTurnoAtualSelectUpdateManyAndReturn<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = $Extensions.GetSelect<{
+    DtaAtu?: boolean
+    DtaOpe?: boolean
+    TrnId?: boolean
+    InicioTurno?: boolean
+    FimTurno?: boolean
+  }, ExtArgs["result"]["vwTurnoAtual"]>
 
   export type VwTurnoAtualSelectScalar = {
     DtaAtu?: boolean
@@ -28068,6 +31396,30 @@ export namespace Prisma {
     createMany<T extends VwTurnoAtualCreateManyArgs>(args?: SelectSubset<T, VwTurnoAtualCreateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
 
     /**
+     * Create many VwTurnoAtuals and returns the data saved in the database.
+     * @param {VwTurnoAtualCreateManyAndReturnArgs} args - Arguments to create many VwTurnoAtuals.
+     * @example
+     * // Create many VwTurnoAtuals
+     * const vwTurnoAtual = await prisma.vwTurnoAtual.createManyAndReturn({
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Create many VwTurnoAtuals and only return the `DtaAtu`
+     * const vwTurnoAtualWithDtaAtuOnly = await prisma.vwTurnoAtual.createManyAndReturn({
+     *   select: { DtaAtu: true },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    createManyAndReturn<T extends VwTurnoAtualCreateManyAndReturnArgs>(args?: SelectSubset<T, VwTurnoAtualCreateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwTurnoAtualPayload<ExtArgs>, T, "createManyAndReturn", GlobalOmitOptions>>
+
+    /**
      * Delete a VwTurnoAtual.
      * @param {VwTurnoAtualDeleteArgs} args - Arguments to delete one VwTurnoAtual.
      * @example
@@ -28130,6 +31482,36 @@ export namespace Prisma {
      * 
      */
     updateMany<T extends VwTurnoAtualUpdateManyArgs>(args: SelectSubset<T, VwTurnoAtualUpdateManyArgs<ExtArgs>>): Prisma.PrismaPromise<BatchPayload>
+
+    /**
+     * Update zero or more VwTurnoAtuals and returns the data updated in the database.
+     * @param {VwTurnoAtualUpdateManyAndReturnArgs} args - Arguments to update many VwTurnoAtuals.
+     * @example
+     * // Update many VwTurnoAtuals
+     * const vwTurnoAtual = await prisma.vwTurnoAtual.updateManyAndReturn({
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * 
+     * // Update zero or more VwTurnoAtuals and only return the `DtaAtu`
+     * const vwTurnoAtualWithDtaAtuOnly = await prisma.vwTurnoAtual.updateManyAndReturn({
+     *   select: { DtaAtu: true },
+     *   where: {
+     *     // ... provide filter here
+     *   },
+     *   data: [
+     *     // ... provide data here
+     *   ]
+     * })
+     * Note, that providing `undefined` is treated as the value not being there.
+     * Read more here: https://pris.ly/d/null-undefined
+     * 
+     */
+    updateManyAndReturn<T extends VwTurnoAtualUpdateManyAndReturnArgs>(args: SelectSubset<T, VwTurnoAtualUpdateManyAndReturnArgs<ExtArgs>>): Prisma.PrismaPromise<$Result.GetResult<Prisma.$VwTurnoAtualPayload<ExtArgs>, T, "updateManyAndReturn", GlobalOmitOptions>>
 
     /**
      * Create or update one VwTurnoAtual.
@@ -28533,6 +31915,25 @@ export namespace Prisma {
   }
 
   /**
+   * VwTurnoAtual createManyAndReturn
+   */
+  export type VwTurnoAtualCreateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwTurnoAtual
+     */
+    select?: VwTurnoAtualSelectCreateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwTurnoAtual
+     */
+    omit?: VwTurnoAtualOmit<ExtArgs> | null
+    /**
+     * The data used to create many VwTurnoAtuals.
+     */
+    data: VwTurnoAtualCreateManyInput | VwTurnoAtualCreateManyInput[]
+    skipDuplicates?: boolean
+  }
+
+  /**
    * VwTurnoAtual update
    */
   export type VwTurnoAtualUpdateArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
@@ -28558,6 +31959,32 @@ export namespace Prisma {
    * VwTurnoAtual updateMany
    */
   export type VwTurnoAtualUpdateManyArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * The data used to update VwTurnoAtuals.
+     */
+    data: XOR<VwTurnoAtualUpdateManyMutationInput, VwTurnoAtualUncheckedUpdateManyInput>
+    /**
+     * Filter which VwTurnoAtuals to update
+     */
+    where?: VwTurnoAtualWhereInput
+    /**
+     * Limit how many VwTurnoAtuals to update.
+     */
+    limit?: number
+  }
+
+  /**
+   * VwTurnoAtual updateManyAndReturn
+   */
+  export type VwTurnoAtualUpdateManyAndReturnArgs<ExtArgs extends $Extensions.InternalArgs = $Extensions.DefaultArgs> = {
+    /**
+     * Select specific fields to fetch from the VwTurnoAtual
+     */
+    select?: VwTurnoAtualSelectUpdateManyAndReturn<ExtArgs> | null
+    /**
+     * Omit specific fields from the VwTurnoAtual
+     */
+    omit?: VwTurnoAtualOmit<ExtArgs> | null
     /**
      * The data used to update VwTurnoAtuals.
      */
@@ -28710,8 +32137,8 @@ export namespace Prisma {
 
 
   export const Emp_undScalarFieldEnum: {
-    EmpId: 'EmpId',
     UndId: 'UndId',
+    EmpId: 'EmpId',
     UndNme: 'UndNme',
     UndRdz: 'UndRdz',
     UndReg: 'UndReg',
@@ -28740,12 +32167,12 @@ export namespace Prisma {
 
 
   export const Eqp_itmScalarFieldEnum: {
+    EqpItmId: 'EqpItmId',
     UndId: 'UndId',
     FrnId: 'FrnId',
     EqpTpoId: 'EqpTpoId',
     EqpFbrId: 'EqpFbrId',
     EqpMdlId: 'EqpMdlId',
-    EqpItmId: 'EqpItmId',
     EqpItmCdg: 'EqpItmCdg',
     EqpItmPlc: 'EqpItmPlc',
     EqpItmAnoMdl: 'EqpItmAnoMdl',
@@ -28760,9 +32187,9 @@ export namespace Prisma {
 
 
   export const Eqp_locScalarFieldEnum: {
-    EqpTpoId: 'EqpTpoId',
     EqpItmId: 'EqpItmId',
     UndId: 'UndId',
+    EqpTpoId: 'EqpTpoId',
     SttId: 'SttId',
     UsrIdAlt: 'UsrIdAlt',
     DtaAlt: 'DtaAlt',
@@ -28773,10 +32200,10 @@ export namespace Prisma {
 
 
   export const Eqp_mdlScalarFieldEnum: {
-    EqpTpoId: 'EqpTpoId',
-    EqpFbrId: 'EqpFbrId',
     EqpMdlId: 'EqpMdlId',
     EqpMdlNme: 'EqpMdlNme',
+    EqpTpoId: 'EqpTpoId',
+    EqpFbrId: 'EqpFbrId',
     CbtId: 'CbtId',
     CpcCrg: 'CpcCrg',
     SttId: 'SttId',
@@ -29031,236 +32458,20 @@ export namespace Prisma {
   export type SortOrder = (typeof SortOrder)[keyof typeof SortOrder]
 
 
+  export const QueryMode: {
+    default: 'default',
+    insensitive: 'insensitive'
+  };
+
+  export type QueryMode = (typeof QueryMode)[keyof typeof QueryMode]
+
+
   export const NullsOrder: {
     first: 'first',
     last: 'last'
   };
 
   export type NullsOrder = (typeof NullsOrder)[keyof typeof NullsOrder]
-
-
-  export const cbtOrderByRelevanceFieldEnum: {
-    CbtNme: 'CbtNme',
-    MtvDel: 'MtvDel'
-  };
-
-  export type cbtOrderByRelevanceFieldEnum = (typeof cbtOrderByRelevanceFieldEnum)[keyof typeof cbtOrderByRelevanceFieldEnum]
-
-
-  export const empOrderByRelevanceFieldEnum: {
-    EmpNme: 'EmpNme',
-    EmpRaz: 'EmpRaz',
-    EmpRdz: 'EmpRdz',
-    EmpAtv: 'EmpAtv',
-    EmpCnpj: 'EmpCnpj',
-    Enduf: 'Enduf',
-    EndCdd: 'EndCdd',
-    EndLtt: 'EndLtt',
-    EndLgt: 'EndLgt',
-    EndCep: 'EndCep',
-    EndEmp: 'EndEmp',
-    EndCpl: 'EndCpl',
-    EmpLgo: 'EmpLgo',
-    EmpUrl: 'EmpUrl',
-    EmlCtt: 'EmlCtt',
-    EmlFrm: 'EmlFrm',
-    EmlFrmPwd: 'EmlFrmPwd',
-    FneCtt: 'FneCtt',
-    FneWha: 'FneWha',
-    RssIns: 'RssIns',
-    RssFac: 'RssFac',
-    RssTwi: 'RssTwi',
-    RssYou: 'RssYou',
-    TpoPix: 'TpoPix',
-    ChvPix: 'ChvPix',
-    QRPixImg: 'QRPixImg',
-    QRPixCpy: 'QRPixCpy',
-    MtvDel: 'MtvDel'
-  };
-
-  export type empOrderByRelevanceFieldEnum = (typeof empOrderByRelevanceFieldEnum)[keyof typeof empOrderByRelevanceFieldEnum]
-
-
-  export const emp_undOrderByRelevanceFieldEnum: {
-    UndNme: 'UndNme',
-    UndRdz: 'UndRdz',
-    UndReg: 'UndReg',
-    GpsLtd: 'GpsLtd',
-    GpsLgt: 'GpsLgt',
-    MtvDel: 'MtvDel'
-  };
-
-  export type emp_undOrderByRelevanceFieldEnum = (typeof emp_undOrderByRelevanceFieldEnum)[keyof typeof emp_undOrderByRelevanceFieldEnum]
-
-
-  export const eqp_fbrOrderByRelevanceFieldEnum: {
-    EqpFbrNme: 'EqpFbrNme',
-    MtvDel: 'MtvDel'
-  };
-
-  export type eqp_fbrOrderByRelevanceFieldEnum = (typeof eqp_fbrOrderByRelevanceFieldEnum)[keyof typeof eqp_fbrOrderByRelevanceFieldEnum]
-
-
-  export const eqp_itmOrderByRelevanceFieldEnum: {
-    EqpItmCdg: 'EqpItmCdg',
-    EqpItmPlc: 'EqpItmPlc',
-    EqpItmAnoMdl: 'EqpItmAnoMdl',
-    EqpItmTmh: 'EqpItmTmh',
-    MtvDel: 'MtvDel'
-  };
-
-  export type eqp_itmOrderByRelevanceFieldEnum = (typeof eqp_itmOrderByRelevanceFieldEnum)[keyof typeof eqp_itmOrderByRelevanceFieldEnum]
-
-
-  export const eqp_locOrderByRelevanceFieldEnum: {
-    MtvDel: 'MtvDel'
-  };
-
-  export type eqp_locOrderByRelevanceFieldEnum = (typeof eqp_locOrderByRelevanceFieldEnum)[keyof typeof eqp_locOrderByRelevanceFieldEnum]
-
-
-  export const eqp_mdlOrderByRelevanceFieldEnum: {
-    EqpMdlNme: 'EqpMdlNme',
-    MtvDel: 'MtvDel'
-  };
-
-  export type eqp_mdlOrderByRelevanceFieldEnum = (typeof eqp_mdlOrderByRelevanceFieldEnum)[keyof typeof eqp_mdlOrderByRelevanceFieldEnum]
-
-
-  export const eqp_tpoOrderByRelevanceFieldEnum: {
-    EqpTpoNme: 'EqpTpoNme',
-    MtvDel: 'MtvDel'
-  };
-
-  export type eqp_tpoOrderByRelevanceFieldEnum = (typeof eqp_tpoOrderByRelevanceFieldEnum)[keyof typeof eqp_tpoOrderByRelevanceFieldEnum]
-
-
-  export const frnOrderByRelevanceFieldEnum: {
-    FrnNme: 'FrnNme',
-    FrnRdz: 'FrnRdz',
-    MtvDel: 'MtvDel'
-  };
-
-  export type frnOrderByRelevanceFieldEnum = (typeof frnOrderByRelevanceFieldEnum)[keyof typeof frnOrderByRelevanceFieldEnum]
-
-
-  export const psqOrderByRelevanceFieldEnum: {
-    Psq: 'Psq',
-    MtvDel: 'MtvDel'
-  };
-
-  export type psqOrderByRelevanceFieldEnum = (typeof psqOrderByRelevanceFieldEnum)[keyof typeof psqOrderByRelevanceFieldEnum]
-
-
-  export const psq_prgOrderByRelevanceFieldEnum: {
-    PsqPrg: 'PsqPrg',
-    MtvDel: 'MtvDel'
-  };
-
-  export type psq_prgOrderByRelevanceFieldEnum = (typeof psq_prgOrderByRelevanceFieldEnum)[keyof typeof psq_prgOrderByRelevanceFieldEnum]
-
-
-  export const psq_rspOrderByRelevanceFieldEnum: {
-    PsqDth: 'PsqDth',
-    MtvDel: 'MtvDel'
-  };
-
-  export type psq_rspOrderByRelevanceFieldEnum = (typeof psq_rspOrderByRelevanceFieldEnum)[keyof typeof psq_rspOrderByRelevanceFieldEnum]
-
-
-  export const psq_tpoOrderByRelevanceFieldEnum: {
-    PsqTpo: 'PsqTpo',
-    MtvDel: 'MtvDel'
-  };
-
-  export type psq_tpoOrderByRelevanceFieldEnum = (typeof psq_tpoOrderByRelevanceFieldEnum)[keyof typeof psq_tpoOrderByRelevanceFieldEnum]
-
-
-  export const rcgOrderByRelevanceFieldEnum: {
-    FlhDsc: 'FlhDsc',
-    MtvDel: 'MtvDel'
-  };
-
-  export type rcgOrderByRelevanceFieldEnum = (typeof rcgOrderByRelevanceFieldEnum)[keyof typeof rcgOrderByRelevanceFieldEnum]
-
-
-  export const sttOrderByRelevanceFieldEnum: {
-    SttNme: 'SttNme',
-    MtvDel: 'MtvDel'
-  };
-
-  export type sttOrderByRelevanceFieldEnum = (typeof sttOrderByRelevanceFieldEnum)[keyof typeof sttOrderByRelevanceFieldEnum]
-
-
-  export const trnOrderByRelevanceFieldEnum: {
-    Trn: 'Trn',
-    MtvDel: 'MtvDel'
-  };
-
-  export type trnOrderByRelevanceFieldEnum = (typeof trnOrderByRelevanceFieldEnum)[keyof typeof trnOrderByRelevanceFieldEnum]
-
-
-  export const usrOrderByRelevanceFieldEnum: {
-    UsrNme: 'UsrNme',
-    UsrLgn: 'UsrLgn',
-    UsrCpf: 'UsrCpf',
-    UsrEml: 'UsrEml',
-    UsrPwd: 'UsrPwd',
-    UsrFto: 'UsrFto',
-    MtvDel: 'MtvDel'
-  };
-
-  export type usrOrderByRelevanceFieldEnum = (typeof usrOrderByRelevanceFieldEnum)[keyof typeof usrOrderByRelevanceFieldEnum]
-
-
-  export const usr_tpoOrderByRelevanceFieldEnum: {
-    UsrTpoNme: 'UsrTpoNme',
-    MtvDel: 'MtvDel'
-  };
-
-  export type usr_tpoOrderByRelevanceFieldEnum = (typeof usr_tpoOrderByRelevanceFieldEnum)[keyof typeof usr_tpoOrderByRelevanceFieldEnum]
-
-
-  export const VwOnibusOrderByRelevanceFieldEnum: {
-    Onibus: 'Onibus',
-    Situacao: 'Situacao',
-    PostoRecarga: 'PostoRecarga',
-    Carregador: 'Carregador',
-    Checklist: 'Checklist'
-  };
-
-  export type VwOnibusOrderByRelevanceFieldEnum = (typeof VwOnibusOrderByRelevanceFieldEnum)[keyof typeof VwOnibusOrderByRelevanceFieldEnum]
-
-
-  export const VwCarregadorOrderByRelevanceFieldEnum: {
-    Carregador: 'Carregador'
-  };
-
-  export type VwCarregadorOrderByRelevanceFieldEnum = (typeof VwCarregadorOrderByRelevanceFieldEnum)[keyof typeof VwCarregadorOrderByRelevanceFieldEnum]
-
-
-  export const VwPesquisaPerguntaOrderByRelevanceFieldEnum: {
-    Tipo_Pesquisa: 'Tipo_Pesquisa',
-    Pergunta: 'Pergunta'
-  };
-
-  export type VwPesquisaPerguntaOrderByRelevanceFieldEnum = (typeof VwPesquisaPerguntaOrderByRelevanceFieldEnum)[keyof typeof VwPesquisaPerguntaOrderByRelevanceFieldEnum]
-
-
-  export const VwPostoRecargaOrderByRelevanceFieldEnum: {
-    PostoRecarga: 'PostoRecarga',
-    Latitude: 'Latitude',
-    Longitude: 'Longitude'
-  };
-
-  export type VwPostoRecargaOrderByRelevanceFieldEnum = (typeof VwPostoRecargaOrderByRelevanceFieldEnum)[keyof typeof VwPostoRecargaOrderByRelevanceFieldEnum]
-
-
-  export const VwTurnoAtualOrderByRelevanceFieldEnum: {
-    TrnId: 'TrnId'
-  };
-
-  export type VwTurnoAtualOrderByRelevanceFieldEnum = (typeof VwTurnoAtualOrderByRelevanceFieldEnum)[keyof typeof VwTurnoAtualOrderByRelevanceFieldEnum]
 
 
   /**
@@ -29276,9 +32487,23 @@ export namespace Prisma {
 
 
   /**
+   * Reference to a field of type 'Int[]'
+   */
+  export type ListIntFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Int[]'>
+    
+
+
+  /**
    * Reference to a field of type 'String'
    */
   export type StringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String'>
+    
+
+
+  /**
+   * Reference to a field of type 'String[]'
+   */
+  export type ListStringFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'String[]'>
     
 
 
@@ -29290,6 +32515,13 @@ export namespace Prisma {
 
 
   /**
+   * Reference to a field of type 'DateTime[]'
+   */
+  export type ListDateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime[]'>
+    
+
+
+  /**
    * Reference to a field of type 'Decimal'
    */
   export type DecimalFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Decimal'>
@@ -29297,9 +32529,23 @@ export namespace Prisma {
 
 
   /**
+   * Reference to a field of type 'Decimal[]'
+   */
+  export type ListDecimalFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Decimal[]'>
+    
+
+
+  /**
    * Reference to a field of type 'Float'
    */
   export type FloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float'>
+    
+
+
+  /**
+   * Reference to a field of type 'Float[]'
+   */
+  export type ListFloatFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'Float[]'>
     
   /**
    * Deep Input Types
@@ -29329,7 +32575,6 @@ export namespace Prisma {
     MtvDel?: SortOrderInput | SortOrder
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: cbtOrderByRelevanceInput
   }
 
   export type cbtWhereUniqueInput = Prisma.AtLeast<{
@@ -29451,7 +32696,6 @@ export namespace Prisma {
     emp_und?: emp_undOrderByRelationAggregateInput
     rcg?: rcgOrderByRelationAggregateInput
     usr?: usrOrderByRelationAggregateInput
-    _relevance?: empOrderByRelevanceInput
   }
 
   export type empWhereUniqueInput = Prisma.AtLeast<{
@@ -29578,8 +32822,8 @@ export namespace Prisma {
     AND?: emp_undWhereInput | emp_undWhereInput[]
     OR?: emp_undWhereInput[]
     NOT?: emp_undWhereInput | emp_undWhereInput[]
-    EmpId?: IntFilter<"emp_und"> | number
     UndId?: IntFilter<"emp_und"> | number
+    EmpId?: IntFilter<"emp_und"> | number
     UndNme?: StringFilter<"emp_und"> | string
     UndRdz?: StringNullableFilter<"emp_und"> | string | null
     UndReg?: StringNullableFilter<"emp_und"> | string | null
@@ -29598,8 +32842,8 @@ export namespace Prisma {
   }
 
   export type emp_undOrderByWithRelationInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     UndNme?: SortOrder
     UndRdz?: SortOrderInput | SortOrder
     UndReg?: SortOrderInput | SortOrder
@@ -29615,7 +32859,6 @@ export namespace Prisma {
     eqp_itm?: eqp_itmOrderByRelationAggregateInput
     eqp_loc?: eqp_locOrderByRelationAggregateInput
     rcg?: rcgOrderByRelationAggregateInput
-    _relevance?: emp_undOrderByRelevanceInput
   }
 
   export type emp_undWhereUniqueInput = Prisma.AtLeast<{
@@ -29642,8 +32885,8 @@ export namespace Prisma {
   }, "UndId">
 
   export type emp_undOrderByWithAggregationInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     UndNme?: SortOrder
     UndRdz?: SortOrderInput | SortOrder
     UndReg?: SortOrderInput | SortOrder
@@ -29665,8 +32908,8 @@ export namespace Prisma {
     AND?: emp_undScalarWhereWithAggregatesInput | emp_undScalarWhereWithAggregatesInput[]
     OR?: emp_undScalarWhereWithAggregatesInput[]
     NOT?: emp_undScalarWhereWithAggregatesInput | emp_undScalarWhereWithAggregatesInput[]
-    EmpId?: IntWithAggregatesFilter<"emp_und"> | number
     UndId?: IntWithAggregatesFilter<"emp_und"> | number
+    EmpId?: IntWithAggregatesFilter<"emp_und"> | number
     UndNme?: StringWithAggregatesFilter<"emp_und"> | string
     UndRdz?: StringNullableWithAggregatesFilter<"emp_und"> | string | null
     UndReg?: StringNullableWithAggregatesFilter<"emp_und"> | string | null
@@ -29706,7 +32949,6 @@ export namespace Prisma {
     usr?: usrOrderByWithRelationInput
     eqp_itm?: eqp_itmOrderByRelationAggregateInput
     eqp_mdl?: eqp_mdlOrderByRelationAggregateInput
-    _relevance?: eqp_fbrOrderByRelevanceInput
   }
 
   export type eqp_fbrWhereUniqueInput = Prisma.AtLeast<{
@@ -29755,12 +32997,12 @@ export namespace Prisma {
     AND?: eqp_itmWhereInput | eqp_itmWhereInput[]
     OR?: eqp_itmWhereInput[]
     NOT?: eqp_itmWhereInput | eqp_itmWhereInput[]
+    EqpItmId?: IntFilter<"eqp_itm"> | number
     UndId?: IntFilter<"eqp_itm"> | number
     FrnId?: IntFilter<"eqp_itm"> | number
     EqpTpoId?: IntFilter<"eqp_itm"> | number
     EqpFbrId?: IntFilter<"eqp_itm"> | number
     EqpMdlId?: IntFilter<"eqp_itm"> | number
-    EqpItmId?: IntFilter<"eqp_itm"> | number
     EqpItmCdg?: StringFilter<"eqp_itm"> | string
     EqpItmPlc?: StringNullableFilter<"eqp_itm"> | string | null
     EqpItmAnoMdl?: StringNullableFilter<"eqp_itm"> | string | null
@@ -29782,12 +33024,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmOrderByWithRelationInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     EqpItmCdg?: SortOrder
     EqpItmPlc?: SortOrderInput | SortOrder
     EqpItmAnoMdl?: SortOrderInput | SortOrder
@@ -29806,7 +33048,6 @@ export namespace Prisma {
     eqp_loc?: eqp_locOrderByRelationAggregateInput
     rcg_rcg_CrrIdToeqp_itm?: rcgOrderByRelationAggregateInput
     rcg_rcg_VclIdToeqp_itm?: rcgOrderByRelationAggregateInput
-    _relevance?: eqp_itmOrderByRelevanceInput
   }
 
   export type eqp_itmWhereUniqueInput = Prisma.AtLeast<{
@@ -29840,12 +33081,12 @@ export namespace Prisma {
   }, "EqpItmId">
 
   export type eqp_itmOrderByWithAggregationInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     EqpItmCdg?: SortOrder
     EqpItmPlc?: SortOrderInput | SortOrder
     EqpItmAnoMdl?: SortOrderInput | SortOrder
@@ -29865,12 +33106,12 @@ export namespace Prisma {
     AND?: eqp_itmScalarWhereWithAggregatesInput | eqp_itmScalarWhereWithAggregatesInput[]
     OR?: eqp_itmScalarWhereWithAggregatesInput[]
     NOT?: eqp_itmScalarWhereWithAggregatesInput | eqp_itmScalarWhereWithAggregatesInput[]
+    EqpItmId?: IntWithAggregatesFilter<"eqp_itm"> | number
     UndId?: IntWithAggregatesFilter<"eqp_itm"> | number
     FrnId?: IntWithAggregatesFilter<"eqp_itm"> | number
     EqpTpoId?: IntWithAggregatesFilter<"eqp_itm"> | number
     EqpFbrId?: IntWithAggregatesFilter<"eqp_itm"> | number
     EqpMdlId?: IntWithAggregatesFilter<"eqp_itm"> | number
-    EqpItmId?: IntWithAggregatesFilter<"eqp_itm"> | number
     EqpItmCdg?: StringWithAggregatesFilter<"eqp_itm"> | string
     EqpItmPlc?: StringNullableWithAggregatesFilter<"eqp_itm"> | string | null
     EqpItmAnoMdl?: StringNullableWithAggregatesFilter<"eqp_itm"> | string | null
@@ -29885,9 +33126,9 @@ export namespace Prisma {
     AND?: eqp_locWhereInput | eqp_locWhereInput[]
     OR?: eqp_locWhereInput[]
     NOT?: eqp_locWhereInput | eqp_locWhereInput[]
-    EqpTpoId?: IntFilter<"eqp_loc"> | number
     EqpItmId?: IntFilter<"eqp_loc"> | number
     UndId?: IntFilter<"eqp_loc"> | number
+    EqpTpoId?: IntFilter<"eqp_loc"> | number
     SttId?: IntFilter<"eqp_loc"> | number
     UsrIdAlt?: IntFilter<"eqp_loc"> | number
     DtaAlt?: DateTimeFilter<"eqp_loc"> | Date | string
@@ -29900,9 +33141,9 @@ export namespace Prisma {
   }
 
   export type eqp_locOrderByWithRelationInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
     DtaAlt?: SortOrder
@@ -29912,7 +33153,6 @@ export namespace Prisma {
     eqp_tpo?: eqp_tpoOrderByWithRelationInput
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: eqp_locOrderByRelevanceInput
   }
 
   export type eqp_locWhereUniqueInput = Prisma.AtLeast<{
@@ -29920,9 +33160,9 @@ export namespace Prisma {
     AND?: eqp_locWhereInput | eqp_locWhereInput[]
     OR?: eqp_locWhereInput[]
     NOT?: eqp_locWhereInput | eqp_locWhereInput[]
-    EqpTpoId?: IntFilter<"eqp_loc"> | number
     EqpItmId?: IntFilter<"eqp_loc"> | number
     UndId?: IntFilter<"eqp_loc"> | number
+    EqpTpoId?: IntFilter<"eqp_loc"> | number
     SttId?: IntFilter<"eqp_loc"> | number
     UsrIdAlt?: IntFilter<"eqp_loc"> | number
     DtaAlt?: DateTimeFilter<"eqp_loc"> | Date | string
@@ -29935,9 +33175,9 @@ export namespace Prisma {
   }, "EqpItmId_UndId">
 
   export type eqp_locOrderByWithAggregationInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
     DtaAlt?: SortOrder
@@ -29953,9 +33193,9 @@ export namespace Prisma {
     AND?: eqp_locScalarWhereWithAggregatesInput | eqp_locScalarWhereWithAggregatesInput[]
     OR?: eqp_locScalarWhereWithAggregatesInput[]
     NOT?: eqp_locScalarWhereWithAggregatesInput | eqp_locScalarWhereWithAggregatesInput[]
-    EqpTpoId?: IntWithAggregatesFilter<"eqp_loc"> | number
     EqpItmId?: IntWithAggregatesFilter<"eqp_loc"> | number
     UndId?: IntWithAggregatesFilter<"eqp_loc"> | number
+    EqpTpoId?: IntWithAggregatesFilter<"eqp_loc"> | number
     SttId?: IntWithAggregatesFilter<"eqp_loc"> | number
     UsrIdAlt?: IntWithAggregatesFilter<"eqp_loc"> | number
     DtaAlt?: DateTimeWithAggregatesFilter<"eqp_loc"> | Date | string
@@ -29966,10 +33206,10 @@ export namespace Prisma {
     AND?: eqp_mdlWhereInput | eqp_mdlWhereInput[]
     OR?: eqp_mdlWhereInput[]
     NOT?: eqp_mdlWhereInput | eqp_mdlWhereInput[]
-    EqpTpoId?: IntFilter<"eqp_mdl"> | number
-    EqpFbrId?: IntFilter<"eqp_mdl"> | number
     EqpMdlId?: IntFilter<"eqp_mdl"> | number
     EqpMdlNme?: StringFilter<"eqp_mdl"> | string
+    EqpTpoId?: IntFilter<"eqp_mdl"> | number
+    EqpFbrId?: IntFilter<"eqp_mdl"> | number
     CbtId?: IntFilter<"eqp_mdl"> | number
     CpcCrg?: DecimalNullableFilter<"eqp_mdl"> | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFilter<"eqp_mdl"> | number
@@ -29984,10 +33224,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlOrderByWithRelationInput = {
-    EqpTpoId?: SortOrder
-    EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
     EqpMdlNme?: SortOrder
+    EqpTpoId?: SortOrder
+    EqpFbrId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrderInput | SortOrder
     SttId?: SortOrder
@@ -29999,7 +33239,6 @@ export namespace Prisma {
     eqp_tpo?: eqp_tpoOrderByWithRelationInput
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: eqp_mdlOrderByRelevanceInput
   }
 
   export type eqp_mdlWhereUniqueInput = Prisma.AtLeast<{
@@ -30007,9 +33246,9 @@ export namespace Prisma {
     AND?: eqp_mdlWhereInput | eqp_mdlWhereInput[]
     OR?: eqp_mdlWhereInput[]
     NOT?: eqp_mdlWhereInput | eqp_mdlWhereInput[]
+    EqpMdlNme?: StringFilter<"eqp_mdl"> | string
     EqpTpoId?: IntFilter<"eqp_mdl"> | number
     EqpFbrId?: IntFilter<"eqp_mdl"> | number
-    EqpMdlNme?: StringFilter<"eqp_mdl"> | string
     CbtId?: IntFilter<"eqp_mdl"> | number
     CpcCrg?: DecimalNullableFilter<"eqp_mdl"> | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFilter<"eqp_mdl"> | number
@@ -30024,10 +33263,10 @@ export namespace Prisma {
   }, "EqpMdlId">
 
   export type eqp_mdlOrderByWithAggregationInput = {
-    EqpTpoId?: SortOrder
-    EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
     EqpMdlNme?: SortOrder
+    EqpTpoId?: SortOrder
+    EqpFbrId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrderInput | SortOrder
     SttId?: SortOrder
@@ -30045,10 +33284,10 @@ export namespace Prisma {
     AND?: eqp_mdlScalarWhereWithAggregatesInput | eqp_mdlScalarWhereWithAggregatesInput[]
     OR?: eqp_mdlScalarWhereWithAggregatesInput[]
     NOT?: eqp_mdlScalarWhereWithAggregatesInput | eqp_mdlScalarWhereWithAggregatesInput[]
-    EqpTpoId?: IntWithAggregatesFilter<"eqp_mdl"> | number
-    EqpFbrId?: IntWithAggregatesFilter<"eqp_mdl"> | number
     EqpMdlId?: IntWithAggregatesFilter<"eqp_mdl"> | number
     EqpMdlNme?: StringWithAggregatesFilter<"eqp_mdl"> | string
+    EqpTpoId?: IntWithAggregatesFilter<"eqp_mdl"> | number
+    EqpFbrId?: IntWithAggregatesFilter<"eqp_mdl"> | number
     CbtId?: IntWithAggregatesFilter<"eqp_mdl"> | number
     CpcCrg?: DecimalNullableWithAggregatesFilter<"eqp_mdl"> | Decimal | DecimalJsLike | number | string | null
     SttId?: IntWithAggregatesFilter<"eqp_mdl"> | number
@@ -30086,7 +33325,6 @@ export namespace Prisma {
     eqp_mdl?: eqp_mdlOrderByRelationAggregateInput
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: eqp_tpoOrderByRelevanceInput
   }
 
   export type eqp_tpoWhereUniqueInput = Prisma.AtLeast<{
@@ -30159,7 +33397,6 @@ export namespace Prisma {
     eqp_itm?: eqp_itmOrderByRelationAggregateInput
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: frnOrderByRelevanceInput
   }
 
   export type frnWhereUniqueInput = Prisma.AtLeast<{
@@ -30231,7 +33468,6 @@ export namespace Prisma {
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
     psq_rsp?: psq_rspOrderByRelationAggregateInput
-    _relevance?: psqOrderByRelevanceInput
   }
 
   export type psqWhereUniqueInput = Prisma.AtLeast<{
@@ -30306,7 +33542,6 @@ export namespace Prisma {
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
     psq_rsp?: psq_rspOrderByRelationAggregateInput
-    _relevance?: psq_prgOrderByRelevanceInput
   }
 
   export type psq_prgWhereUniqueInput = Prisma.AtLeast<{
@@ -30400,7 +33635,6 @@ export namespace Prisma {
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
     psq_prg?: psq_prgOrderByWithRelationInput
-    _relevance?: psq_rspOrderByRelevanceInput
   }
 
   export type psq_rspWhereUniqueInput = Prisma.AtLeast<{
@@ -30494,7 +33728,6 @@ export namespace Prisma {
     psq_rsp?: psq_rspOrderByRelationAggregateInput
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: psq_tpoOrderByRelevanceInput
   }
 
   export type psq_tpoWhereUniqueInput = Prisma.AtLeast<{
@@ -30610,7 +33843,6 @@ export namespace Prisma {
     stt_rcg_SttIdTostt?: sttOrderByWithRelationInput
     stt_rcg_SttRcgIdTostt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: rcgOrderByRelevanceInput
   }
 
   export type rcgWhereUniqueInput = Prisma.AtLeast<{
@@ -30766,7 +33998,6 @@ export namespace Prisma {
     usr?: usrOrderByRelationAggregateInput
     usr_tpo?: usr_tpoOrderByRelationAggregateInput
     trn?: trnOrderByRelationAggregateInput
-    _relevance?: sttOrderByRelevanceInput
   }
 
   export type sttWhereUniqueInput = Prisma.AtLeast<{
@@ -30852,7 +34083,6 @@ export namespace Prisma {
     MtvDel?: SortOrderInput | SortOrder
     stt?: sttOrderByWithRelationInput
     usr?: usrOrderByWithRelationInput
-    _relevance?: trnOrderByRelevanceInput
   }
 
   export type trnWhereUniqueInput = Prisma.AtLeast<{
@@ -30970,7 +34200,6 @@ export namespace Prisma {
     usr?: usrOrderByWithRelationInput
     other_usr?: usrOrderByRelationAggregateInput
     trn?: trnOrderByRelationAggregateInput
-    _relevance?: usrOrderByRelevanceInput
   }
 
   export type usrWhereUniqueInput = Prisma.AtLeast<{
@@ -31073,7 +34302,6 @@ export namespace Prisma {
     MtvDel?: SortOrderInput | SortOrder
     usr?: usrOrderByRelationAggregateInput
     stt?: sttOrderByWithRelationInput
-    _relevance?: usr_tpoOrderByRelevanceInput
   }
 
   export type usr_tpoWhereUniqueInput = Prisma.AtLeast<{
@@ -31163,7 +34391,6 @@ export namespace Prisma {
     KmRodado?: SortOrderInput | SortOrder
     Checklist?: SortOrderInput | SortOrder
     Capacidade_Tecnica?: SortOrder
-    _relevance?: VwOnibusOrderByRelevanceInput
   }
 
   export type VwOnibusWhereUniqueInput = Prisma.AtLeast<{
@@ -31259,7 +34486,6 @@ export namespace Prisma {
     UndId?: SortOrder
     EqpItmId?: SortOrder
     Carregador?: SortOrderInput | SortOrder
-    _relevance?: VwCarregadorOrderByRelevanceInput
   }
 
   export type VwCarregadorWhereUniqueInput = Prisma.AtLeast<{
@@ -31309,7 +34535,6 @@ export namespace Prisma {
     Tipo_Pesquisa?: SortOrderInput | SortOrder
     Pergunta?: SortOrderInput | SortOrder
     Sequencia?: SortOrderInput | SortOrder
-    _relevance?: VwPesquisaPerguntaOrderByRelevanceInput
   }
 
   export type VwPesquisaPerguntaWhereUniqueInput = Prisma.AtLeast<{
@@ -31362,7 +34587,6 @@ export namespace Prisma {
     PostoRecarga?: SortOrder
     Latitude?: SortOrderInput | SortOrder
     Longitude?: SortOrderInput | SortOrder
-    _relevance?: VwPostoRecargaOrderByRelevanceInput
   }
 
   export type VwPostoRecargaWhereUniqueInput = Prisma.AtLeast<{
@@ -31414,7 +34638,6 @@ export namespace Prisma {
     TrnId?: SortOrder
     InicioTurno?: SortOrder
     FimTurno?: SortOrder
-    _relevance?: VwTurnoAtualOrderByRelevanceInput
   }
 
   export type VwTurnoAtualWhereUniqueInput = Prisma.AtLeast<{
@@ -31779,8 +35002,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedCreateInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -31814,8 +35037,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -31832,8 +35055,8 @@ export namespace Prisma {
   }
 
   export type emp_undCreateManyInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -31859,8 +35082,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateManyInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -31959,12 +35182,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -31998,12 +35221,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -32018,12 +35241,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -32044,12 +35267,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -32071,9 +35294,9 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedCreateInput = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     SttId?: number
     UsrIdAlt: number
     DtaAlt?: Date | string
@@ -32091,9 +35314,9 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -32101,9 +35324,9 @@ export namespace Prisma {
   }
 
   export type eqp_locCreateManyInput = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     SttId?: number
     UsrIdAlt: number
     DtaAlt?: Date | string
@@ -32116,9 +35339,9 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateManyInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -32139,10 +35362,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedCreateInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -32166,10 +35389,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -32180,10 +35403,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlCreateManyInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -32201,10 +35424,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateManyInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -33628,8 +36851,8 @@ export namespace Prisma {
 
   export type IntFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[]
-    notIn?: number[]
+    in?: number[] | ListIntFieldRefInput<$PrismaModel>
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -33639,8 +36862,8 @@ export namespace Prisma {
 
   export type StringFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
-    in?: string[]
-    notIn?: string[]
+    in?: string[] | ListStringFieldRefInput<$PrismaModel>
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel>
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -33648,14 +36871,14 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
+    mode?: QueryMode
     not?: NestedStringFilter<$PrismaModel> | string
   }
 
   export type DateTimeFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[]
-    notIn?: Date[] | string[]
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -33665,8 +36888,8 @@ export namespace Prisma {
 
   export type StringNullableFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel> | null
-    in?: string[] | null
-    notIn?: string[] | null
+    in?: string[] | ListStringFieldRefInput<$PrismaModel> | null
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel> | null
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -33674,7 +36897,7 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
+    mode?: QueryMode
     not?: NestedStringNullableFilter<$PrismaModel> | string | null
   }
 
@@ -33691,12 +36914,6 @@ export namespace Prisma {
   export type SortOrderInput = {
     sort: SortOrder
     nulls?: NullsOrder
-  }
-
-  export type cbtOrderByRelevanceInput = {
-    fields: cbtOrderByRelevanceFieldEnum | cbtOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type cbtCountOrderByAggregateInput = {
@@ -33740,8 +36957,8 @@ export namespace Prisma {
 
   export type IntWithAggregatesFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[]
-    notIn?: number[]
+    in?: number[] | ListIntFieldRefInput<$PrismaModel>
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -33756,8 +36973,8 @@ export namespace Prisma {
 
   export type StringWithAggregatesFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
-    in?: string[]
-    notIn?: string[]
+    in?: string[] | ListStringFieldRefInput<$PrismaModel>
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel>
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -33765,7 +36982,7 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
+    mode?: QueryMode
     not?: NestedStringWithAggregatesFilter<$PrismaModel> | string
     _count?: NestedIntFilter<$PrismaModel>
     _min?: NestedStringFilter<$PrismaModel>
@@ -33774,8 +36991,8 @@ export namespace Prisma {
 
   export type DateTimeWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[]
-    notIn?: Date[] | string[]
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -33788,8 +37005,8 @@ export namespace Prisma {
 
   export type StringNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel> | null
-    in?: string[] | null
-    notIn?: string[] | null
+    in?: string[] | ListStringFieldRefInput<$PrismaModel> | null
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel> | null
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -33797,7 +37014,7 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
+    mode?: QueryMode
     not?: NestedStringNullableWithAggregatesFilter<$PrismaModel> | string | null
     _count?: NestedIntNullableFilter<$PrismaModel>
     _min?: NestedStringNullableFilter<$PrismaModel>
@@ -33832,12 +37049,6 @@ export namespace Prisma {
 
   export type usrOrderByRelationAggregateInput = {
     _count?: SortOrder
-  }
-
-  export type empOrderByRelevanceInput = {
-    fields: empOrderByRelevanceFieldEnum | empOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type empCountOrderByAggregateInput = {
@@ -33959,8 +37170,8 @@ export namespace Prisma {
 
   export type IntNullableFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListIntFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel> | null
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -33993,15 +37204,9 @@ export namespace Prisma {
     _count?: SortOrder
   }
 
-  export type emp_undOrderByRelevanceInput = {
-    fields: emp_undOrderByRelevanceFieldEnum | emp_undOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type emp_undCountOrderByAggregateInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     UndNme?: SortOrder
     UndRdz?: SortOrder
     UndReg?: SortOrder
@@ -34015,16 +37220,16 @@ export namespace Prisma {
   }
 
   export type emp_undAvgOrderByAggregateInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     PstRcg?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
   }
 
   export type emp_undMaxOrderByAggregateInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     UndNme?: SortOrder
     UndRdz?: SortOrder
     UndReg?: SortOrder
@@ -34038,8 +37243,8 @@ export namespace Prisma {
   }
 
   export type emp_undMinOrderByAggregateInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     UndNme?: SortOrder
     UndRdz?: SortOrder
     UndReg?: SortOrder
@@ -34053,8 +37258,8 @@ export namespace Prisma {
   }
 
   export type emp_undSumOrderByAggregateInput = {
-    EmpId?: SortOrder
     UndId?: SortOrder
+    EmpId?: SortOrder
     PstRcg?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
@@ -34062,8 +37267,8 @@ export namespace Prisma {
 
   export type IntNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListIntFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel> | null
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -34084,12 +37289,6 @@ export namespace Prisma {
 
   export type eqp_mdlOrderByRelationAggregateInput = {
     _count?: SortOrder
-  }
-
-  export type eqp_fbrOrderByRelevanceInput = {
-    fields: eqp_fbrOrderByRelevanceFieldEnum | eqp_fbrOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type eqp_fbrCountOrderByAggregateInput = {
@@ -34156,19 +37355,13 @@ export namespace Prisma {
     isNot?: frnWhereInput
   }
 
-  export type eqp_itmOrderByRelevanceInput = {
-    fields: eqp_itmOrderByRelevanceFieldEnum | eqp_itmOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type eqp_itmCountOrderByAggregateInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     EqpItmCdg?: SortOrder
     EqpItmPlc?: SortOrder
     EqpItmAnoMdl?: SortOrder
@@ -34180,23 +37373,23 @@ export namespace Prisma {
   }
 
   export type eqp_itmAvgOrderByAggregateInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
   }
 
   export type eqp_itmMaxOrderByAggregateInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     EqpItmCdg?: SortOrder
     EqpItmPlc?: SortOrder
     EqpItmAnoMdl?: SortOrder
@@ -34208,12 +37401,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmMinOrderByAggregateInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     EqpItmCdg?: SortOrder
     EqpItmPlc?: SortOrder
     EqpItmAnoMdl?: SortOrder
@@ -34225,12 +37418,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmSumOrderByAggregateInput = {
+    EqpItmId?: SortOrder
     UndId?: SortOrder
     FrnId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
-    EqpItmId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
   }
@@ -34240,21 +37433,15 @@ export namespace Prisma {
     isNot?: eqp_itmWhereInput
   }
 
-  export type eqp_locOrderByRelevanceInput = {
-    fields: eqp_locOrderByRelevanceFieldEnum | eqp_locOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type eqp_locEqpItmIdUndIdCompoundUniqueInput = {
     EqpItmId: number
     UndId: number
   }
 
   export type eqp_locCountOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
     DtaAlt?: SortOrder
@@ -34262,17 +37449,17 @@ export namespace Prisma {
   }
 
   export type eqp_locAvgOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
   }
 
   export type eqp_locMaxOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
     DtaAlt?: SortOrder
@@ -34280,9 +37467,9 @@ export namespace Prisma {
   }
 
   export type eqp_locMinOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
     DtaAlt?: SortOrder
@@ -34290,17 +37477,17 @@ export namespace Prisma {
   }
 
   export type eqp_locSumOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
     EqpItmId?: SortOrder
     UndId?: SortOrder
+    EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
   }
 
   export type DecimalNullableFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel> | null
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -34308,17 +37495,11 @@ export namespace Prisma {
     not?: NestedDecimalNullableFilter<$PrismaModel> | Decimal | DecimalJsLike | number | string | null
   }
 
-  export type eqp_mdlOrderByRelevanceInput = {
-    fields: eqp_mdlOrderByRelevanceFieldEnum | eqp_mdlOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type eqp_mdlCountOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
-    EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
     EqpMdlNme?: SortOrder
+    EqpTpoId?: SortOrder
+    EqpFbrId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrder
     SttId?: SortOrder
@@ -34328,9 +37509,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlAvgOrderByAggregateInput = {
+    EqpMdlId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
-    EqpMdlId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrder
     SttId?: SortOrder
@@ -34338,10 +37519,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlMaxOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
-    EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
     EqpMdlNme?: SortOrder
+    EqpTpoId?: SortOrder
+    EqpFbrId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrder
     SttId?: SortOrder
@@ -34351,10 +37532,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlMinOrderByAggregateInput = {
-    EqpTpoId?: SortOrder
-    EqpFbrId?: SortOrder
     EqpMdlId?: SortOrder
     EqpMdlNme?: SortOrder
+    EqpTpoId?: SortOrder
+    EqpFbrId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrder
     SttId?: SortOrder
@@ -34364,9 +37545,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlSumOrderByAggregateInput = {
+    EqpMdlId?: SortOrder
     EqpTpoId?: SortOrder
     EqpFbrId?: SortOrder
-    EqpMdlId?: SortOrder
     CbtId?: SortOrder
     CpcCrg?: SortOrder
     SttId?: SortOrder
@@ -34375,8 +37556,8 @@ export namespace Prisma {
 
   export type DecimalNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel> | null
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -34387,12 +37568,6 @@ export namespace Prisma {
     _sum?: NestedDecimalNullableFilter<$PrismaModel>
     _min?: NestedDecimalNullableFilter<$PrismaModel>
     _max?: NestedDecimalNullableFilter<$PrismaModel>
-  }
-
-  export type eqp_tpoOrderByRelevanceInput = {
-    fields: eqp_tpoOrderByRelevanceFieldEnum | eqp_tpoOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type eqp_tpoCountOrderByAggregateInput = {
@@ -34432,12 +37607,6 @@ export namespace Prisma {
     EqpTpoId?: SortOrder
     SttId?: SortOrder
     UsrIdAlt?: SortOrder
-  }
-
-  export type frnOrderByRelevanceInput = {
-    fields: frnOrderByRelevanceFieldEnum | frnOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type frnCountOrderByAggregateInput = {
@@ -34492,12 +37661,6 @@ export namespace Prisma {
     _count?: SortOrder
   }
 
-  export type psqOrderByRelevanceInput = {
-    fields: psqOrderByRelevanceFieldEnum | psqOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type psqCountOrderByAggregateInput = {
     PsqId?: SortOrder
     Psq?: SortOrder
@@ -34540,12 +37703,6 @@ export namespace Prisma {
   export type Psq_tpoScalarRelationFilter = {
     is?: psq_tpoWhereInput
     isNot?: psq_tpoWhereInput
-  }
-
-  export type psq_prgOrderByRelevanceInput = {
-    fields: psq_prgOrderByRelevanceFieldEnum | psq_prgOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type psq_prgCountOrderByAggregateInput = {
@@ -34605,12 +37762,6 @@ export namespace Prisma {
   export type Psq_prgScalarRelationFilter = {
     is?: psq_prgWhereInput
     isNot?: psq_prgWhereInput
-  }
-
-  export type psq_rspOrderByRelevanceInput = {
-    fields: psq_rspOrderByRelevanceFieldEnum | psq_rspOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type psq_rspCountOrderByAggregateInput = {
@@ -34695,12 +37846,6 @@ export namespace Prisma {
     _count?: SortOrder
   }
 
-  export type psq_tpoOrderByRelevanceInput = {
-    fields: psq_tpoOrderByRelevanceFieldEnum | psq_tpoOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type psq_tpoCountOrderByAggregateInput = {
     PsqTpoId?: SortOrder
     PsqTpo?: SortOrder
@@ -34742,8 +37887,8 @@ export namespace Prisma {
 
   export type DateTimeNullableFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel> | null
-    in?: Date[] | string[] | null
-    notIn?: Date[] | string[] | null
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -34754,12 +37899,6 @@ export namespace Prisma {
   export type RcgNullableScalarRelationFilter = {
     is?: rcgWhereInput | null
     isNot?: rcgWhereInput | null
-  }
-
-  export type rcgOrderByRelevanceInput = {
-    fields: rcgOrderByRelevanceFieldEnum | rcgOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type rcgCountOrderByAggregateInput = {
@@ -34882,8 +38021,8 @@ export namespace Prisma {
 
   export type DateTimeNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel> | null
-    in?: Date[] | string[] | null
-    notIn?: Date[] | string[] | null
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -34984,12 +38123,6 @@ export namespace Prisma {
     _count?: SortOrder
   }
 
-  export type sttOrderByRelevanceInput = {
-    fields: sttOrderByRelevanceFieldEnum | sttOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type sttCountOrderByAggregateInput = {
     SttId?: SortOrder
     SttNme?: SortOrder
@@ -35027,12 +38160,6 @@ export namespace Prisma {
     SttId?: SortOrder
     SttIdAtu?: SortOrder
     UsrIdAlt?: SortOrder
-  }
-
-  export type trnOrderByRelevanceInput = {
-    fields: trnOrderByRelevanceFieldEnum | trnOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type trnCountOrderByAggregateInput = {
@@ -35083,12 +38210,6 @@ export namespace Prisma {
   export type Usr_tpoScalarRelationFilter = {
     is?: usr_tpoWhereInput
     isNot?: usr_tpoWhereInput
-  }
-
-  export type usrOrderByRelevanceInput = {
-    fields: usrOrderByRelevanceFieldEnum | usrOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type usrCountOrderByAggregateInput = {
@@ -35155,12 +38276,6 @@ export namespace Prisma {
     UsrIdAlt?: SortOrder
   }
 
-  export type usr_tpoOrderByRelevanceInput = {
-    fields: usr_tpoOrderByRelevanceFieldEnum | usr_tpoOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type usr_tpoCountOrderByAggregateInput = {
     UsrTpoId?: SortOrder
     UsrTpoNme?: SortOrder
@@ -35202,8 +38317,8 @@ export namespace Prisma {
 
   export type FloatNullableFilter<$PrismaModel = never> = {
     equals?: number | FloatFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
     lt?: number | FloatFieldRefInput<$PrismaModel>
     lte?: number | FloatFieldRefInput<$PrismaModel>
     gt?: number | FloatFieldRefInput<$PrismaModel>
@@ -35213,19 +38328,13 @@ export namespace Prisma {
 
   export type DecimalFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[]
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[]
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     not?: NestedDecimalFilter<$PrismaModel> | Decimal | DecimalJsLike | number | string
-  }
-
-  export type VwOnibusOrderByRelevanceInput = {
-    fields: VwOnibusOrderByRelevanceFieldEnum | VwOnibusOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type VwOnibusCountOrderByAggregateInput = {
@@ -35329,8 +38438,8 @@ export namespace Prisma {
 
   export type FloatNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: number | FloatFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
     lt?: number | FloatFieldRefInput<$PrismaModel>
     lte?: number | FloatFieldRefInput<$PrismaModel>
     gt?: number | FloatFieldRefInput<$PrismaModel>
@@ -35345,8 +38454,8 @@ export namespace Prisma {
 
   export type DecimalWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[]
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[]
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -35357,12 +38466,6 @@ export namespace Prisma {
     _sum?: NestedDecimalFilter<$PrismaModel>
     _min?: NestedDecimalFilter<$PrismaModel>
     _max?: NestedDecimalFilter<$PrismaModel>
-  }
-
-  export type VwCarregadorOrderByRelevanceInput = {
-    fields: VwCarregadorOrderByRelevanceFieldEnum | VwCarregadorOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type VwCarregadorUndIdEqpItmIdCompoundUniqueInput = {
@@ -35396,12 +38499,6 @@ export namespace Prisma {
   export type VwCarregadorSumOrderByAggregateInput = {
     UndId?: SortOrder
     EqpItmId?: SortOrder
-  }
-
-  export type VwPesquisaPerguntaOrderByRelevanceInput = {
-    fields: VwPesquisaPerguntaOrderByRelevanceFieldEnum | VwPesquisaPerguntaOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type VwPesquisaPerguntaCountOrderByAggregateInput = {
@@ -35440,12 +38537,6 @@ export namespace Prisma {
     Sequencia?: SortOrder
   }
 
-  export type VwPostoRecargaOrderByRelevanceInput = {
-    fields: VwPostoRecargaOrderByRelevanceFieldEnum | VwPostoRecargaOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
-  }
-
   export type VwPostoRecargaCountOrderByAggregateInput = {
     UndId?: SortOrder
     PostoRecarga?: SortOrder
@@ -35473,12 +38564,6 @@ export namespace Prisma {
 
   export type VwPostoRecargaSumOrderByAggregateInput = {
     UndId?: SortOrder
-  }
-
-  export type VwTurnoAtualOrderByRelevanceInput = {
-    fields: VwTurnoAtualOrderByRelevanceFieldEnum | VwTurnoAtualOrderByRelevanceFieldEnum[]
-    sort: SortOrder
-    search: string
   }
 
   export type VwTurnoAtualCountOrderByAggregateInput = {
@@ -38589,8 +41674,8 @@ export namespace Prisma {
 
   export type NestedIntFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[]
-    notIn?: number[]
+    in?: number[] | ListIntFieldRefInput<$PrismaModel>
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -38600,8 +41685,8 @@ export namespace Prisma {
 
   export type NestedStringFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
-    in?: string[]
-    notIn?: string[]
+    in?: string[] | ListStringFieldRefInput<$PrismaModel>
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel>
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -38609,14 +41694,13 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
     not?: NestedStringFilter<$PrismaModel> | string
   }
 
   export type NestedDateTimeFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[]
-    notIn?: Date[] | string[]
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -38626,8 +41710,8 @@ export namespace Prisma {
 
   export type NestedStringNullableFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel> | null
-    in?: string[] | null
-    notIn?: string[] | null
+    in?: string[] | ListStringFieldRefInput<$PrismaModel> | null
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel> | null
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -38635,14 +41719,13 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
     not?: NestedStringNullableFilter<$PrismaModel> | string | null
   }
 
   export type NestedIntWithAggregatesFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel>
-    in?: number[]
-    notIn?: number[]
+    in?: number[] | ListIntFieldRefInput<$PrismaModel>
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel>
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -38657,8 +41740,8 @@ export namespace Prisma {
 
   export type NestedFloatFilter<$PrismaModel = never> = {
     equals?: number | FloatFieldRefInput<$PrismaModel>
-    in?: number[]
-    notIn?: number[]
+    in?: number[] | ListFloatFieldRefInput<$PrismaModel>
+    notIn?: number[] | ListFloatFieldRefInput<$PrismaModel>
     lt?: number | FloatFieldRefInput<$PrismaModel>
     lte?: number | FloatFieldRefInput<$PrismaModel>
     gt?: number | FloatFieldRefInput<$PrismaModel>
@@ -38668,8 +41751,8 @@ export namespace Prisma {
 
   export type NestedStringWithAggregatesFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel>
-    in?: string[]
-    notIn?: string[]
+    in?: string[] | ListStringFieldRefInput<$PrismaModel>
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel>
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -38677,7 +41760,6 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
     not?: NestedStringWithAggregatesFilter<$PrismaModel> | string
     _count?: NestedIntFilter<$PrismaModel>
     _min?: NestedStringFilter<$PrismaModel>
@@ -38686,8 +41768,8 @@ export namespace Prisma {
 
   export type NestedDateTimeWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel>
-    in?: Date[] | string[]
-    notIn?: Date[] | string[]
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel>
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -38700,8 +41782,8 @@ export namespace Prisma {
 
   export type NestedStringNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: string | StringFieldRefInput<$PrismaModel> | null
-    in?: string[] | null
-    notIn?: string[] | null
+    in?: string[] | ListStringFieldRefInput<$PrismaModel> | null
+    notIn?: string[] | ListStringFieldRefInput<$PrismaModel> | null
     lt?: string | StringFieldRefInput<$PrismaModel>
     lte?: string | StringFieldRefInput<$PrismaModel>
     gt?: string | StringFieldRefInput<$PrismaModel>
@@ -38709,7 +41791,6 @@ export namespace Prisma {
     contains?: string | StringFieldRefInput<$PrismaModel>
     startsWith?: string | StringFieldRefInput<$PrismaModel>
     endsWith?: string | StringFieldRefInput<$PrismaModel>
-    search?: string
     not?: NestedStringNullableWithAggregatesFilter<$PrismaModel> | string | null
     _count?: NestedIntNullableFilter<$PrismaModel>
     _min?: NestedStringNullableFilter<$PrismaModel>
@@ -38718,8 +41799,8 @@ export namespace Prisma {
 
   export type NestedIntNullableFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListIntFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel> | null
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -38729,8 +41810,8 @@ export namespace Prisma {
 
   export type NestedIntNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: number | IntFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListIntFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListIntFieldRefInput<$PrismaModel> | null
     lt?: number | IntFieldRefInput<$PrismaModel>
     lte?: number | IntFieldRefInput<$PrismaModel>
     gt?: number | IntFieldRefInput<$PrismaModel>
@@ -38745,8 +41826,8 @@ export namespace Prisma {
 
   export type NestedFloatNullableFilter<$PrismaModel = never> = {
     equals?: number | FloatFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
     lt?: number | FloatFieldRefInput<$PrismaModel>
     lte?: number | FloatFieldRefInput<$PrismaModel>
     gt?: number | FloatFieldRefInput<$PrismaModel>
@@ -38756,8 +41837,8 @@ export namespace Prisma {
 
   export type NestedDecimalNullableFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel> | null
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -38767,8 +41848,8 @@ export namespace Prisma {
 
   export type NestedDecimalNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel> | null
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | null
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel> | null
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -38783,8 +41864,8 @@ export namespace Prisma {
 
   export type NestedDateTimeNullableFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel> | null
-    in?: Date[] | string[] | null
-    notIn?: Date[] | string[] | null
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -38794,8 +41875,8 @@ export namespace Prisma {
 
   export type NestedDateTimeNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Date | string | DateTimeFieldRefInput<$PrismaModel> | null
-    in?: Date[] | string[] | null
-    notIn?: Date[] | string[] | null
+    in?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
+    notIn?: Date[] | string[] | ListDateTimeFieldRefInput<$PrismaModel> | null
     lt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     lte?: Date | string | DateTimeFieldRefInput<$PrismaModel>
     gt?: Date | string | DateTimeFieldRefInput<$PrismaModel>
@@ -38808,8 +41889,8 @@ export namespace Prisma {
 
   export type NestedDecimalFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[]
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[]
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -38819,8 +41900,8 @@ export namespace Prisma {
 
   export type NestedFloatNullableWithAggregatesFilter<$PrismaModel = never> = {
     equals?: number | FloatFieldRefInput<$PrismaModel> | null
-    in?: number[] | null
-    notIn?: number[] | null
+    in?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
+    notIn?: number[] | ListFloatFieldRefInput<$PrismaModel> | null
     lt?: number | FloatFieldRefInput<$PrismaModel>
     lte?: number | FloatFieldRefInput<$PrismaModel>
     gt?: number | FloatFieldRefInput<$PrismaModel>
@@ -38835,8 +41916,8 @@ export namespace Prisma {
 
   export type NestedDecimalWithAggregatesFilter<$PrismaModel = never> = {
     equals?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
-    in?: Decimal[] | DecimalJsLike[] | number[] | string[]
-    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[]
+    in?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
+    notIn?: Decimal[] | DecimalJsLike[] | number[] | string[] | ListDecimalFieldRefInput<$PrismaModel>
     lt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     lte?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
     gt?: Decimal | DecimalJsLike | number | string | DecimalFieldRefInput<$PrismaModel>
@@ -39406,8 +42487,8 @@ export namespace Prisma {
     AND?: emp_undScalarWhereInput | emp_undScalarWhereInput[]
     OR?: emp_undScalarWhereInput[]
     NOT?: emp_undScalarWhereInput | emp_undScalarWhereInput[]
-    EmpId?: IntFilter<"emp_und"> | number
     UndId?: IntFilter<"emp_und"> | number
+    EmpId?: IntFilter<"emp_und"> | number
     UndNme?: StringFilter<"emp_und"> | string
     UndRdz?: StringNullableFilter<"emp_und"> | string | null
     UndReg?: StringNullableFilter<"emp_und"> | string | null
@@ -39653,11 +42734,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutEmp_undInput = {
+    EqpItmId?: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -39691,8 +42772,8 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedCreateWithoutEmp_undInput = {
-    EqpTpoId: number
     EqpItmId: number
+    EqpTpoId: number
     SttId?: number
     UsrIdAlt: number
     DtaAlt?: Date | string
@@ -39936,12 +43017,12 @@ export namespace Prisma {
     AND?: eqp_itmScalarWhereInput | eqp_itmScalarWhereInput[]
     OR?: eqp_itmScalarWhereInput[]
     NOT?: eqp_itmScalarWhereInput | eqp_itmScalarWhereInput[]
+    EqpItmId?: IntFilter<"eqp_itm"> | number
     UndId?: IntFilter<"eqp_itm"> | number
     FrnId?: IntFilter<"eqp_itm"> | number
     EqpTpoId?: IntFilter<"eqp_itm"> | number
     EqpFbrId?: IntFilter<"eqp_itm"> | number
     EqpMdlId?: IntFilter<"eqp_itm"> | number
-    EqpItmId?: IntFilter<"eqp_itm"> | number
     EqpItmCdg?: StringFilter<"eqp_itm"> | string
     EqpItmPlc?: StringNullableFilter<"eqp_itm"> | string | null
     EqpItmAnoMdl?: StringNullableFilter<"eqp_itm"> | string | null
@@ -39972,9 +43053,9 @@ export namespace Prisma {
     AND?: eqp_locScalarWhereInput | eqp_locScalarWhereInput[]
     OR?: eqp_locScalarWhereInput[]
     NOT?: eqp_locScalarWhereInput | eqp_locScalarWhereInput[]
-    EqpTpoId?: IntFilter<"eqp_loc"> | number
     EqpItmId?: IntFilter<"eqp_loc"> | number
     UndId?: IntFilter<"eqp_loc"> | number
+    EqpTpoId?: IntFilter<"eqp_loc"> | number
     SttId?: IntFilter<"eqp_loc"> | number
     UsrIdAlt?: IntFilter<"eqp_loc"> | number
     DtaAlt?: DateTimeFilter<"eqp_loc"> | Date | string
@@ -40134,11 +43215,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutEqp_fbrInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -40175,9 +43256,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedCreateWithoutEqp_fbrInput = {
-    EqpTpoId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -40363,10 +43444,10 @@ export namespace Prisma {
     AND?: eqp_mdlScalarWhereInput | eqp_mdlScalarWhereInput[]
     OR?: eqp_mdlScalarWhereInput[]
     NOT?: eqp_mdlScalarWhereInput | eqp_mdlScalarWhereInput[]
-    EqpTpoId?: IntFilter<"eqp_mdl"> | number
-    EqpFbrId?: IntFilter<"eqp_mdl"> | number
     EqpMdlId?: IntFilter<"eqp_mdl"> | number
     EqpMdlNme?: StringFilter<"eqp_mdl"> | string
+    EqpTpoId?: IntFilter<"eqp_mdl"> | number
+    EqpFbrId?: IntFilter<"eqp_mdl"> | number
     CbtId?: IntFilter<"eqp_mdl"> | number
     CpcCrg?: DecimalNullableFilter<"eqp_mdl"> | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFilter<"eqp_mdl"> | number
@@ -40392,8 +43473,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedCreateWithoutEqp_itmInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -40450,10 +43531,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedCreateWithoutEqp_itmInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -40645,8 +43726,8 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedCreateWithoutEqp_itmInput = {
-    EqpTpoId: number
     UndId: number
+    EqpTpoId: number
     SttId?: number
     UsrIdAlt: number
     DtaAlt?: Date | string
@@ -40813,8 +43894,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateWithoutEqp_itmInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -40883,10 +43964,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateWithoutEqp_itmInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -41152,8 +44233,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedCreateWithoutEqp_locInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -41192,12 +44273,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutEqp_locInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -41387,8 +44468,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateWithoutEqp_locInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -41433,12 +44514,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutEqp_locInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -41632,11 +44713,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutEqp_mdlInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -42055,11 +45136,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutEqp_tpoInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -42124,9 +45205,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedCreateWithoutEqp_tpoInput = {
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -42461,11 +45542,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutFrnInput = {
+    EqpItmId?: number
     UndId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -44223,8 +47304,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedCreateWithoutRcgInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -44341,12 +47422,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutRcg_rcg_CrrIdToeqp_itmInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -44383,12 +47464,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutRcg_rcg_VclIdToeqp_itmInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -44725,8 +47806,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateWithoutRcgInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -44855,12 +47936,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutRcg_rcg_CrrIdToeqp_itmInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -44903,12 +47984,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutRcg_rcg_VclIdToeqp_itmInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -45316,8 +48397,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedCreateWithoutSttInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -45390,12 +48471,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutSttInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -45428,9 +48509,9 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedCreateWithoutSttInput = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     UsrIdAlt: number
     DtaAlt?: Date | string
     MtvDel?: string | null
@@ -45459,10 +48540,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedCreateWithoutSttInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     UsrIdAlt: number
@@ -46658,12 +49739,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedCreateWithoutUsrInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -46696,9 +49777,9 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedCreateWithoutUsrInput = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     SttId?: number
     DtaAlt?: Date | string
     MtvDel?: string | null
@@ -46727,10 +49808,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedCreateWithoutUsrInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -48227,11 +51308,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyEmp_undInput = {
+    EqpItmId?: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -48243,8 +51324,8 @@ export namespace Prisma {
   }
 
   export type eqp_locCreateManyEmp_undInput = {
-    EqpTpoId: number
     EqpItmId: number
+    EqpTpoId: number
     SttId?: number
     UsrIdAlt: number
     DtaAlt?: Date | string
@@ -48295,11 +51376,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutEmp_undInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48314,11 +51395,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutEmp_undInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48339,8 +51420,8 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateWithoutEmp_undInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -48348,8 +51429,8 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateManyWithoutEmp_undInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -48433,11 +51514,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyEqp_fbrInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -48449,9 +51530,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlCreateManyEqp_fbrInput = {
-    EqpTpoId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -48479,11 +51560,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutEqp_fbrInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48498,11 +51579,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutEqp_fbrInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48526,9 +51607,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateWithoutEqp_fbrInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -48539,9 +51620,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateManyWithoutEqp_fbrInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -48551,8 +51632,8 @@ export namespace Prisma {
   }
 
   export type eqp_locCreateManyEqp_itmInput = {
-    EqpTpoId: number
     UndId: number
+    EqpTpoId: number
     SttId?: number
     UsrIdAlt: number
     DtaAlt?: Date | string
@@ -48619,8 +51700,8 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateWithoutEqp_itmInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -48628,8 +51709,8 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateManyWithoutEqp_itmInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
@@ -48789,11 +51870,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyEqp_mdlInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -48823,11 +51904,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutEqp_mdlInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48842,11 +51923,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutEqp_mdlInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48858,11 +51939,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyEqp_tpoInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -48883,9 +51964,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlCreateManyEqp_tpoInput = {
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -48913,11 +51994,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutEqp_tpoInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48932,11 +52013,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutEqp_tpoInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -48987,9 +52068,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateWithoutEqp_tpoInput = {
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -49000,9 +52081,9 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateManyWithoutEqp_tpoInput = {
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -49012,11 +52093,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyFrnInput = {
+    EqpItmId?: number
     UndId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -49046,11 +52127,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutFrnInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49065,11 +52146,11 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutFrnInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49442,8 +52523,8 @@ export namespace Prisma {
   }
 
   export type emp_undCreateManySttInput = {
-    EmpId: number
     UndId?: number
+    EmpId: number
     UndNme: string
     UndRdz?: string | null
     UndReg?: string | null
@@ -49464,12 +52545,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManySttInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -49480,19 +52561,19 @@ export namespace Prisma {
   }
 
   export type eqp_locCreateManySttInput = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     UsrIdAlt: number
     DtaAlt?: Date | string
     MtvDel?: string | null
   }
 
   export type eqp_mdlCreateManySttInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     UsrIdAlt: number
@@ -49788,8 +52869,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateWithoutSttInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49805,8 +52886,8 @@ export namespace Prisma {
   }
 
   export type emp_undUncheckedUpdateManyWithoutSttInput = {
-    EmpId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EmpId?: IntFieldUpdateOperationsInput | number
     UndNme?: StringFieldUpdateOperationsInput | string
     UndRdz?: NullableStringFieldUpdateOperationsInput | string | null
     UndReg?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49864,12 +52945,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutSttInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49883,12 +52964,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutSttInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49908,18 +52989,18 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateWithoutSttInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
     MtvDel?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type eqp_locUncheckedUpdateManyWithoutSttInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
     MtvDel?: NullableStringFieldUpdateOperationsInput | string | null
@@ -49938,10 +53019,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateWithoutSttInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
@@ -49951,10 +53032,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateManyWithoutSttInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     UsrIdAlt?: IntFieldUpdateOperationsInput | number
@@ -50441,12 +53522,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmCreateManyUsrInput = {
+    EqpItmId?: number
     UndId: number
     FrnId: number
     EqpTpoId: number
     EqpFbrId: number
     EqpMdlId: number
-    EqpItmId?: number
     EqpItmCdg: string
     EqpItmPlc?: string | null
     EqpItmAnoMdl?: string | null
@@ -50457,19 +53538,19 @@ export namespace Prisma {
   }
 
   export type eqp_locCreateManyUsrInput = {
-    EqpTpoId: number
     EqpItmId: number
     UndId: number
+    EqpTpoId: number
     SttId?: number
     DtaAlt?: Date | string
     MtvDel?: string | null
   }
 
   export type eqp_mdlCreateManyUsrInput = {
-    EqpTpoId: number
-    EqpFbrId: number
     EqpMdlId?: number
     EqpMdlNme: string
+    EqpTpoId: number
+    EqpFbrId: number
     CbtId: number
     CpcCrg?: Decimal | DecimalJsLike | number | string | null
     SttId?: number
@@ -50654,12 +53735,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateWithoutUsrInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -50673,12 +53754,12 @@ export namespace Prisma {
   }
 
   export type eqp_itmUncheckedUpdateManyWithoutUsrInput = {
+    EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
     FrnId?: IntFieldUpdateOperationsInput | number
     EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
-    EqpItmId?: IntFieldUpdateOperationsInput | number
     EqpItmCdg?: StringFieldUpdateOperationsInput | string
     EqpItmPlc?: NullableStringFieldUpdateOperationsInput | string | null
     EqpItmAnoMdl?: NullableStringFieldUpdateOperationsInput | string | null
@@ -50698,18 +53779,18 @@ export namespace Prisma {
   }
 
   export type eqp_locUncheckedUpdateWithoutUsrInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
     MtvDel?: NullableStringFieldUpdateOperationsInput | string | null
   }
 
   export type eqp_locUncheckedUpdateManyWithoutUsrInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
     EqpItmId?: IntFieldUpdateOperationsInput | number
     UndId?: IntFieldUpdateOperationsInput | number
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
     SttId?: IntFieldUpdateOperationsInput | number
     DtaAlt?: DateTimeFieldUpdateOperationsInput | Date | string
     MtvDel?: NullableStringFieldUpdateOperationsInput | string | null
@@ -50728,10 +53809,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateWithoutUsrInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number
@@ -50741,10 +53822,10 @@ export namespace Prisma {
   }
 
   export type eqp_mdlUncheckedUpdateManyWithoutUsrInput = {
-    EqpTpoId?: IntFieldUpdateOperationsInput | number
-    EqpFbrId?: IntFieldUpdateOperationsInput | number
     EqpMdlId?: IntFieldUpdateOperationsInput | number
     EqpMdlNme?: StringFieldUpdateOperationsInput | string
+    EqpTpoId?: IntFieldUpdateOperationsInput | number
+    EqpFbrId?: IntFieldUpdateOperationsInput | number
     CbtId?: IntFieldUpdateOperationsInput | number
     CpcCrg?: NullableDecimalFieldUpdateOperationsInput | Decimal | DecimalJsLike | number | string | null
     SttId?: IntFieldUpdateOperationsInput | number

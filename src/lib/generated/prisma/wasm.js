@@ -165,8 +165,8 @@ exports.Prisma.EmpScalarFieldEnum = {
 };
 
 exports.Prisma.Emp_undScalarFieldEnum = {
-  EmpId: 'EmpId',
   UndId: 'UndId',
+  EmpId: 'EmpId',
   UndNme: 'UndNme',
   UndRdz: 'UndRdz',
   UndReg: 'UndReg',
@@ -189,12 +189,12 @@ exports.Prisma.Eqp_fbrScalarFieldEnum = {
 };
 
 exports.Prisma.Eqp_itmScalarFieldEnum = {
+  EqpItmId: 'EqpItmId',
   UndId: 'UndId',
   FrnId: 'FrnId',
   EqpTpoId: 'EqpTpoId',
   EqpFbrId: 'EqpFbrId',
   EqpMdlId: 'EqpMdlId',
-  EqpItmId: 'EqpItmId',
   EqpItmCdg: 'EqpItmCdg',
   EqpItmPlc: 'EqpItmPlc',
   EqpItmAnoMdl: 'EqpItmAnoMdl',
@@ -206,9 +206,9 @@ exports.Prisma.Eqp_itmScalarFieldEnum = {
 };
 
 exports.Prisma.Eqp_locScalarFieldEnum = {
-  EqpTpoId: 'EqpTpoId',
   EqpItmId: 'EqpItmId',
   UndId: 'UndId',
+  EqpTpoId: 'EqpTpoId',
   SttId: 'SttId',
   UsrIdAlt: 'UsrIdAlt',
   DtaAlt: 'DtaAlt',
@@ -216,10 +216,10 @@ exports.Prisma.Eqp_locScalarFieldEnum = {
 };
 
 exports.Prisma.Eqp_mdlScalarFieldEnum = {
-  EqpTpoId: 'EqpTpoId',
-  EqpFbrId: 'EqpFbrId',
   EqpMdlId: 'EqpMdlId',
   EqpMdlNme: 'EqpMdlNme',
+  EqpTpoId: 'EqpTpoId',
+  EqpFbrId: 'EqpFbrId',
   CbtId: 'CbtId',
   CpcCrg: 'CpcCrg',
   SttId: 'SttId',
@@ -420,164 +420,14 @@ exports.Prisma.SortOrder = {
   desc: 'desc'
 };
 
+exports.Prisma.QueryMode = {
+  default: 'default',
+  insensitive: 'insensitive'
+};
+
 exports.Prisma.NullsOrder = {
   first: 'first',
   last: 'last'
-};
-
-exports.Prisma.cbtOrderByRelevanceFieldEnum = {
-  CbtNme: 'CbtNme',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.empOrderByRelevanceFieldEnum = {
-  EmpNme: 'EmpNme',
-  EmpRaz: 'EmpRaz',
-  EmpRdz: 'EmpRdz',
-  EmpAtv: 'EmpAtv',
-  EmpCnpj: 'EmpCnpj',
-  Enduf: 'Enduf',
-  EndCdd: 'EndCdd',
-  EndLtt: 'EndLtt',
-  EndLgt: 'EndLgt',
-  EndCep: 'EndCep',
-  EndEmp: 'EndEmp',
-  EndCpl: 'EndCpl',
-  EmpLgo: 'EmpLgo',
-  EmpUrl: 'EmpUrl',
-  EmlCtt: 'EmlCtt',
-  EmlFrm: 'EmlFrm',
-  EmlFrmPwd: 'EmlFrmPwd',
-  FneCtt: 'FneCtt',
-  FneWha: 'FneWha',
-  RssIns: 'RssIns',
-  RssFac: 'RssFac',
-  RssTwi: 'RssTwi',
-  RssYou: 'RssYou',
-  TpoPix: 'TpoPix',
-  ChvPix: 'ChvPix',
-  QRPixImg: 'QRPixImg',
-  QRPixCpy: 'QRPixCpy',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.emp_undOrderByRelevanceFieldEnum = {
-  UndNme: 'UndNme',
-  UndRdz: 'UndRdz',
-  UndReg: 'UndReg',
-  GpsLtd: 'GpsLtd',
-  GpsLgt: 'GpsLgt',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.eqp_fbrOrderByRelevanceFieldEnum = {
-  EqpFbrNme: 'EqpFbrNme',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.eqp_itmOrderByRelevanceFieldEnum = {
-  EqpItmCdg: 'EqpItmCdg',
-  EqpItmPlc: 'EqpItmPlc',
-  EqpItmAnoMdl: 'EqpItmAnoMdl',
-  EqpItmTmh: 'EqpItmTmh',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.eqp_locOrderByRelevanceFieldEnum = {
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.eqp_mdlOrderByRelevanceFieldEnum = {
-  EqpMdlNme: 'EqpMdlNme',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.eqp_tpoOrderByRelevanceFieldEnum = {
-  EqpTpoNme: 'EqpTpoNme',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.frnOrderByRelevanceFieldEnum = {
-  FrnNme: 'FrnNme',
-  FrnRdz: 'FrnRdz',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.psqOrderByRelevanceFieldEnum = {
-  Psq: 'Psq',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.psq_prgOrderByRelevanceFieldEnum = {
-  PsqPrg: 'PsqPrg',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.psq_rspOrderByRelevanceFieldEnum = {
-  PsqDth: 'PsqDth',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.psq_tpoOrderByRelevanceFieldEnum = {
-  PsqTpo: 'PsqTpo',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.rcgOrderByRelevanceFieldEnum = {
-  FlhDsc: 'FlhDsc',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.sttOrderByRelevanceFieldEnum = {
-  SttNme: 'SttNme',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.trnOrderByRelevanceFieldEnum = {
-  Trn: 'Trn',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.usrOrderByRelevanceFieldEnum = {
-  UsrNme: 'UsrNme',
-  UsrLgn: 'UsrLgn',
-  UsrCpf: 'UsrCpf',
-  UsrEml: 'UsrEml',
-  UsrPwd: 'UsrPwd',
-  UsrFto: 'UsrFto',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.usr_tpoOrderByRelevanceFieldEnum = {
-  UsrTpoNme: 'UsrTpoNme',
-  MtvDel: 'MtvDel'
-};
-
-exports.Prisma.VwOnibusOrderByRelevanceFieldEnum = {
-  Onibus: 'Onibus',
-  Situacao: 'Situacao',
-  PostoRecarga: 'PostoRecarga',
-  Carregador: 'Carregador',
-  Checklist: 'Checklist'
-};
-
-exports.Prisma.VwCarregadorOrderByRelevanceFieldEnum = {
-  Carregador: 'Carregador'
-};
-
-exports.Prisma.VwPesquisaPerguntaOrderByRelevanceFieldEnum = {
-  Tipo_Pesquisa: 'Tipo_Pesquisa',
-  Pergunta: 'Pergunta'
-};
-
-exports.Prisma.VwPostoRecargaOrderByRelevanceFieldEnum = {
-  PostoRecarga: 'PostoRecarga',
-  Latitude: 'Latitude',
-  Longitude: 'Longitude'
-};
-
-exports.Prisma.VwTurnoAtualOrderByRelevanceFieldEnum = {
-  TrnId: 'TrnId'
 };
 
 
