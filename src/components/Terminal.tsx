@@ -31,7 +31,7 @@ const Home = () => {
   useEffect(() => {
     async function fetchConsorciadas() {
       try {
-        const res = await fetch(`/api/eletroposto`);
+        const res = await fetch(`${baseUrl}/api/eletroposto`);
         if (!res.ok) {
           throw new Error("Erro ao buscar consorciadas");
         }

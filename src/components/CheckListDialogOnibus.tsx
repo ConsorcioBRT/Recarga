@@ -25,12 +25,16 @@ interface Props {
 const VeiculoDialog = ({ vehicleId, isOpen, onClose, onComplete }: Props) => {
   const [checklist, setChecklist] = useState<ChecklistItem[]>([]);
   const [currentStep, setCurrentStep] = useState(0);
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : "http://localhost:3000";
 
   useEffect(() => {
     if (isOpen && vehicleId) {
       async function fetchChecklist() {
         try {
-          const res = await fetch("/api/checklistOnibus");
+          const res = await fetch(`${baseUrl}/api/checklistOnibus`);
           if (!res.ok) throw new Error("Erro ao buscar checklist");
           const data: ChecklistAPIItem[] = await res.json();
 
@@ -55,7 +59,7 @@ const VeiculoDialog = ({ vehicleId, isOpen, onClose, onComplete }: Props) => {
 
       fetchChecklist();
     }
-  }, [isOpen, vehicleId]);
+  }, [isOpen, vehicleId, baseUrl]);
 
   const handleAnswer = (value: "yes" | "no") => {
     setChecklist((prev) =>

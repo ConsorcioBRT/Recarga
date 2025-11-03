@@ -37,6 +37,10 @@ const Header = () => {
     null
   );
   const router = useRouter();
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : "http://localhost:3000";
 
   useEffect(() => {
     const userData = localStorage.getItem("usuarioLogado");
@@ -51,7 +55,7 @@ const Header = () => {
 
   const handleLogout = async () => {
     // Aqui vai pegar o Veículo da api
-    const response = await fetch("/api/veiculos");
+    const response = await fetch(`${baseUrl}/api/veiculos`);
     const onibus: Veiculo[] = await response.json();
 
     // Vai verificar se tem recarga iniciada
@@ -82,7 +86,7 @@ const Header = () => {
               onClick={async () => {
                 toast.dismiss(t.id); // fecha o toast
                 // Executa o logout após o clique
-                await fetch("/api/logout");
+                await fetch(`${baseUrl}/api/logout`);
                 localStorage.removeItem("formDataConfirmacao");
                 localStorage.removeItem("usuarioLogado");
                 localStorage.removeItem("eletropostoSelecionado");
@@ -100,7 +104,7 @@ const Header = () => {
     }
 
     try {
-      await fetch("/api/logout"); // chama a api para apagar o cookie
+      await fetch(`${baseUrl}/api/logout`); // chama a api para apagar o cookie
       localStorage.removeItem("formDataConfirmacao"); // Vai limpar o Confirmação do localStorage
       localStorage.removeItem("usuarioLogado"); // Vai limpar o Usuários do localStorage
       localStorage.removeItem("eletropostoSelecionado"); // Vai limpar o Eletroposto do localStorage

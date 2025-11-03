@@ -10,6 +10,10 @@ const ResetarSenha = () => {
   const router = useRouter();
   const params = useSearchParams();
   const userId = params.get("userId");
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : "http://localhost:3000";
 
   const [novaSenha, setNovaSenha] = useState<string>("");
   const [confirmSenha, setConfirmSenha] = useState<string>("");
@@ -35,7 +39,7 @@ const ResetarSenha = () => {
 
     setLoading(true);
     try {
-      const res = await fetch("/api/usuarios/resetar-senha", {
+      const res = await fetch(`${baseUrl}/api/usuarios/resetar-senha`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ userId, novaSenha }),

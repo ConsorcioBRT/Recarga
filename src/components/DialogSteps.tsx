@@ -73,6 +73,10 @@ const DialogSteps = ({
   });
 
   const [fotoFile, setFotoFile] = useState<File | null>(null);
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : "http://localhost:3000";
 
   function handleFotoChange(e: React.ChangeEvent<HTMLInputElement>) {
     const file = e.target.files?.[0];
@@ -127,7 +131,7 @@ const DialogSteps = ({
       const eqpItmId = veiculo?.EqpItmId ?? null;
 
       if (eqpItmId) {
-        fetch(`/api/veiculos?EqpItmId=${eqpItmId}`)
+        fetch(`${baseUrl}/api/veiculos?EqpItmId=${eqpItmId}`)
           .then((r) => r.json())
           .then((data: DadosOnibus[]) => {
             if (data.length > 0) {
@@ -137,7 +141,7 @@ const DialogSteps = ({
           .catch(console.error);
       }
     }
-  }, [step]);
+  }, [step, baseUrl]);
 
   useEffect(() => {
     const eletropostoJson = localStorage.getItem("eletropostoSelecionado");
@@ -145,13 +149,13 @@ const DialogSteps = ({
     const UndId = eletroposto?.UndId;
     if (!UndId) return;
 
-    fetch(`/api/carregadores?undId=${UndId}`)
+    fetch(`${baseUrl}/api/carregadores?undId=${UndId}`)
       .then((r) => r.json())
       .then((data: Carregador[]) => {
         setCarregadores(data.filter((c) => c && c.EqpItmId != null));
       })
       .catch(console.error);
-  }, []);
+  }, [baseUrl]);
 
   // Aqui irá gerar o botões baseado nos carregadores
   const botoes = carregadores;
@@ -224,7 +228,7 @@ const DialogSteps = ({
 
       // Aqui vai buscar a última recarga do veículo
       const ultimaRecargaResp = await fetch(
-        `/api/recarga/ultima?VclId=${VclId}`
+        `${baseUrl}/api/recarga/ultima?VclId=${VclId}`
       );
       const ultimaRecarga = ultimaRecargaResp.ok
         ? await ultimaRecargaResp.json()
@@ -270,7 +274,7 @@ const DialogSteps = ({
 
       console.log("Dados enviados para a API:", dadosParaEnviar);
 
-      const resposta = await fetch("/api/recarga", {
+      const resposta = await fetch(`${baseUrl}/api/recarga`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(dadosParaEnviar),

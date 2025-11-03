@@ -183,7 +183,7 @@ const Abastecimento = () => {
     }
 
     try {
-      const response = await fetch("/api/recarga", {
+      const response = await fetch(`${baseUrl}/api/recarga`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({

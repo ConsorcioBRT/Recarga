@@ -25,6 +25,10 @@ const CheckListEletroposto = () => {
   const [checklist, setChecklist] = useState<ChecklistItem[]>([]);
   const [currentStep, setCurrentStep] = useState(0);
   const [isCompleted, setIsCompleted] = useState(false);
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : "http://localhost:3000";
   // Função para formatar a data no fuso local (Brasília)
   function formatarDataLocal(date: Date): string {
     const pad = (n: number) => String(n).padStart(2, "0");
@@ -39,7 +43,7 @@ const CheckListEletroposto = () => {
     if (isDialogOpen) {
       async function fetchChecklist() {
         try {
-          const res = await fetch("/api/checklistEletroposto");
+          const res = await fetch(`${baseUrl}/api/checklistEletroposto`);
           if (!res.ok) throw new Error("Erro ao buscar checklist");
           const data: ChecklistAPIItem[] = await res.json();
 
@@ -61,7 +65,7 @@ const CheckListEletroposto = () => {
 
       fetchChecklist();
     }
-  }, [isDialogOpen]);
+  }, [isDialogOpen, baseUrl]);
 
   const handleAnswer = (value: "yes" | "no") => {
     setChecklist((prev) =>
@@ -142,7 +146,7 @@ const CheckListEletroposto = () => {
 
       if (respostasNao.length === 0) return;
 
-      const res = await fetch("/api/respostaCheck", {
+      const res = await fetch(`${baseUrl}/api/respostaCheck`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(respostasNao),
@@ -207,7 +211,7 @@ const CheckListEletroposto = () => {
         DtaAlt: dataFormatada,
       };
 
-      const res = await fetch("/api/checklistStart", {
+      const res = await fetch(`${baseUrl}/api/checklistStart`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(body),

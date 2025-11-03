@@ -36,6 +36,10 @@ const DialogStepsChecklist: React.FC<DialogStepsChecklistProps> = ({
   const [checklist, setChecklist] = useState<ChecklistItem[]>([]);
   const [currentStep, setCurrentStep] = useState(0);
   const [isCompleted, setIsCompleted] = useState(false);
+  const baseUrl =
+    typeof window !== "undefined"
+      ? window.location.origin
+      : "http://localhost:3000";
 
   // Função para formatar a data no fuso local (Brasília)
   function formatarDataLocal(date: Date): string {
@@ -51,7 +55,7 @@ const DialogStepsChecklist: React.FC<DialogStepsChecklistProps> = ({
     if (isOpen) {
       async function fetchChecklist() {
         try {
-          const res = await fetch("/api/checklistOnibus");
+          const res = await fetch(`${baseUrl}/api/checklistOnibus`);
           if (!res.ok) throw new Error("Erro ao buscar checklist");
           const data: ChecklistAPIItem[] = await res.json();
 
@@ -104,7 +108,7 @@ const DialogStepsChecklist: React.FC<DialogStepsChecklistProps> = ({
   const atualizarSttIdChk = async () => {
     try {
       if (!veiculo.RcgId) return;
-      const res = await fetch("/api/recarga/checklist", {
+      const res = await fetch(`${baseUrl}/api/recarga/checklist`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ RcgId: veiculo.RcgId, SttIdChk: 1 }),
@@ -161,7 +165,7 @@ const DialogStepsChecklist: React.FC<DialogStepsChecklistProps> = ({
         }));
       if (respostasNao.length === 0) return;
 
-      const res = await fetch("/api/respostaCheck", {
+      const res = await fetch(`${baseUrl}/api/respostaCheck`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(respostasNao),

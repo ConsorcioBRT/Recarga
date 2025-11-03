@@ -58,7 +58,7 @@ const Login = () => {
 
     try {
       // Aqui vai buscar o turno
-      const turnoChecklist = await fetch("/api/turno");
+      const turnoChecklist = await fetch(`${baseUrl}/api/turno`);
       if (!turnoChecklist.ok) {
         setErroLogin("Não foi possível obter o turno atual.");
         setLoading(false);
@@ -67,7 +67,7 @@ const Login = () => {
       const turnoData = await turnoChecklist.json();
       localStorage.setItem("turnoAtual", JSON.stringify(turnoData));
 
-      const res = await fetch("/api/usuarios", {
+      const res = await fetch(`${baseUrl}/api/usuarios`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -123,7 +123,7 @@ const Login = () => {
   useEffect(() => {
     async function fetchConsorciadas() {
       try {
-        const res = await fetch(`/api/eletroposto`);
+        const res = await fetch(`${baseUrl}/api/eletroposto`);
         if (!res.ok) {
           throw new Error("Erro ao buscar consorciadas");
         }
